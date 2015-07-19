@@ -66,11 +66,11 @@
 
 | Nombre                | Área         | Github       | Email         |
 |:--------------------- |:-------------|:-------------|:--------------|
-| Antonio Ossa          | Docencia     | [@aaossa](https://github.com/aaossa) | aaossa@uc.cl |
-| Ivania Donoso         | Docencia     | [@indonoso](https://github.com/indonoso) | indonoso@uc.cl |
-| Félix Fischer         | Docencia     | [@felix91gr](https://github.com/felix91gr) | ffischer@uc.cl |
-| Felipe Garrido        | Docencia     | [@figarrido](https://github.com/figarrido) | figarrido@uc.cl |
-| Matias Jünemann       | Tareas       | [@mjjunemann](https://github.com/mjjunemann) | mjjunemann@uc.cl |
+| Belén Saldías         | Coordinación | [@bcsaldias](https://github.com/bcsaldias)   | bcsaldias@uc.cl |
+| Patricio López        | Docencia     | [@mrpatiwi](https://github.com/mrpatiwi)    | pelopez2@uc.cl |
+| Jaime Castro          | Docencia     | [@jecastro1](https://github.com/jecastro1)   | jecastro1@uc.cl |
+| Bastián Mavrakis      | Tareas       | [@bamavrakis](https://github.com/bamavrakis)  | bamavrakis@uc.cl |
+| Marco Bucchi          | Tareas       | [@mbucchi](https://github.com/mbucchi)     | mabucchi@uc.cl |
 
 
 ### Ayudantes Mentores
