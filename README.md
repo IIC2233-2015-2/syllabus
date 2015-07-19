@@ -88,6 +88,7 @@
 
 | Nombre                | Área          | Github        | Email         |
 |:--------------------- |:--------------|:--------------|:--------------|
+| Ariel Seisdedos       | Docencia      | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
 | Francisco Valdés      | Docencia      | [@fjvaldes1](https://github.com/fjvaldes1) |  |
 | Iacopo Garizio        | Tareas        | [@iacopogarizio](https://github.com/iacopogarizio) | igarizio@uc.cl |
 | Enrique Urrutia       | Tareas        | [@eiurrutia](https://github.com/eiurrutia) | eiurrutia@uc.cl |
@@ -96,7 +97,6 @@
 | Rodolfo Palma         | Tareas        | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
 | Eduardo Vildosola     | Tareas        | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
 | Diego Alliende        | Tareas        | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
-| Ariel Seisdedos       | Tareas        | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
 
 
 ## Descripcion del curso
