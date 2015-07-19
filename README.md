@@ -48,6 +48,10 @@
 |:-----|:---------------------------|:----------------------|
 |      |                            |                       |
 
+### Diciembre
+| Día  | Contenido                  | Información adicional |
+|:-----|:---------------------------|:----------------------|
+|      |                            |                       |
 
 
 # Programa
@@ -89,11 +93,11 @@
 | Nombre                | Área          | Github        | Email         |
 |:--------------------- |:--------------|:--------------|:--------------|
 | Ariel Seisdedos       | Docencia      | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
-| Francisco Valdés      | Docencia      | [@fjvaldes1](https://github.com/fjvaldes1) |  |
+| Francisco Valdés      | Docencia      | [@fjvaldes1](https://github.com/fjvaldes1) | fjvaldes1@uc.cl |
 | Iacopo Garizio        | Tareas        | [@iacopogarizio](https://github.com/iacopogarizio) | igarizio@uc.cl |
 | Enrique Urrutia       | Tareas        | [@eiurrutia](https://github.com/eiurrutia) | eiurrutia@uc.cl |
 | Patricio Orrego       | Tareas        | [@plorrego](https://github.com/plorrego) | plorrego@uc.cl |
-| Vicente Besa          | Tareas        | [@vabesa](https://github.com/vabesa) |  |
+| Vicente Besa          | Tareas        | [@vabesa](https://github.com/vabesa) | vabesa@uc.cl |
 | Rodolfo Palma         | Tareas        | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
 | Eduardo Vildosola     | Tareas        | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
 | Diego Alliende        | Tareas        | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
