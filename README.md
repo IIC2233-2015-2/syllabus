@@ -160,7 +160,7 @@ diseño básico de algoritmos y técnicas de análisis.
     * Concurrencia.
 * Networking:
     * ​Sockets, cliente, servidor
-* Webservices: 
+* Webservices:
     * Expresiones regulares
     * Uso de servicios REST
 
