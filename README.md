@@ -2,8 +2,8 @@
 
 ## Tabla de contenidos
 * [Calendario](#calendario)
-    * [Agosto](#agosto) 
-    * [Septiembre](#septiembre) 
+    * [Agosto](#agosto)
+    * [Septiembre](#septiembre)
     * [Octubre](#octubre)
     * [Noviembre](#noviembre)
     * [Diciembre](#diciembre)
@@ -64,27 +64,39 @@
 
 ### Ayudantes Jefes
 
-| Nombre                | Área          | Github        | Email         |
-|:--------------------- |:--------------|:--------------|:--------------|
-| Belén Saldías         | Coordinación  | [@bcsaldias](https://github.com/bcsaldias) | [&#098;&#099;&#115;&#097;&#108;&#100;&#105;&#097;&#115;&#064;&#117;&#099;&#046;&#099;&#108;](mailto:) |
-| Patricio López        | Docencia      | [@mrpatiwi](https://github.com/mrpatiwi) | [&#112;&#101;&#108;&#111;&#112;&#101;&#122;&#050;&#064;&#117;&#099;&#046;&#099;&#108;](mailto:)
-| Jaime Castro      | Docencia  | [@jecastro1](https://github.com/jecastro1) | [&#106;&#101;&#099;&#097;&#115;&#116;&#114;&#111;&#049;&#064;&#117;&#099;&#046;&#099;&#108;](mailto:) |
-| Marco Bucchi      | Tareas    | [@mbucchi](https://github.com/mbucchi) | [&#109;&#097;&#098;&#117;&#099;&#099;&#104;&#105;&#064;&#117;&#099;&#046;&#099;&#108;](mailto:) |
-| Bastián Mavrakis  | Tareas    | [@bamavrakis](https://github.com/bamavrakis) | [&#098;&#097;&#109;&#097;&#118;&#114;&#097;&#107;&#105;&#115;&#064;&#117;&#099;&#046;&#099;&#108;](mailto:) |
+| Nombre                | Área         | Github       | Email         |
+|:--------------------- |:-------------|:-------------|:--------------|
+| Antonio Ossa          | Docencia     | [@aaossa](https://github.com/aaossa) | aaossa@uc.cl |
+| Ivania Donoso         | Docencia     | [@indonoso](https://github.com/indonoso) | indonoso@uc.cl |
+| Félix Fischer         | Docencia     | [@felix91gr](https://github.com/felix91gr) | ffischer@uc.cl |
+| Felipe Garrido        | Docencia     | [@figarrido](https://github.com/figarrido) | figarrido@uc.cl |
+| Matias Jünemann       | Tareas       | [@mjjunemann](https://github.com/mjjunemann) | mjjunemann@uc.cl |
 
 
 ### Ayudantes Mentores
 
-| Nombre                | Área          | Github        | Email         |
-|:--------------------- |:--------------|:--------------|:--------------|
-|                       |               |               |               |
+| Nombre                | Área         | Github       | Email         |
+|:--------------------- |:-------------|:-------------|:--------------|
+| Antonio Ossa          | Docencia     | [@aaossa](https://www.github.com/aaossa) | aaossa@uc.cl |
+| Ivania Donoso         | Docencia     | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
+| Félix Fischer         | Docencia     | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
+| Felipe Garrido        | Docencia     | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
+| Matias Jünemann       | Tareas       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
 
 
 ### Ayudantes TPD
 
 | Nombre                | Área          | Github        | Email         |
 |:--------------------- |:--------------|:--------------|:--------------|
-|                       |               |               |               |
+| Francisco Valdés      | Docencia      | [@fjvaldes1](https://github.com/fjvaldes1) |  |
+| Iacopo Garizio        | Tareas        | [@iacopogarizio](https://github.com/iacopogarizio) | igarizio@uc.cl |
+| Enrique Urrutia       | Tareas        | [@eiurrutia](https://github.com/eiurrutia) | eiurrutia@uc.cl |
+| Patricio Orrego       | Tareas        | [@plorrego](https://github.com/plorrego) | plorrego@uc.cl |
+| Vicente Besa          | Tareas        | [@vabesa](https://github.com/vabesa) |  |
+| Rodolfo Palma         | Tareas        | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
+| Eduardo Vildosola     | Tareas        | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
+| Diego Alliende        | Tareas        | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
+| Ariel Seisdedos       | Tareas        | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
 
 
 ## Descripcion del curso
@@ -104,13 +116,13 @@ diseño básico de algoritmos y técnicas de análisis.
 
 ## Contenidos
 
-* Programación Orientada a Objetos: 
+* Programación Orientada a Objetos:
     * Objetos
     * Herencia
     * Polimorfismo
     * Herencia múltiple
-    * Propiedades. 
-* Estructuras de Datos: 
+    * Propiedades.
+* Estructuras de Datos:
     * Árboles
     * Diccionarios
     * Colas
@@ -130,20 +142,20 @@ diseño básico de algoritmos y técnicas de análisis.
     * Comprender la lógica detrás de la construcción y creación de clases
 * Clases Abstractas:
     * Herencia a partir de clases no instanciables
-* Simulación: 
+* Simulación:
     * Introducción a la simulación y SimPy
 * Manejo de Excepciones:
     * ​Tipos de excepciones/errores y cómo controlarlos
-* Testing: 
+* Testing:
     * Tests unitarios en pytest
-* Interfaces Gráficas: 
+* Interfaces Gráficas:
     * Introducción a las interfaces gráficas usando PyQt4
-* I/O: 
+* I/O:
     * Bytes
     * Serialización
     * Audio
     * Imagen
-* Threading: 
+* Threading:
     * Creación y sincronización de threads
     * Concurrencia.
 * Networking:
@@ -192,7 +204,7 @@ Toda la información que subiremos se encontrará en la [Wiki](https://github.co
 
 # Foro
 
-La página de [Issues](https://github.com/IIC2233-2015-2/syllabus/issues) se utilizará como foro para preguntas. 
+La página de [Issues](https://github.com/IIC2233-2015-2/syllabus/issues) se utilizará como foro para preguntas.
 
 
 ## Procedimiento
@@ -200,7 +212,7 @@ La página de [Issues](https://github.com/IIC2233-2015-2/syllabus/issues) se uti
 > Tanto al publicar entradas como al comentar, se debe atenerse a las **normas del curso**, además debes utilizar **[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)** cuando sea necesario. Por ejemplo, cuando se necesita mostrar código o mensajes de error.
 
 Antes de postear:
-* Haber buscado exhaustivamente una solución al problema y seguir sin encontrar una respuesta. 
+* Haber buscado exhaustivamente una solución al problema y seguir sin encontrar una respuesta.
 * Entrar al foro del curso: [Issues](https://github.com/IIC2233-2015-2/syllabus/issues).
 * Buscar si alguien tiene la misma pregunta o problema.
     * Si encuentras un post marcado como resuelto, pero no te satisface la respuesta, puedes comentar la *issue* y **volver a abrirla**.
@@ -215,15 +227,14 @@ Una vez resuelto el problema, dar las **gracias** y **cerrar la issue**.
 
 Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías predefinidas](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar búsquedas. Una entrada puede tener múltiples etiquetas. Los ayudantes nos encargaremos de ir etiquetando las preguntas en el foro.
 
-* [Material](https://github.com/IIC2233-2015-2/syllabus/labels/Material): para solicitar material que no haya sido subido al repositorio o comunicar algún error encontrado. 
-* [Actividades](https://github.com/IIC2233-2015-2/syllabus/labels/Actividades): Relacionado con las actividades en clase, ya sea sobre las notas, problemas de enunciado o dudas sobre estas. 
-* [Código](https://github.com/IIC2233-2015-2/syllabus/labels/C%C3%B3digo): Para preguntar sobre fragmentos de código, guía de estilo [PEP8](https://www.python.org/dev/peps/pep-0008/) o sobre citación de código. 
+* [Material](https://github.com/IIC2233-2015-2/syllabus/labels/Material): para solicitar material que no haya sido subido al repositorio o comunicar algún error encontrado.
+* [Actividades](https://github.com/IIC2233-2015-2/syllabus/labels/Actividades): Relacionado con las actividades en clase, ya sea sobre las notas, problemas de enunciado o dudas sobre estas.
+* [Código](https://github.com/IIC2233-2015-2/syllabus/labels/C%C3%B3digo): Para preguntar sobre fragmentos de código, guía de estilo [PEP8](https://www.python.org/dev/peps/pep-0008/) o sobre citación de código.
 * Tareas *n*: Preguntas sobre el enunciado de la tarea número *n*.
 * [Interrogación](https://github.com/IIC2233-2015-2/syllabus/labels/Interrogaci%C3%B3n): Preguntas sobre las fechas, contenido, periodos de recorrección de las interrogaciones y examen.
 * [Materia](https://github.com/IIC2233-2015-2/syllabus/labels/Materia): Preguntas sobre conceptos y/o temas vistos en clases o fuera de esta.
-* [Duplicada](https://github.com/IIC2233-2015-2/syllabus/labels/Duplicada): Pregunta repetida, se hará referencia a la pregunta original. 
-* [Git](https://github.com/IIC2233-2015-2/syllabus/labels/Git): Preguntas relacionadas con `git` o *Github*. 
+* [Duplicada](https://github.com/IIC2233-2015-2/syllabus/labels/Duplicada): Pregunta repetida, se hará referencia a la pregunta original.
+* [Git](https://github.com/IIC2233-2015-2/syllabus/labels/Git): Preguntas relacionadas con `git` o *Github*.
 * [Inválida](https://github.com/IIC2233-2015-2/syllabus/labels/Inv%C3%A1lida): La pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](https://github.com/IIC2233-2015-2/syllabus/labels/Meta-pregunta): Preguntas sobre cómo y qué preguntar.
-* [Tengo un error](https://github.com/IIC2233-2015-2/syllabus/labels/Tengo%20un%20error): Para preguntar sobre posibles soluciones a errores o bugs en códigos. 
-
+* [Tengo un error](https://github.com/IIC2233-2015-2/syllabus/labels/Tengo%20un%20error): Para preguntar sobre posibles soluciones a errores o bugs en códigos.
