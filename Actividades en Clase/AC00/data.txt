@@ -1,3 +1,0 @@
-remote: npm info it worked if it ends with ok
-remote: npm info using npm@1.4.28
-remote: npm info using node@v0.10.35
