@@ -110,7 +110,7 @@
 | Fernando Florenzano   | Tarea       | [@fdoflorenzano](https://github.com/fdoflorenzano) | faflorenzano@uc.cl |
 | Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
 | Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
-
+| Nicolás Santibañez    | Tarea       | [@nfsantibanez](https://github.com/nfsantibanez) | nfsantibanez@uc.cl |
 
 ## Descripcion del curso
 
