@@ -155,12 +155,15 @@ diseño básico de algoritmos y técnicas de análisis.
     * Comprender la lógica detrás de la construcción y creación de clases
 * Clases Abstractas:
     * Herencia a partir de clases no instanciables
-* Simulación:
-    * Introducción a la simulación y SimPy
 * Manejo de Excepciones:
     * ​Tipos de excepciones/errores y cómo controlarlos
 * Testing:
     * Tests unitarios en pytest
+* Threading:
+    * Creación y sincronización de threads
+    * Concurrencia.
+* Simulación:
+    * Introducción a la simulación y SimPy
 * Interfaces Gráficas:
     * Introducción a las interfaces gráficas usando PyQt4
 * I/O:
@@ -168,9 +171,6 @@ diseño básico de algoritmos y técnicas de análisis.
     * Serialización
     * Audio
     * Imagen
-* Threading:
-    * Creación y sincronización de threads
-    * Concurrencia.
 * Networking:
     * ​Sockets, cliente, servidor
 * Webservices:
