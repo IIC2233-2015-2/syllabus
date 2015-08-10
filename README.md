@@ -72,23 +72,23 @@
 
 | Nombre                | Área         | Github       | Email         |
 |:--------------------- |:-------------|:-------------|:--------------|
-| Belén Saldías         | Coordinación | [@bcsaldias](https://github.com/bcsaldias)   | bcsaldias@uc.cl |
-| Patricio López        | Docencia     | [@mrpatiwi](https://github.com/mrpatiwi)    | pelopez2@uc.cl |
-| Jaime Castro          | Docencia     | [@jecastro1](https://github.com/jecastro1)   | jecastro1@uc.cl |
-| Bastián Mavrakis      | Tarea       | [@bamavrakis](https://github.com/bamavrakis)  | bamavrakis@uc.cl |
-| Marco Bucchi          | Tarea       | [@mbucchi](https://github.com/mbucchi)     | mabucchi@uc.cl |
+| Belén Saldías         | Coordinación | [@bcsaldias](https://github.com/bcsaldias) | bcsaldias@uc.cl |
+| Patricio López        | Docencia     | [@mrpatiwi](https://github.com/mrpatiwi) | pelopez2@uc.cl |
+| Jaime Castro          | Docencia     | [@jecastro1](https://github.com/jecastro1) | jecastro1@uc.cl |
+| Bastián Mavrakis      | Tarea        | [@bamavrakis](https://github.com/bamavrakis) | bamavrakis@uc.cl |
+| Marco Bucchi          | Tarea        | [@mbucchi](https://github.com/mbucchi) | mabucchi@uc.cl |
 
 
 ### Ayudantes Mentores
 
-| Nombre                | Área         | Github       | Email         |
-|:--------------------- |:-------------|:-------------|:--------------|
-| Antonio Ossa          | Docencia     | [@aaossa](https://www.github.com/aaossa) | aaossa@uc.cl |
-| Ivania Donoso         | Docencia     | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
-| Félix Fischer         | Docencia     | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
-| Felipe Garrido        | Docencia     | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
+| Nombre                | Área        | Github       | Email         |
+|:--------------------- |:------------|:-------------|:--------------|
+| Antonio Ossa          | Docencia    | [@aaossa](https://www.github.com/aaossa) | aaossa@uc.cl |
+| Ivania Donoso         | Docencia    | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
+| Félix Fischer         | Docencia    | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
+| Felipe Garrido        | Docencia    | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
 | Matias Jünemann       | Tarea       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
-| Carlos Santander      | Tarea       |  [@cjsantander](https://www.github.com/cjsantander) | cjsantander@uc.cl |
+| Carlos Santander      | Tarea       | [@cjsantander](https://www.github.com/cjsantander) | cjsantander@uc.cl |
 
 
 ### Ayudantes TPD
@@ -107,7 +107,7 @@
 | Diego Alliende        | Tarea       | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
 | Guillermo Figueroa    | Tarea       | [@gafigueroa](https://github.com/gafigueroa) | gafigueroa@uc.cl |
 | Fernando Florenzano   | Tarea       | [@fdoflorenzano](https://github.com/fdoflorenzano) | faflorenzano@uc.cl |
-| Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
+| Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
 | Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
 
 
