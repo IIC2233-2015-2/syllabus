@@ -20,6 +20,8 @@
     * [Evaluación](#evaluacion)
     * [Politica de integridad academica](#politica-de-integridad-academica)
 * [Wiki](#wiki)
+  * [Guías](#guias)
+  * [Git](#git)
 * [Foro](#foro)
     * [Etiquetas](#etiquetas)
     * [Procedimiento](#procedimiento)
@@ -73,8 +75,8 @@
 | Belén Saldías         | Coordinación | [@bcsaldias](https://github.com/bcsaldias)   | bcsaldias@uc.cl |
 | Patricio López        | Docencia     | [@mrpatiwi](https://github.com/mrpatiwi)    | pelopez2@uc.cl |
 | Jaime Castro          | Docencia     | [@jecastro1](https://github.com/jecastro1)   | jecastro1@uc.cl |
-| Bastián Mavrakis      | Tareas       | [@bamavrakis](https://github.com/bamavrakis)  | bamavrakis@uc.cl |
-| Marco Bucchi          | Tareas       | [@mbucchi](https://github.com/mbucchi)     | mabucchi@uc.cl |
+| Bastián Mavrakis      | Tarea       | [@bamavrakis](https://github.com/bamavrakis)  | bamavrakis@uc.cl |
+| Marco Bucchi          | Tarea       | [@mbucchi](https://github.com/mbucchi)     | mabucchi@uc.cl |
 
 
 ### Ayudantes Mentores
@@ -85,22 +87,28 @@
 | Ivania Donoso         | Docencia     | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
 | Félix Fischer         | Docencia     | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
 | Felipe Garrido        | Docencia     | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
-| Matias Jünemann       | Tareas       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
+| Matias Jünemann       | Tarea       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
+| Carlos Santander      | Tarea       |  [@cjsantander](https://www.github.com/cjsantander) | cjsantander@uc.cl |
 
 
 ### Ayudantes TPD
 
-| Nombre                | Área          | Github        | Email         |
-|:--------------------- |:--------------|:--------------|:--------------|
-| Ariel Seisdedos       | Docencia      | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
-| Francisco Valdés      | Docencia      | [@fjvaldes1](https://github.com/fjvaldes1) | fjvaldes1@uc.cl |
-| Iacopo Garizio        | Tareas        | [@iacopogarizio](https://github.com/iacopogarizio) | igarizio@uc.cl |
-| Enrique Urrutia       | Tareas        | [@eiurrutia](https://github.com/eiurrutia) | eiurrutia@uc.cl |
-| Patricio Orrego       | Tareas        | [@plorrego](https://github.com/plorrego) | plorrego@uc.cl |
-| Vicente Besa          | Tareas        | [@vabesa](https://github.com/vabesa) | vabesa@uc.cl |
-| Rodolfo Palma         | Tareas        | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
-| Eduardo Vildosola     | Tareas        | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
-| Diego Alliende        | Tareas        | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
+| Nombre                | Área        | Github        | Email         |
+|:--------------------- |:------------|:--------------|:--------------|
+| Ariel Seisdedos       | Docencia    | [@robocop6](https://github.com/robocop6) | aeseisdedos@uc.cl |
+| Francisco Valdés      | Docencia    | [@fjvaldes1](https://github.com/fjvaldes1) | fjvaldes1@uc.cl |
+| Francisca Chadwick    | Docencia    | [@fchadwick](https://github.com/fchadwick) | fchadwick@uc.cl |
+| Iacopo Garizio        | Tarea       | [@iacopogarizio](https://github.com/iacopogarizio) | igarizio@uc.cl |
+| Enrique Urrutia       | Tarea       | [@eiurrutia](https://github.com/eiurrutia) | eiurrutia@uc.cl |
+| Patricio Orrego       | Tarea       | [@plorrego](https://github.com/plorrego) | plorrego@uc.cl |
+| Vicente Besa          | Tarea       | [@vabesa](https://github.com/vabesa) | vabesa@uc.cl |
+| Rodolfo Palma         | Tarea       | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
+| Eduardo Vildosola     | Tarea       | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
+| Diego Alliende        | Tarea       | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
+| Guillermo Figueroa    | Tarea       | [@gafigueroa](https://github.com/gafigueroa) | gafigueroa@uc.cl |
+| Fernando Florenzano   | Tarea       | [@fdoflorenzano](https://github.com/fdoflorenzano) | faflorenzano@uc.cl |
+| Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
+| Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
 
 
 ## Descripcion del curso
@@ -204,7 +212,28 @@ Lo anterior se entiende como complemento al Reglamento del Alumno de la Pontific
 
 Toda la información que subiremos se encontrará en la [Wiki](https://github.com/IIC2233-2015-2/syllabus/wiki) del repositorio.
 
+## Guias
 
+Para hacer el proceso del *setup* lo más estandarizado posible, hemos creado guías de instalación para las tres principales plaraformas. Están en la Wiki, puedes acceder inmediatamente por aquí:
+
+* [Mac OS](https://github.com/IIC2233-2015-2/syllabus/wiki/Mac-OSX)
+* [Windows](https://github.com/IIC2233-2015-2/syllabus/wiki/Windows)
+* [Linux](https://github.com/IIC2233-2015-2/syllabus/wiki/Linux)
+
+## Git
+
+Cada guía tiene un fragmento de introducción a `git` para la respectiva plataforma.
+
+Te recomendamos partir con este curso gratuito de CodeShool: [Try Git](https://www.codeschool.com/courses/try-git)
+
+También puedes usar la aplicación oficial de Github:
+* [Github OSX](https://mac.github.com/)
+* [Github Windows](https://windows.github.com/)
+
+O esta otra alternativa más compleja:
+* [SourceTree](https://www.sourcetreeapp.com/).
+
+Si bien las aplicaciones con interfaces gráficas son fáciles de usar. Es recomendable acostumbrarse a usar la **linea de comandos** para uso diario, para `git` y para los administradores de paquetes.
 
 # Foro
 
@@ -222,6 +251,7 @@ Antes de postear:
     * Si encuentras un post marcado como resuelto, pero no te satisface la respuesta, puedes comentar la *issue* y **volver a abrirla**.
 * En caso de no encontrar un post que te sirva, lo creamos presionando [New issue](https://github.com/IIC2233-2015-2/syllabus/issues/new).
 * Escribir una entrada **explicando bien el problema o pregunta**.
+* **Debes atenerte a las normas del curso**. En caso contrario puedes ser acusado de *facilitación de copia*.
 * Publicar.
 
 Una vez resuelto el problema, dar las **gracias** y **cerrar la issue**.
@@ -234,7 +264,7 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Material](https://github.com/IIC2233-2015-2/syllabus/labels/Material): para solicitar material que no haya sido subido al repositorio o comunicar algún error encontrado.
 * [Actividades](https://github.com/IIC2233-2015-2/syllabus/labels/Actividades): Relacionado con las actividades en clase, ya sea sobre las notas, problemas de enunciado o dudas sobre estas.
 * [Código](https://github.com/IIC2233-2015-2/syllabus/labels/C%C3%B3digo): Para preguntar sobre fragmentos de código, guía de estilo [PEP8](https://www.python.org/dev/peps/pep-0008/) o sobre citación de código.
-* Tareas *n*: Preguntas sobre el enunciado de la tarea número *n*.
+* Tarea *n*: Preguntas sobre el enunciado de la tarea número *n*.
 * [Interrogación](https://github.com/IIC2233-2015-2/syllabus/labels/Interrogaci%C3%B3n): Preguntas sobre las fechas, contenido, periodos de recorrección de las interrogaciones y examen.
 * [Materia](https://github.com/IIC2233-2015-2/syllabus/labels/Materia): Preguntas sobre conceptos y/o temas vistos en clases o fuera de esta.
 * [Duplicada](https://github.com/IIC2233-2015-2/syllabus/labels/Duplicada): Pregunta repetida, se hará referencia a la pregunta original.
