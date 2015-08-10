@@ -194,6 +194,19 @@ Las evaluaciones serán por medio de actividades prácticas en clases, controles
 
 Donde **I** es el promedio de las interrogaciones, **E** es la nota del Examen, **T** es el promedio de las tareas, **AC** es el promedio de las actividades en clases y **C** es el promedio de los controles. Durante el semestre **NO** se borrará ninguna evaluación, tampoco existe la posibilidad de ser eximido del Examen final.
 
+*  Durante el semestre  NO  se borrará ninguna evaluación. Tampoco existe la posibilidad de ser 
+eximido del Examen final.
+*  Las tareas son reprobatorias. Si la nota en las tareas, T < 4.0, NF = NT.
+*  Solo se aproximará la nota final NF. Todo el resto de las notas serán usadas con dos decimales.
+*  La inasistencia a una de las interrogaciones (I) podrá ser reemplazada por la nota del examen. 
+Solo se podrá faltar a una de las interrogaciones y esta deberá ser justificada con autorización 
+de la Dirección de Pregrado. No se puede faltar al examen.
+
+## Fechas Interrogaciones
+*  Interrogación 1: lunes 21 de Septiembre, 18:30 hrs .
+*  Interrogación 2: viernes 13 de Noviembre, 18:30 hrs.
+*  Examen: jueves 3 de Diciembre
+
 ## Politica de integridad academica
 
 Los alumnos de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile deben mantener un comportamiento acorde a la Declaración de Principios de la Universidad.  En particular, se espera que **mantengan altos estándares de honestidad académica**.  Cualquier acto deshonesto o fraude académico está prohibido; los alumnos que incurran en este tipo de acciones se exponen a un Procedimiento Sumario. Es responsabilidad de cada alumno conocer y respetar el documento sobre Integridad Académica publicado por la Dirección de Docencia de la Escuela de Ingeniería (disponible en SIDING).
