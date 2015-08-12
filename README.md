@@ -34,7 +34,7 @@
 | Día  | Contenido                  | Información adicional |
 |:-----|:---------------------------|:----------------------|
 |  11  |    Primera cátedra          |         Sin evaluación              |
-|   13 |    AC01: OOP - Modelación| Primera AC evaluada | 
+|   13 |    AC01: Objetos - Modelación| Primera AC evaluada | 
 
 ### Septiembre
 | Día  | Contenido                  | Información adicional |
