@@ -35,30 +35,32 @@
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 11 |           | Primera cátedra            | Sin evaluación        |
 | Jueves 13 | [AC01](Actividades/AC01) | Objetos - Modelación | Primera AC evaluada |
-| Martes 18 | AC02      | | |
-| Jueves 20 | AC03      | | |
-| Martes 25 | AC04      | | |
-| Jueves 27 | AC05      | | |
+| Martes 18 | [AC02](Actividades/AC02) | | |
+| Jueves 20 | [AC03](Actividades/AC03) | | |
+| Martes 25 | [AC04](Actividades/AC04) | | |
+| Jueves 27 | [AC05](Actividades/AC05) | | |
 
 ### Septiembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
 ### Octubre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+|           | | | |
 
 ### Noviembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
+|           | | | |
 
 ### Diciembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Jueves 3  | **Examen** | Próximamente más información | Salas: Sec1: _ , Sec2: _ |
+|           | | | |
 
 
 # Programa
