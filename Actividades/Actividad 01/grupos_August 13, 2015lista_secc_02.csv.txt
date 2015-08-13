@@ -59,6 +59,7 @@
 07-H	:	 14631997  RAIMUNDO ANDRES  PEREZ
 08-A	:	 14632438  MARTIN  DE LA FUENTE
 08-B	:	 13633600  RODRIGO ANDRES  ALLIENDE
+10-A	:	 13636065  LOTISSIER ROSENDE ALAIN SEBASTIEN
 
  
 ================================================================================
