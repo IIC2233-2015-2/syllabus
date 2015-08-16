@@ -34,10 +34,10 @@
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 11 |           | Primera cátedra            | Sin evaluación        |
-| Jueves 13 | [AC01](Actividades/AC01) | Objetos - Modelación | Primera AC evaluada |
-| Martes 18 | [AC02](Actividades/AC02) | | |
-| Jueves 20 | [AC03](Actividades/AC03) | | |
-| Martes 25 | [AC04](Actividades/AC04) | | |
+| Jueves 13 | [AC01](Actividades/AC01) | 1.- Objetos - Modelación | Primera AC evaluada |
+| Martes 18 | [AC02](Actividades/AC02) | 2.- Herencia - Multiherencia | AC evaluada |
+| Jueves 20 | [AC03](Actividades/AC03) | 3.- Polimorfismo | AC evaluada |
+| Martes 25 | [AC04](Actividades/AC04) | 4.- Properties | AC evaluada |
 | Jueves 27 | [AC05](Actividades/AC05) | | |
 
 ### Septiembre
