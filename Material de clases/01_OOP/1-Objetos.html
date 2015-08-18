@@ -198,7 +198,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="k">class</span> <span class="nc">Departamento</span><span class="p">:</span><span class="c">#CamelCase notation (PEP8)</span>
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Departamento</span><span class="p">:</span><span class="c">#CamelCase notation (PEP8)</span>
     <span class="sd">&#39;&#39;&#39;Clase que representa un departamento en venta</span>
 <span class="sd">       valor esta en UF</span>
 <span class="sd">    &#39;&#39;&#39;</span>
@@ -208,13 +208,13 @@ div#notebook {
         <span class="bp">self</span><span class="o">.</span><span class="n">valor</span> <span class="o">=</span> <span class="n">valor</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_dorms</span> <span class="o">=</span> <span class="n">num_dorms</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_banos</span> <span class="o">=</span> <span class="n">num_banos</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">vendido</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vendido</span> <span class="o">=</span> <span class="k">False</span>
 
     <span class="k">def</span> <span class="nf">vender</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">vendido</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">vendido</span> <span class="o">=</span> <span class="bp">True</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">vendido</span> <span class="o">=</span> <span class="k">True</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Departamento {} ya se vendio&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Departamento {} ya se vendio&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -227,10 +227,10 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">d1</span> <span class="o">=</span> <span class="n">Departamento</span><span class="p">(</span><span class="nb">id</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">mts2</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">valor</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">,</span> <span class="n">num_dorms</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> <span class="n">num_banos</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">vendido</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">d1</span> <span class="o">=</span> <span class="n">Departamento</span><span class="p">(</span><span class="nb">id</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">mts2</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">valor</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">,</span> <span class="n">num_dorms</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> <span class="n">num_banos</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">vendido</span><span class="p">)</span>
 <span class="n">d1</span><span class="o">.</span><span class="n">vender</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">vendido</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">vendido</span><span class="p">)</span>
 <span class="n">d1</span><span class="o">.</span><span class="n">vender</span><span class="p">()</span>
 </pre></div>
 
@@ -269,7 +269,7 @@ Departamento 1 ya se vendio
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">help</span><span class="p">(</span><span class="n">Departamento</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">help</span><span class="p">(</span><span class="n">Departamento</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -333,7 +333,7 @@ a encodear información adicional semántica en algunas variables</p>
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="k">class</span> <span class="nc">PalabraSecreta</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">PalabraSecreta</span><span class="p">:</span>
     <span class="sd">&#39;&#39;&#39; clase que guarda un string sin mucha seguridad</span>
 <span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">palabra_clave</span><span class="p">,</span> <span class="n">frase_secreta</span><span class="p">):</span>
@@ -368,7 +368,7 @@ a encodear información adicional semántica en algunas variables</p>
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">s</span> <span class="o">=</span> <span class="n">PalabraSecreta</span><span class="p">(</span><span class="s">&quot;animal&quot;</span><span class="p">,</span><span class="s">&quot;tiene patas&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">s</span> <span class="o">=</span> <span class="n">PalabraSecreta</span><span class="p">(</span><span class="s">&quot;animal&quot;</span><span class="p">,</span><span class="s">&quot;tiene patas&quot;</span><span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">decriptar</span><span class="p">(</span><span class="s">&quot;tiene patas&quot;</span><span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">__palabra_clave</span>
 </pre></div>
@@ -414,7 +414,7 @@ a encodear información adicional semántica en algunas variables</p>
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">s</span><span class="o">.</span><span class="n">_PalabraSecreta__palabra_clave</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">s</span><span class="o">.</span><span class="n">_PalabraSecreta__palabra_clave</span>
 </pre></div>
 
 </div>
@@ -458,10 +458,10 @@ a encodear información adicional semántica en algunas variables</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c">#Ejemplo: Programa para manejar post its en un panel mural</span>
+<div class=" highlight hl-ipython3"><pre><span class="c">#Ejemplo: Programa para manejar post its en un panel mural</span>
 
 <span class="kn">import</span> <span class="nn">datetime</span>
 
@@ -475,7 +475,7 @@ a encodear información adicional semántica en algunas variables</p>
         <span class="bp">self</span><span class="o">.</span><span class="n">mensaje</span> <span class="o">=</span> <span class="n">mensaje</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tags</span> <span class="o">=</span> <span class="n">tags</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">creation_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">PostIt</span><span class="o">.</span><span class="n">last_id</span> <span class="o">=</span> <span class="mi">0</span> <span class="c">#variable global para manejar el ultimo id generado</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">PostIt</span><span class="o">.</span><span class="n">last_id</span> <span class="c">#variable de la clase para manejar el ultimo id generado</span>
         <span class="n">PostIt</span><span class="o">.</span><span class="n">last_id</span> <span class="o">+=</span> <span class="mi">1</span>
 
     <span class="k">def</span> <span class="nf">match</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">keyword</span><span class="p">):</span>
@@ -499,10 +499,10 @@ a encodear información adicional semántica en algunas variables</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="k">class</span> <span class="nc">Panel</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Panel</span><span class="p">:</span>
     <span class="sd">&#39;&#39;&#39; Representa un panel con un conjunto de postits (con memos) pegados</span>
 <span class="sd">        cada hoja ademas de un memo tiene tags, asi podemos buscar hojas</span>
 <span class="sd">        tambien podemos modificarlas</span>
@@ -541,7 +541,7 @@ a encodear información adicional semántica en algunas variables</p>
         <span class="k">return</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">postit_dict</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">keyword</span><span class="p">)]</span>
 
 
-    <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">keyword</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">keyword</span> <span class="o">=</span> <span class="k">None</span><span class="p">):</span>
         <span class="sd">&#39;&#39;&#39; Muestra todos los post its en el panel&#39;&#39;&#39;</span>
         <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">if</span> <span class="n">keyword</span><span class="p">:</span>
@@ -550,7 +550,7 @@ a encodear información adicional semántica en algunas variables</p>
             <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">postit_dict</span>
 
         <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s">&quot;post it {0}: </span><span class="se">\n</span><span class="s"> Mensaje: {1} </span><span class="se">\n</span><span class="s"> Tags: {2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">mensaje</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">tags</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;post it {0}: </span><span class="se">\n</span><span class="s"> Mensaje: {1} </span><span class="se">\n</span><span class="s"> Tags: {2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">mensaje</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">tags</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -572,7 +572,7 @@ a encodear información adicional semántica en algunas variables</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">sys</span>
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">sys</span>
 <span class="c">#from postit import PostIt, Panel#Aquí no es necesario por el iPython, pero si tenemos un archivo separado para el menu hay que</span>
 <span class="c">#importar estas clases</span>
 
@@ -588,7 +588,7 @@ a encodear información adicional semántica en algunas variables</p>
                         <span class="p">}</span>
 
     <span class="k">def</span> <span class="nf">display_menu</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;&quot;&quot;</span>
 <span class="s">            Menu:</span>
 <span class="s">                1: Mostrar Post-Its</span>
 <span class="s">                2: Buscar Post-Its</span>
@@ -599,25 +599,25 @@ a encodear información adicional semántica en algunas variables</p>
 
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 
-        <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">display_menu</span><span class="p">()</span>
             <span class="n">eleccion</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Ingrese Opcion: &quot;</span><span class="p">)</span>
             <span class="n">accion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">opciones</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">eleccion</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">accion</span><span class="p">:</span>
                 <span class="n">accion</span><span class="p">()</span><span class="c">#aqui se llama a la funcion</span>
             <span class="k">else</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s">&quot;{0} no es una opcion valida&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">eleccion</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s">&quot;{0} no es una opcion valida&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">eleccion</span><span class="p">))</span>
 
 
-    <span class="k">def</span> <span class="nf">display_postits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">p_list</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">display_postits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">p_list</span> <span class="o">=</span> <span class="k">None</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">p_list</span><span class="p">:</span>
             <span class="n">p_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">panel</span><span class="o">.</span><span class="n">postit_dict</span><span class="o">.</span><span class="n">values</span><span class="p">()</span><span class="c">#si no dan la lista a mostrar, mostramos todos los post-its</span>
 
         <span class="k">if</span> <span class="ow">not</span> <span class="n">p_list</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s">&quot;No hay Post-Its creados...&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;No hay Post-Its creados...&quot;</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">p_list</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s">&quot;post it {0}: </span><span class="se">\n</span><span class="s"> Mensaje: {1} </span><span class="se">\n</span><span class="s"> Tags: {2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">mensaje</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">tags</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s">&quot;post it {0}: </span><span class="se">\n</span><span class="s"> Mensaje: {1} </span><span class="se">\n</span><span class="s"> Tags: {2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">mensaje</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">tags</span><span class="p">))</span>
 
 
     <span class="k">def</span> <span class="nf">buscar_postits</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -630,7 +630,7 @@ a encodear información adicional semántica en algunas variables</p>
         <span class="n">tag_list</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Ingrese Tags separados por espacios: &quot;</span><span class="p">)</span>
         <span class="n">tag_list</span> <span class="o">=</span> <span class="n">tag_list</span><span class="o">.</span><span class="n">split</span><span class="p">()</span><span class="c">#separa los strings por espacio y los pone en una lista</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">panel</span><span class="o">.</span><span class="n">nuevo_postit</span><span class="p">(</span><span class="n">mensaje</span><span class="p">,</span> <span class="n">tag_list</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Nota creada exitosamente!!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Nota creada exitosamente!!&quot;</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">modificar_postit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">id</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;ingrese el id del Post-It que quiere modificar: &quot;</span><span class="p">)</span>
@@ -638,15 +638,15 @@ a encodear información adicional semántica en algunas variables</p>
         <span class="n">mensaje</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Ingrese el nuevo mensaje: &quot;</span><span class="p">)</span>
         <span class="n">tag_list</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Ingrese los nuevos tags separados por espacios: &quot;</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">mensaje</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">panel</span><span class="o">.</span><span class="n">modifica_mensaje</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">mensaje</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">tag_list</span><span class="p">:</span>
             <span class="n">tag_list</span> <span class="o">=</span> <span class="n">tag_list</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">panel</span><span class="o">.</span><span class="n">modifica_tags</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">tag_list</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&quot;postit modificado exitosamente!!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;postit modificado exitosamente!!&quot;</span><span class="p">)</span>
             
     <span class="k">def</span> <span class="nf">salir</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Gracias por usar nuestro Post-It&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Gracias por usar nuestro Post-It&quot;</span><span class="p">)</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
 
@@ -672,8 +672,10 @@ a encodear información adicional semántica en algunas variables</p>
                 4: Modificar Post-It existente
                 5: Salir
             
-Ingrese Opcion: 1
-1 no es una opcion valida
+Ingrese Opcion: 3
+Ingrese Mensaje: hoa
+Ingrese Tags separados por espacios: hoa
+Nota creada exitosamente!!
 
             Menu:
                 1: Mostrar Post-Its
@@ -682,8 +684,25 @@ Ingrese Opcion: 1
                 4: Modificar Post-It existente
                 5: Salir
             
-Ingrese Opcion: 5
-5 no es una opcion valida
+Ingrese Opcion: 3
+Ingrese Mensaje: chao
+Ingrese Tags separados por espacios: chao
+Nota creada exitosamente!!
+
+            Menu:
+                1: Mostrar Post-Its
+                2: Buscar Post-Its
+                3: Agregar nuevo Post-It
+                4: Modificar Post-It existente
+                5: Salir
+            
+Ingrese Opcion: 1
+post it 0: 
+ Mensaje: hoa 
+ Tags: [&apos;hoa&apos;]
+post it 1: 
+ Mensaje: chao 
+ Tags: [&apos;chao&apos;]
 
             Menu:
                 1: Mostrar Post-Its
@@ -718,7 +737,7 @@ Ingrese Opcion: 5
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="k">class</span> <span class="nc">Animal</span><span class="p">():</span>
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Animal</span><span class="p">():</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">patas</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">nombre</span> <span class="o">=</span> <span class="n">nombre</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">patas</span> <span class="o">=</span> <span class="n">patas</span>
@@ -736,12 +755,12 @@ Ingrese Opcion: 5
         
 <span class="n">gato</span> <span class="o">=</span> <span class="n">Animal</span><span class="p">(</span><span class="s">&#39;Cucho&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>  <span class="c">#We make a cow</span>
 <span class="n">perro</span> <span class="o">=</span> <span class="n">Animal</span><span class="p">(</span><span class="s">&#39;Boby&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="c">#We can make many animals</span>
-<span class="k">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">nombre</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">perro</span><span class="p">)</span> <span class="c">#aquí funciona el método __str__</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">nombre</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">perro</span><span class="p">)</span> <span class="c">#aquí funciona el método __str__</span>
 <span class="n">gato</span><span class="p">(</span><span class="s">&#39;pescado&#39;</span><span class="p">)</span><span class="c">#aquí le damos pescado al gato usando el método __call__</span>
-<span class="k">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">estomago</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">estomago</span><span class="p">)</span>
 <span class="n">gato</span><span class="o">.</span><span class="n">asimilar</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">estomago</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gato</span><span class="o">.</span><span class="n">estomago</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -754,7 +773,7 @@ Ingrese Opcion: 5
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
+<div class=" highlight hl-ipython3"><pre> 
 </pre></div>
 
 </div>

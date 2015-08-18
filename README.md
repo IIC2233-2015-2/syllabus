@@ -31,30 +31,36 @@
 # Calendario
 
 ### Agosto
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|  11  |    Primera cátedra          |         Sin evaluación              |
-|   13 |    AC01: Objetos - Modelación| Primera AC evaluada | 
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Martes 11 |           | Primera cátedra            | Sin evaluación        |
+| Jueves 13 | [AC01](Actividades/AC01) | 1.- Objetos - Modelación | Primera AC evaluada |
+| Martes 18 | [AC02](Actividades/AC02) | 2.- Herencia - Multiherencia | AC evaluada |
+| Jueves 20 | [AC03](Actividades/AC03) | 3.- Polimorfismo | AC evaluada |
+| Martes 25 | [AC04](Actividades/AC04) | 4.- Properties | AC evaluada |
+| Jueves 27 | [AC05](Actividades/AC05) | | |
 
 ### Septiembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
 ### Octubre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+|           | | | |
 
 ### Noviembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
+|           | | | |
 
 ### Diciembre
-| Día  | Contenido                  | Información adicional |
-|:-----|:---------------------------|:----------------------|
-|      |                            |                       |
+| Día       | Evento    | Contenido                  | Información adicional |
+|:----------|:----------|:---------------------------|:----------------------|
+| Jueves 3  | **Examen** | Próximamente más información | Salas: Sec1: _ , Sec2: _ |
+|           | | | |
 
 
 # Programa
@@ -195,12 +201,12 @@ Las evaluaciones serán por medio de actividades prácticas en clases, controles
 
 Donde **I** es el promedio de las interrogaciones, **E** es la nota del Examen, **T** es el promedio de las tareas, **AC** es el promedio de las actividades en clases y **C** es el promedio de los controles. Durante el semestre **NO** se borrará ninguna evaluación, tampoco existe la posibilidad de ser eximido del Examen final.
 
-*  Durante el semestre  NO  se borrará ninguna evaluación. Tampoco existe la posibilidad de ser 
+*  Durante el semestre  NO  se borrará ninguna evaluación. Tampoco existe la posibilidad de ser
 eximido del Examen final.
 *  Las tareas son reprobatorias. Si la nota en las tareas, T < 4.0, NF = NT.
 *  Solo se aproximará la nota final NF. Todo el resto de las notas serán usadas con dos decimales.
-*  La inasistencia a una de las interrogaciones (I) podrá ser reemplazada por la nota del examen. 
-Solo se podrá faltar a una de las interrogaciones y esta deberá ser justificada con autorización 
+*  La inasistencia a una de las interrogaciones (I) podrá ser reemplazada por la nota del examen.
+Solo se podrá faltar a una de las interrogaciones y esta deberá ser justificada con autorización
 de la Dirección de Pregrado. No se puede faltar al examen.
 
 ## Fechas Interrogaciones
