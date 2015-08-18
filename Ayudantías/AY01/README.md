@@ -71,6 +71,9 @@ Para este curso exigiremos que apliques al menos:
 
 - No ocupar la letra 'ñ' ni tildes en nombres de métodos, variables o clases. En general, ocupar sólo para imprimir mensajes al usuario. No exigiremos que programes en inglés, pero sería lo ideal.
 - Los nombres de clase empiezan con una mayúscula y son en singular.
+  - Siendo más técnicos, se usa el estilo [UpperCamelCase](https://en.wikipedia.org/wiki/CamelCase)
+   - `estrella_fugaz = ... ` ó `PERSONAS = ... ` :negative_squared_cross_mark:
+   - `EstrellaFugaz = ... ` ó `Persona = ... `:  :ballot_box_with_check:
 - Los nombres de métodos y variables son completamente en minúsucula. Por cada palabra nueva se coloca un guión bajo.
   - Siendo más técnicos, se usa el estilo [snake_case](https://en.wikipedia.org/wiki/Snake_case)
   - `nameGenerator = ... ` :negative_squared_cross_mark:
