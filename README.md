@@ -203,7 +203,7 @@ Donde **I** es el promedio de las interrogaciones, **E** es la nota del Examen, 
 
 *  Durante el semestre  NO  se borrará ninguna evaluación. Tampoco existe la posibilidad de ser
 eximido del Examen final.
-*  Las tareas son reprobatorias. Si la nota en las tareas, T < 4.0, NF = NT.
+*  Las tareas son reprobatorias. Si la nota en las tareas, T < 3.95000, NF = NT.
 *  Solo se aproximará la nota final NF. Todo el resto de las notas serán usadas con dos decimales.
 *  La inasistencia a una de las interrogaciones (I) podrá ser reemplazada por la nota del examen.
 Solo se podrá faltar a una de las interrogaciones y esta deberá ser justificada con autorización
