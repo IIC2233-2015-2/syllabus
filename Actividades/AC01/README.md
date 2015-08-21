@@ -1,9 +1,7 @@
 ### Información: 
 
-### Alumnos con puesto no asignado les toca individual en cualquiera de los puestos libres.
+El enunciado de esta AC no está en el formato correcto, es decir no está en PEP8. debería ser: agregar_field() y no agregarField()
 
-Las parejas para cada actividad son generadas de forma aleatoria y publicadas antes de cada cátedra. 
+Saludos !!
 
-Prontamente mayor información sobre las parejas aquí.
-
-Se publicará también aquí el enunciado de la respectiva actividad.
+Belén
