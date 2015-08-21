@@ -1,0 +1,1592 @@
+[
+  {
+    "equiv": "(ICE1003 o ICE1513 o ICM1022)",
+    "sigla": "FIS1513",
+    "prerreq": "(FIS1503 y MAT1203 y MAT1620(c)) o (MAT1203(c) y MAT1610)"
+  },
+  {
+    "equiv": "(FIS1522 o IIQ1002 o IIQ1003)",
+    "sigla": "FIS1523",
+    "prerreq": "MAT1630(c) o MAT1523(c) o (FIS1512 y ING1011 y MAT1512) o (FIS1512 y IPP1000 y MAT1512) o (ICE1013 y ING1011 y MAT1512) o (ICE1013 y IPP1000 y MAT1512) o (FIS1522 y ING1011 y QIM100) o (FIS1522 y IPP1000 y QIM100)"
+  },
+  {
+    "equiv": "(FIS1532 o FIZ0221)",
+    "sigla": "FIS1533",
+    "prerreq": "MAT1630"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "FIS0151",
+    "prerreq": "(FIS1503 y MAT1203) o (MAT1202 y MAT1620(c)) o (FIS1513(c) y MAT1512(c)) o FIS1513(c) o ICE1513(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "FIS0152",
+    "prerreq": "MAT1630(c) o MAT1523(c) o FIS1523(c) o IIQ1003(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "FIS0153",
+    "prerreq": "MAT1630 o (FIS1533(c) y MAT1523) o FIS1533(c)"
+  },
+  {
+    "equiv": "(QIM100 o QIM109)",
+    "sigla": "QIM100A",
+    "prerreq": "QIM100 o QIM100I o (QIM100I y QIM101Q)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "LET0003",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2121",
+    "prerreq": "ICS1113 y MAT1630"
+  },
+  {
+    "equiv": "(ICM2202)",
+    "sigla": "ICM2433",
+    "prerreq": "ICM2403"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING5050",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICT3981)",
+    "sigla": "ICT3993",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE3758)",
+    "sigla": "ICE3783",
+    "prerreq": "ICE2413 y ICE2533 y ICE2703"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM3450",
+    "prerreq": "ICS3532 o ICS3413"
+  },
+  {
+    "equiv": "(ICC1202)",
+    "sigla": "ICC2204",
+    "prerreq": "EYP1113"
+  },
+  {
+    "equiv": "(IEE2102)",
+    "sigla": "IEE2103",
+    "prerreq": "MAT1640 o MAT1532"
+  },
+  {
+    "equiv": "(IMM2012)",
+    "sigla": "IMM2013",
+    "prerreq": "IMM2003 o ICE2623 o ING1011 o IPP1000"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM3553",
+    "prerreq": "(QIM100 o QIM100A) y ICM2403"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3275",
+    "prerreq": "(IAC3270)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3800",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3320",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE3732)",
+    "sigla": "ICE3733",
+    "prerreq": "ICE2703"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3233",
+    "prerreq": "ICS1113"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3802",
+    "prerreq": "ICS2702"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2243",
+    "prerreq": "(IIQ2113(c) o IIQ2683 o IIQ3683) y (IIQ2013 o IIQ2683 o IIQ3683) y (IIQ2023 o IIQ2673)"
+  },
+  {
+    "equiv": "(ICE1003)",
+    "sigla": "ICM2803",
+    "prerreq": "(FIS1513 y ICM2313) o (ICE1513 y ICM2313) o (FIS1513 y ICM2022) o (ICE1513 y ICM2022) o (IPP1000 y MAT1102 y MAT1503) o (ING1011 y MAT1102 y MAT1503) o (FIZ0121 y ICM2313) o (FIZ0121 y ICM2022) o (FIS1513 y ICM2313) o (ICE1513 y ICM2313) o (FIS1513 y ICM2022)"
+  },
+  {
+    "equiv": "(ICS2212)",
+    "sigla": "ICS2123",
+    "prerreq": "(EYP1113 y ICS1113) o (EYP1025 y ICS1102)"
+  },
+  {
+    "equiv": "(ICH3342 o IIQ3343)",
+    "sigla": "IIQ3342",
+    "prerreq": "(ICH1102 y IIQ1002) o (ICH1102 y IIQ1002)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3840",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICC2982)",
+    "sigla": "ICC2944",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2005",
+    "prerreq": "(FIS1513 y MAT1620) o (ICE1513 y MAT1620) o (IPP1000 y MAT1102 y MAT1503) o (ING1011 y MAT1102 y MAT1503)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4943",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2623",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE2913",
+    "prerreq": "IEE2183"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4944",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3870",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICC3914)",
+    "sigla": "ICC2913",
+    "prerreq": "ICC2204 y ICC2304"
+  },
+  {
+    "equiv": "(ICM3622)",
+    "sigla": "ICM3233",
+    "prerreq": "ICM2223 o (IIQ1002 y IIQ2002 y ING1011) o (IIQ1002 y IIQ2002 y IPP1000)"
+  },
+  {
+    "equiv": "(IEE3783)",
+    "sigla": "IIC3783",
+    "prerreq": "IIC3713 o IEE3713 o IIC3714 o IIC2714 o IEE3714 o IEE2714"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE3902",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3220",
+    "prerreq": "IAC3210"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "FIL188",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3223",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICT2232)",
+    "sigla": "ICT2233",
+    "prerreq": "EYP1113 y ICS1113 y ICT2904(c)"
+  },
+  {
+    "equiv": "(ICC2302)",
+    "sigla": "ICC2304",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE2683",
+    "prerreq": "IEE2183 y IEE2613"
+  },
+  {
+    "equiv": "(IEE2253 o IEE3252)",
+    "sigla": "IEE3253",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMM3325",
+    "prerreq": "IMM2213 y IMM2013 y IMM2043"
+  },
+  {
+    "equiv": "(IIC2732)",
+    "sigla": "IIC2733",
+    "prerreq": "IIC2713 o (IIC2142 y ING1011) o (IIC2142 y IPP1000) o (IIC2412 y ING1011) o (IIC2412 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2343",
+    "prerreq": "(ICM2333(c) y ICM2503) o (ICM2322 y ICM2582 y ING1011) o (ICM2322 y ICM2582 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT2443",
+    "prerreq": "ICS1113 y EYP1113"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICH2384",
+    "prerreq": "ICH2314 o ICH3314"
+  },
+  {
+    "equiv": "(IIC2222)",
+    "sigla": "IIC2223",
+    "prerreq": "IIC1253"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2693",
+    "prerreq": "BIO151E"
+  },
+  {
+    "equiv": "(ICC2352)",
+    "sigla": "ICC2354",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IMM3400)",
+    "sigla": "IMM3403",
+    "prerreq": "IMM3313 o (ICS3532 y IMM2015 y IMM2025 y ING1011) o (ICS3532 y IMM2015 y IMM2025 y IPP1000)"
+  },
+  {
+    "equiv": "(ICC1102)",
+    "sigla": "ICC2104",
+    "prerreq": "ING1024 o (FIS1512 y ING1011 y QIM100) o (FIS1512 y IPP1000 y QIM100) o (ICE1013 y ING1011 y QIM100) o (ICE1013 y IPP1000 y QIM100)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2025",
+    "prerreq": "(ICE2028) y (ICE2633)"
+  },
+  {
+    "equiv": "(IIQ1210 o IIQ2012 o IIQ213Q)",
+    "sigla": "IIQ2013",
+    "prerreq": "IIQ2003 o (ICH1102 y IIQ1112 y ING1011) o (ICH1102 y IIQ1112 y IPP1000) o QIM115"
+  },
+  {
+    "equiv": "(ICS2702)",
+    "sigla": "ICS2813",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3696",
+    "prerreq": "IIC2612"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2240",
+    "prerreq": "ICH1104 y ICM2223(c)"
+  },
+  {
+    "equiv": "(ICE3372)",
+    "sigla": "ICE3373",
+    "prerreq": "ICE2413"
+  },
+  {
+    "equiv": "(ICE1302)",
+    "sigla": "ICE2313",
+    "prerreq": "ING1024 o (ICE1003 y IPP1000 y MAT1512) o (ICE1003 y ING1011 y MAT1512)"
+  },
+  {
+    "equiv": "(ICH2314 o ICH3313)",
+    "sigla": "ICH3314",
+    "prerreq": "ICH2304 o (ICH1303 y IPP1000 y QIM100) o (ICH1303 y ING1011 y QIM100)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3743",
+    "prerreq": "IIC2763 o IIC2764"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2640",
+    "prerreq": "ICM2312 y ICM2612"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC2954",
+    "prerreq": "ICC2204 y ICC2304"
+  },
+  {
+    "equiv": "(IEE2612)",
+    "sigla": "IEE2613",
+    "prerreq": "IEE2103"
+  },
+  {
+    "equiv": "(ICS3502)",
+    "sigla": "ICS3313",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IMM2000)",
+    "sigla": "IMM2003",
+    "prerreq": "(ICE1513(c) y QIM1004(c)) o FIS1513(c) o (ICE1302 y ING1011) o (ICE1302 y IPP1000) o (ICE2004(c) y QIM100A)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3240",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IMM2015)",
+    "sigla": "IMM2043",
+    "prerreq": "IMM2013"
+  },
+  {
+    "equiv": "(ICM1113)",
+    "sigla": "ICM2313",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICH3314)",
+    "sigla": "ICH2314",
+    "prerreq": "ICH2304 o (ICH1303 y IPP1000 y QIM100) o (ICH1303 y ING1011 y QIM100)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICH3394",
+    "prerreq": "(ICH3374 o ICH2374) y (IIQ3363 o IIQ2363) y (ICH2384(c) o ICH3384(c))"
+  },
+  {
+    "equiv": "(IIC2512)",
+    "sigla": "IIC2333",
+    "prerreq": "IIC2343 o (IIC1222 y ING1011) o (IIC1222 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "INP3240",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IIE2001)",
+    "sigla": "ING2030",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICH3280",
+    "prerreq": "ICH3212 o ICH2214"
+  },
+  {
+    "equiv": "(ICE3542)",
+    "sigla": "ICE3543",
+    "prerreq": "ICE2533"
+  },
+  {
+    "equiv": "(ICC2422)",
+    "sigla": "ICC2414",
+    "prerreq": "ICC2304"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2683",
+    "prerreq": "ICE2614"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3902",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4951",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3410",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE2923 o IEE3915)",
+    "sigla": "IEE3923",
+    "prerreq": "IEE2183"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2003",
+    "prerreq": "FIS1533"
+  },
+  {
+    "equiv": "(ICT3102)",
+    "sigla": "ICT3103",
+    "prerreq": "ICS2523"
+  },
+  {
+    "equiv": "(IEE2383 o IEE3382)",
+    "sigla": "IEE3383",
+    "prerreq": "IEE2313"
+  },
+  {
+    "equiv": "(IMM3100)",
+    "sigla": "IMM3103",
+    "prerreq": "ICS1513 o EAE105A"
+  },
+  {
+    "equiv": "(ICC3132)",
+    "sigla": "ICC3133",
+    "prerreq": "ICC1102"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM3010",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3220",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICM3542)",
+    "sigla": "ICM3433",
+    "prerreq": "(ICM2333 y ICM2403) o (ICM1202 y ICM2322 y ING1011) o (ICM1202 y ICM2322 y IPP1000)"
+  },
+  {
+    "equiv": "(ICT3112)",
+    "sigla": "ICT3113",
+    "prerreq": "(ICT3103 y ICT3273(c) y ICT3283(c)) o (ICT3103 y ICT3283(c) y ICT3984(c)) o (ICH2124 y ICH2204 y ICH2214(c) y ICH2514) o (ICH2124 y ICH2204 y ICH2514 y ICH2574(c)) o (ICS2523 y IIQ2673(c)) o (ICS2523 y IIQ3683(c)) o (BIO331C(c) y ICS2523) o (ICH3384(c) y ICS2523)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4923",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE2312)",
+    "sigla": "IEE2313",
+    "prerreq": "IEE2123"
+  },
+  {
+    "equiv": "(IEE2774)",
+    "sigla": "IEE3774",
+    "prerreq": "IEE3764"
+  },
+  {
+    "equiv": "(IIC1222)",
+    "sigla": "IIC2233",
+    "prerreq": "IIC1103 o IIC1102"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2009",
+    "prerreq": "MAT1640"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4921",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICC2413)",
+    "sigla": "ICC2424",
+    "prerreq": "(ICC2204 y ICC2304 y ICE2604) o (ICC1202 y ICC2302 y ING1011) o (ICC1202 y ICC2302 y IPP1000)"
+  },
+  {
+    "equiv": "(IMM2022)",
+    "sigla": "IMM2023",
+    "prerreq": "IMM2003 o ICE2623 o ING1011 o IPP1000"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC2454",
+    "prerreq": "ICE2403 y ICC2304"
+  },
+  {
+    "equiv": "(ICS1102)",
+    "sigla": "ICS1113",
+    "prerreq": "(MAT1203 y MAT1620) o (MAT1202 y MAT1523) o (MAT1135 y MAT1215)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3143",
+    "prerreq": "ICS1113"
+  },
+  {
+    "equiv": "(IMM2025)",
+    "sigla": "IMM2053",
+    "prerreq": "IMM2023"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3354",
+    "prerreq": "ICT2223"
+  },
+  {
+    "equiv": "(IEE2243 o IEE3242)",
+    "sigla": "IEE3243",
+    "prerreq": "IEE2123"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3710",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICS3332)",
+    "sigla": "ICS3213",
+    "prerreq": "ICS2123"
+  },
+  {
+    "equiv": "(ICH3322 o ICH3332)",
+    "sigla": "ICH3384",
+    "prerreq": "ICH2314 o ICH3314"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEN3730",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE3393",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3163",
+    "prerreq": "MAT280I y (MAT353I o MAT255I) y EYP2114 y MAT380I"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3930",
+    "prerreq": "(IAC3920)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2630",
+    "prerreq": "FIS1533(c)"
+  },
+  {
+    "equiv": "(ICE3612)",
+    "sigla": "ICE3613",
+    "prerreq": "ICE2614"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM3323",
+    "prerreq": "ICM2303 o ICE2313 o ICM2028"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2813",
+    "prerreq": "(ICM2003 y ICM2803) o (ICM2803 y IEE2103)"
+  },
+  {
+    "equiv": "(IIQ2642)",
+    "sigla": "IIQ2603",
+    "prerreq": "(IIQ3723)"
+  },
+  {
+    "equiv": "(ICM2582)",
+    "sigla": "ICM2503",
+    "prerreq": "ICM2313 o (ICM1202 y ING1011) o (ICM1202 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE3753",
+    "prerreq": "IEE2713 y IEE2783"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2113",
+    "prerreq": "IIC2143"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "INP3530",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IIC1020)",
+    "sigla": "IIC1062",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE2613)",
+    "sigla": "ICE2614",
+    "prerreq": "ICE2604"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3432",
+    "prerreq": "IIC2412"
+  },
+  {
+    "equiv": "(ICE3432)",
+    "sigla": "ICE3433",
+    "prerreq": "ICE2413"
+  },
+  {
+    "equiv": "(IIC2432)",
+    "sigla": "IIC2433",
+    "prerreq": "IIC1103"
+  },
+  {
+    "equiv": "(IIC2763)",
+    "sigla": "IIC2764",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IMM3310)",
+    "sigla": "IMM3313",
+    "prerreq": "IMM2043 o (ICS3532 y IMM2012 y ING1011) o (ICS3532 y IMM2012 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMM2700",
+    "prerreq": "(ICS1513 o EAE105A) y EYP1113"
+  },
+  {
+    "equiv": "(IIC2153)",
+    "sigla": "IIC2154",
+    "prerreq": "IIC2143 y IIC2413"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2173",
+    "prerreq": "IIC2143"
+  },
+  {
+    "equiv": "(IIC1102)",
+    "sigla": "IIC1103",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE2712)",
+    "sigla": "IEE2713",
+    "prerreq": "MAT1203"
+  },
+  {
+    "equiv": "(IIQ2023)",
+    "sigla": "IIQ223Q",
+    "prerreq": "IIQ2133(c)"
+  },
+  {
+    "equiv": "(ICS2512)",
+    "sigla": "ICS2523",
+    "prerreq": "(ICS1113 y ICS1513) o (EAE105A y ICS1113) o (EAE105A y ICS1113)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEN3720",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2028",
+    "prerreq": "ING1024 o (ICE1003 y IPP1000 y MAT1512) o (ICE1003 y ING1011 y MAT1512)"
+  },
+  {
+    "equiv": "(ICS2512 o ICS2522)",
+    "sigla": "ICS2613",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4927",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4928",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3820",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4970",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3745",
+    "prerreq": "IIC2143"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ3603",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICT3272)",
+    "sigla": "ICT3273",
+    "prerreq": "ICT2223"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3810",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICC2913)",
+    "sigla": "ICC3914",
+    "prerreq": "ICC2104 y ICC2204 y ICC2304"
+  },
+  {
+    "equiv": "(ICE1603)",
+    "sigla": "ICE2604",
+    "prerreq": "ING1024"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3222",
+    "prerreq": "ICS2123"
+  },
+  {
+    "equiv": "(IEE2782)",
+    "sigla": "IEE2783",
+    "prerreq": "IEE2183 y IEE2713"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ3810",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2513",
+    "prerreq": "IIC2413"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4953",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3753",
+    "prerreq": "ICS2702(c) y IIC2412"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC3454",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE3622)",
+    "sigla": "ICE3623",
+    "prerreq": "ICE2614"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING2015",
+    "prerreq": "ING1004"
+  },
+  {
+    "equiv": "(IMM3500)",
+    "sigla": "IMM3503",
+    "prerreq": "ICS3413"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4941",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE2674 o IEE3673)",
+    "sigla": "IEE3674",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICT2222)",
+    "sigla": "ICT2223",
+    "prerreq": "(EYP1113 y ICT2904(c)) o (EYP2113 y ING1011) o (EYP2113 y IPP1000)"
+  },
+  {
+    "equiv": "(ICS1502)",
+    "sigla": "ICS1513",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2122",
+    "prerreq": "FIS1513 o ICE1513 o (ICM1022 y ING1011) o (ICM1022 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2663",
+    "prerreq": "BIO141C"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ3402",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE1402)",
+    "sigla": "ICE2403",
+    "prerreq": "ICE2313"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMM1003",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE2112)",
+    "sigla": "IEE2113",
+    "prerreq": "(FIS1533 y MAT1640) o FIZ0221"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3912",
+    "prerreq": "IIC2912"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2233",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE3433",
+    "prerreq": "IEE2413"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2203",
+    "prerreq": "ICM2223"
+  },
+  {
+    "equiv": "(ICH2512)",
+    "sigla": "ICH2514",
+    "prerreq": "ICH2114 o (ICH2102 y ICH2112 y ING1011) o (ICH2102 y ICH2112 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3686",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ3733",
+    "prerreq": "IIQ2683 o IIQ3683 o IIQ2113(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC3972",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE2483",
+    "prerreq": "(IEE2413 o IEE2244) y IEE2183"
+  },
+  {
+    "equiv": "(IEE2714)",
+    "sigla": "IIC2714",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2029",
+    "prerreq": "(ICE2633)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC2432",
+    "prerreq": "ICC2413 o ICC2424 o IMM2043"
+  },
+  {
+    "equiv": "(IEE2734 o IIC3733)",
+    "sigla": "IEE3734",
+    "prerreq": "IEE2714 o (IIC3713 y ING1011) o (IIC3713 y IPP1000) o (IEE3713 y ING1011) o (IEE3713 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3894",
+    "prerreq": "IIC2714"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2135",
+    "prerreq": "MAT1630 y MAT1640"
+  },
+  {
+    "equiv": "(IEE3743)",
+    "sigla": "IEE2743",
+    "prerreq": "IEE2783 o (IEE2712 y IEE2782 y ING1011) o (IEE2712 y IEE2782 y IPP1000)"
+  },
+  {
+    "equiv": "(IIC2132)",
+    "sigla": "IIC2133",
+    "prerreq": "IIC1253 y IIC2233"
+  },
+  {
+    "equiv": "(ICH3213)",
+    "sigla": "ICH3254",
+    "prerreq": "ICH3212 o ICH2214"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2632",
+    "prerreq": "IIC1122 o IIC1103"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING2055",
+    "prerreq": "IIC1103"
+  },
+  {
+    "equiv": "(IIC2252)",
+    "sigla": "IIC1253",
+    "prerreq": "MAT1203 o (IIC1102 y ING1011 y MAT1202) o (IIC1102 y IPP1000 y MAT1202)"
+  },
+  {
+    "equiv": "(IIC2142)",
+    "sigla": "IIC2143",
+    "prerreq": "IIC2233 o IIC1222"
+  },
+  {
+    "equiv": "(ICM2002 o IIQ2002)",
+    "sigla": "ICM2223",
+    "prerreq": "ICH1104 o (ICH1102 y IIQ1002 y IPP1000) o (ICH1102 y IIQ1002 y ING1011) o (ICH1102 y IIQ102E)"
+  },
+  {
+    "equiv": "(IEE2784 o IEE3783)",
+    "sigla": "IEE3784",
+    "prerreq": "IEE2714"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE3683",
+    "prerreq": "ICE2623 o IMM2003"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3443",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3984",
+    "prerreq": "ICT3283 o (ICT3262 y ING1011) o (ICT3262 y IPP1000)"
+  },
+  {
+    "equiv": "(IEE2514 o IEE3513)",
+    "sigla": "IEE3514",
+    "prerreq": "IEE2513"
+  },
+  {
+    "equiv": "(IIQ2112)",
+    "sigla": "IIQ2113",
+    "prerreq": "IIQ2133(c)"
+  },
+  {
+    "equiv": "(IIC2742)",
+    "sigla": "IIC2713",
+    "prerreq": "IIC1103 o (IIC1222 y ING1011) o (IIC1222 y IPP1000)"
+  },
+  {
+    "equiv": "(FIS1522 o FIS1523 o ICM1003 o IIQ1002)",
+    "sigla": "IIQ1003",
+    "prerreq": "MAT1630(c) o (FIS1512 y ING1011 y MAT1512) o (FIS1512 y IPP1000 y MAT1512) o (ICE1013 y IPP1000 y MAT1512) o (ICE1013 y ING1011 y MAT1512) o (FIS1522 y ING1011 y QIM100) o (FIS1522 y IPP1000 y QIM100)"
+  },
+  {
+    "equiv": "(ICS2302 o ICS3313)",
+    "sigla": "ICS3502",
+    "prerreq": "EAE110A o AAC231 o AGL231"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING2045",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IIQ1112)",
+    "sigla": "IIQ2133",
+    "prerreq": "IIQ2043(c) o (FIS1522 y IIQ1002 y ING1011) o (FIS1522 y IIQ1002 y IPP1000) o QIM115 o IIQ2133(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT2213",
+    "prerreq": "EYP1113 y ICS1113 y ICT2904"
+  },
+  {
+    "equiv": "(ICM3503)",
+    "sigla": "ICM3762",
+    "prerreq": "ICM2582"
+  },
+  {
+    "equiv": "(ICS3022)",
+    "sigla": "ICS3013",
+    "prerreq": "(ICS3313 y ICS3413) o (ICS1513 y IEE3913) o (EAE105A y IEE3913) o (EAE105A y IEE2913) o (ICS1513 y IEE2913)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4942",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ1603",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC3464",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICE2113)",
+    "sigla": "ICE2114",
+    "prerreq": "(ICE2004 y ICE2313) o (ICE1302 y ING1011) o (ICE1302 y IPP1000) o (ICE2005 y ICE2313)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3250",
+    "prerreq": "IAC3240"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3633",
+    "prerreq": "EYP1113 y IIC2233"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3742",
+    "prerreq": "ICS2512"
+  },
+  {
+    "equiv": "(ICE3752)",
+    "sigla": "ICE3753",
+    "prerreq": "ICE2703"
+  },
+  {
+    "equiv": "(IIQ1003)",
+    "sigla": "ICM1003",
+    "prerreq": "MAT1630(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3533",
+    "prerreq": "EYP1113 y ICS2512"
+  },
+  {
+    "equiv": "(IEE3543)",
+    "sigla": "IEE2543",
+    "prerreq": "IEE2713"
+  },
+  {
+    "equiv": "(ING1003)",
+    "sigla": "ING1004",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM1001",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IRB2001",
+    "prerreq": "FIS1513 o ICE1513"
+  },
+  {
+    "equiv": "(ICM2312)",
+    "sigla": "ICM2323",
+    "prerreq": "(ICM2303 o ICE2313 o ICM2028) y (ICM2313 o (ICE1302 y ICM1122 y ING1011) o (ICE1302 y ICM1122 y IPP1000))"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMT2565",
+    "prerreq": "ICS1113(c) y IIC1103"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3750",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE3773)",
+    "sigla": "IIC3773",
+    "prerreq": "IIC3763 o IEE3763"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IDI2995",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICC2234",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICH2112)",
+    "sigla": "ICH2114",
+    "prerreq": "ICH1104"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2015",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICH3350",
+    "prerreq": "ICH2314 o ICH3314"
+  },
+  {
+    "equiv": "(IEE2323 o IEE3322)",
+    "sigla": "IEE3323",
+    "prerreq": "IEE2313"
+  },
+  {
+    "equiv": "(ICH1102)",
+    "sigla": "ICH1104",
+    "prerreq": "(FIS1523 y MAT1630 y MAT1640) o (IIQ1003 y MAT1630 y MAT1640) o (FIS1512 y ING1011 y MAT1523 y MAT1532) o (FIS1512 y IPP1000 y MAT1523 y MAT1532) o (ICE1013 y ING1011 y MAT1523 y MAT1532) o (ICE1013 y IPP1000 y MAT1523 y MAT1532) o (FIZ0211 y MAT1630 y MAT1640) o (ICM1003 y MAT1630 y MAT1640)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3000",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2562",
+    "prerreq": "IIC1103"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3380",
+    "prerreq": "IIC2233"
+  },
+  {
+    "equiv": "(IIQ2603)",
+    "sigla": "IIQ2642",
+    "prerreq": "NUT202 y QIM202"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3215",
+    "prerreq": "ICC3532"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4922",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(QUO1112)",
+    "sigla": "IIQ2772",
+    "prerreq": "(IIQ2012 y IIQ2022(c) y ING1011) o (IIQ2012 y IIQ2022(c) y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEN3710",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2503",
+    "prerreq": "IIQ2013 o IIQ2102"
+  },
+  {
+    "equiv": "(ICC3513)",
+    "sigla": "ICC2514",
+    "prerreq": "ICC2104 y ICE2604(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING1015",
+    "prerreq": "ING1004"
+  },
+  {
+    "equiv": "(ICT2902)",
+    "sigla": "ICT2904",
+    "prerreq": "(ICS1513 y MAT1630(c) y MAT1640(c)) o (ICS1102 y ICS1502 y ING1011) o (ICS1102 y ICS1502 y IPP1000) o (EAE105A y MAT1630(c) y MAT1640(c)) o (EAE105A y EYP1113 y MAT1630) o (ICS1513 y MAT1630(c) y MAT1640(c)) o (EAE105A y MAT1630(c) y MAT1640(c))"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE3313",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3256",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3352",
+    "prerreq": "ICS1113 y ICT2904"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ3633",
+    "prerreq": "IIQ2133 y QIM202"
+  },
+  {
+    "equiv": "(ICE3742)",
+    "sigla": "ICE3743",
+    "prerreq": "ICE2703"
+  },
+  {
+    "equiv": "(IEE3713 o IEE3714 o IIC2714 o IIC3713 o IIC3714)",
+    "sigla": "IEE2714",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2704",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICM1202)",
+    "sigla": "ICM2403",
+    "prerreq": "ING1024 o (FIS1522 y IIQ1002 y ING1011) o (FIS1522 y IIQ1002 y IPP1000) o (FIS1512 y ING1011 y QIM100) o (FIS1512 y IPP1000 y QIM100) o (ICE1013 y ING1011 y QIM100) o (ICE1013 y IPP1000 y QIM100)"
+  },
+  {
+    "equiv": "(ICT3242)",
+    "sigla": "ICT3244",
+    "prerreq": "EYP1113 y ICS1113"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2010",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE3734)",
+    "sigla": "IIC3733",
+    "prerreq": "IIC3713 o IEE3713 o (IIC2714 y IIC3714) o IEE3714 o IEE2714"
+  },
+  {
+    "equiv": "(ICM2612)",
+    "sigla": "ICM2213",
+    "prerreq": "ICH1104 o (ICH1102 y IIQ1002 y IPP1000) o (ICH1102 y IIQ1002 y ING1011)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3113",
+    "prerreq": "IIC2154(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS2532",
+    "prerreq": "ICS3532"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2143",
+    "prerreq": "IIQ2113 o IIQ2112"
+  },
+  {
+    "equiv": "(ICS3532)",
+    "sigla": "ICS3413",
+    "prerreq": "ICS2613"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMM3521",
+    "prerreq": "IMM2043 y IMM2053"
+  },
+  {
+    "equiv": "(ICT2302)",
+    "sigla": "ICT2303",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICT2232)",
+    "sigla": "ICT3283",
+    "prerreq": "(ICT2213 y ICT2233) o (ICT2232 y ICT3212 y ING1011) o (ICT2232 y ICT3212 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3623",
+    "prerreq": "ICT2233"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE2022",
+    "prerreq": "(ICE2633) y (ICE2028)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3860",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3310",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3543",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE2273",
+    "prerreq": "IEE2183 y IEE2213"
+  },
+  {
+    "equiv": "(IEE2212)",
+    "sigla": "IEE2213",
+    "prerreq": "IEE2123"
+  },
+  {
+    "equiv": "(IIC2332)",
+    "sigla": "IIC2523",
+    "prerreq": "IIC2333 o (IIC1222 y IIC2342 y ING1011) o (IIC1222 y IIC2342 y IPP1000)"
+  },
+  {
+    "equiv": "(IIC2412)",
+    "sigla": "IIC2413",
+    "prerreq": "IIC2233 o (IIC1222 y IIC2252 y ING1011) o (IIC1222 y IIC2252 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4952",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE3680",
+    "prerreq": "ICE3233"
+  },
+  {
+    "equiv": "(ICE2812)",
+    "sigla": "ICE2833",
+    "prerreq": "ICE2413 y ICE2703"
+  },
+  {
+    "equiv": "(ICM2322)",
+    "sigla": "ICM2333",
+    "prerreq": "ICM2323 o ICM2022"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING4926",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC2115",
+    "prerreq": "IIC1103 y MAT1610"
+  },
+  {
+    "equiv": "(ICH1303)",
+    "sigla": "ICH2304",
+    "prerreq": "QIM100A y MAT1640(c)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE3363",
+    "prerreq": "ICS1113"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2132",
+    "prerreq": "ICM2122"
+  },
+  {
+    "equiv": "(IMM3320)",
+    "sigla": "IMM3323",
+    "prerreq": "IMM2043"
+  },
+  {
+    "equiv": "(IIC2612)",
+    "sigla": "IIC2613",
+    "prerreq": "(IIC1253 y IIC2233) o (IEE2713 y IIC2233) o (EYP1112 y IIC1222 y IIC2252 y ING1011) o (EYP1112 y IIC1222 y IIC2252 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICE3031",
+    "prerreq": "ICH1104 y ICE2313"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IND3920",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IEE1122)",
+    "sigla": "IEE2123",
+    "prerreq": "MAT1640 o (FIS1532 y ING1011 y MAT1532) o (FIS1532 y IPP1000 y MAT1532) o FIZ0221"
+  },
+  {
+    "equiv": "(ICC1102 o ICM1022 o ICM1202)",
+    "sigla": "ING1024",
+    "prerreq": "(FIS1513 y QIM100A) o (ICE1513 y QIM100A) o (FIS1512 y ICE1013 y ING1011 y QIM100) o (FIS1512 y ICE1013 y IPP1000 y QIM100) o (FIZ0121 y FIZ0211 y QIM100A)"
+  },
+  {
+    "equiv": "(IIQ2002)",
+    "sigla": "IIQ2003",
+    "prerreq": "MAT1640 y (IIQ2133(c) o ICH2314(c) o QIM115)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICT3723",
+    "prerreq": "EYP1113 y ICS2523"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ2930",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICS3005",
+    "prerreq": "ICS2562 o ICT2953 o EYP2305"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC3585",
+    "prerreq": "(IIC2143 y IIC3513) o IIC2513 o IIC2143"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IAC3280",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIC1005",
+    "prerreq": "IIC1103"
+  },
+  {
+    "equiv": "(IEE2172)",
+    "sigla": "IEE2183",
+    "prerreq": "IEE2123"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE1100",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(ICC3243)",
+    "sigla": "ICC3244",
+    "prerreq": "ICC2204 y ICC2304"
+  },
+  {
+    "equiv": "(ICS3413)",
+    "sigla": "ICS3532",
+    "prerreq": "AGE2170 o AAE203 o EAE102G o AGL231"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IBM1005",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICM2243",
+    "prerreq": "ICH1104 o (ICH1102 y IIQ1002 y ING1011) o (ICH1102 y IIQ1002 y IPP1000) o ICM2203"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ING2010",
+    "prerreq": "ICS1113"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IEE2224",
+    "prerreq": "IEE2213"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IIQ1001",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "ICH3000",
+    "prerreq": "No tiene"
+  },
+  {
+    "equiv": "(IIC2342)",
+    "sigla": "IIC2343",
+    "prerreq": "IIC1103 o (IIC1222 y ING1011) o (IIC1222 y IPP1000) o (IIC1122 y ING1011) o (IIC1122 y IPP1000)"
+  },
+  {
+    "equiv": "(IEE2412)",
+    "sigla": "IEE2413",
+    "prerreq": "IEE2123 o (IEE1122 y IEE2102 y ING1011) o (IEE1122 y IEE2102 y IPP1000)"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "IMM2103",
+    "prerreq": "ICS1513 o EAE105A"
+  },
+  {
+    "equiv": "(IEE2233 o IEE3232)",
+    "sigla": "IEE3233",
+    "prerreq": "IEE2123"
+  },
+  {
+    "equiv": "(IEE2533 o IEE3532)",
+    "sigla": "IEE3533",
+    "prerreq": "ICS1113"
+  },
+  {
+    "equiv": "(MAT1202)",
+    "sigla": "MAT1203",
+    "prerreq": "MAT1600"
+  },
+  {
+    "equiv": "No tiene",
+    "sigla": "MAT1610",
+    "prerreq": "MAT1600"
+  },
+  {
+    "equiv": "(MAT1512)",
+    "sigla": "MAT1620",
+    "prerreq": "(MAT1610)"
+  },
+  {
+    "equiv": "(MAT1523 o MAT230E o MLM1130)",
+    "sigla": "MAT1630",
+    "prerreq": "MAT1203 y MAT1620"
+  },
+  {
+    "equiv": "(MAT1532 o MLM1500)",
+    "sigla": "MAT1640",
+    "prerreq": "(MAT1203 y MAT1620) o (MAT1126 y MAT1203) o (MAT1216 y MAT1620) o (MAT1126 y MAT1216)"
+  },
+  {
+    "equiv": "(EYP1112 o EYP2113)",
+    "sigla": "EYP1113",
+    "prerreq": "MAT1523 o MAT1630"
+  }
+]
