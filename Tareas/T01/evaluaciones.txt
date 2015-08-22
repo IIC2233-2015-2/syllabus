@@ -1,0 +1,6848 @@
+[
+  {
+    "sigla": "ICS2121",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2433",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2121",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2433",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2121",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2433",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2121",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICM2433",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICT3993",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICM3553",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICC2204",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3783",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3450",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2103",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3993",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3553",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2204",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3783",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3450",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2103",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3993",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3553",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2204",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3783",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICM3450",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2103",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3993",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICM3553",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICC2204",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICE3783",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICM3450",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2103",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2013",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IIQ3342",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3802",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICE3733",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2803",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ3342",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3802",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3733",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2803",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ3342",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3802",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3733",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2803",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3802",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICE3733",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICM2803",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS3233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2123",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICM3233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3783",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2005",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2623",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3783",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2005",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2623",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3783",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2005",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2623",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICM3233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IIC3783",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICE2005",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICE2623",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS3223",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "IMM3325",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IEE3253",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2733",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICT2233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2304",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3223",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "IMM3325",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3253",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2733",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2304",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3223",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3325",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3253",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2733",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICT2233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2304",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IMM3325",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICS3223",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICT2233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IEE3253",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC2733",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICC2304",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2343",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICC2104",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2223",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IIQ2013",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2384",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2354",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ2693",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2025",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICT2443",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2104",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2223",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ2013",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2384",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2354",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2693",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2025",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2443",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2104",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2223",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2013",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2384",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2354",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ2693",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2025",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICT2443",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2104",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IIC2223",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IIQ2013",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICH2384",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICC2354",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IIQ2693",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICE2025",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICT2443",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2813",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICM2240",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2640",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3373",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3743",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2613",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3696",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3314",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2240",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2640",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3373",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3743",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2613",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3696",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3314",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2240",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2640",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3373",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3743",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2613",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3696",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH3314",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2640",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICM2240",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICH3314",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICE2313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2613",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC3696",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICE3373",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "IIC3743",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3313",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2333",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICH3280",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3394",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2043",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2314",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2333",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3280",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3394",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2043",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2314",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2333",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3280",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICH3394",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2043",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2314",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IIC2333",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICH3280",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICH3394",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IMM2043",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICH2314",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IMM2003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2313",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICE2683",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3902",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICE3543",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3103",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2414",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3923",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3383",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2683",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3902",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3543",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3103",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2414",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3923",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3383",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2683",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3902",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3543",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3103",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2414",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3923",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3383",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2683",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICE3543",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICM2003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS3902",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICT3103",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICC2414",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IEE3923",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IEE3383",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "IEE2313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICM3433",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "IMM3103",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICC3133",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3433",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3103",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICC3133",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3433",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "IMM3103",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICC3133",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IMM3103",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICM3433",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICC3133",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2233",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICT3113",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "IEE3243",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IMM2023",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IMM2053",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICC2424",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2454",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3354",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2009",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3143",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3243",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2023",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2053",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2424",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2454",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3354",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2009",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3143",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "24/10 - 9:00"
+  },
+  {
+    "sigla": "IEE3243",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2023",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2053",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2424",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2454",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3354",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2009",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3143",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3243",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IMM2023",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IMM2053",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICC2424",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICC2454",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICT3354",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICS2009",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS3143",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 5,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I1",
+    "sec": 6,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I2",
+    "sec": 6,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "I3",
+    "sec": 6,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "ICS1113",
+    "tipo": "EX",
+    "sec": 6,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICM3323",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3393",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3163",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3613",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2630",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3384",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3323",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3393",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3163",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3613",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2630",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3384",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3323",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3393",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3163",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3613",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2630",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICH3384",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM3323",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IEE3393",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICS3163",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICE2630",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICH3384",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICE3613",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3213",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "26/08 - 18:30"
+  },
+  {
+    "sigla": "IEE3753",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2614",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2813",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3433",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3432",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ2603",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3753",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2614",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2813",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3433",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3432",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2603",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3753",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2614",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2813",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3433",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3432",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ2603",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IIC2113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IEE3753",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICE2614",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICM2813",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICE3433",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IIC3432",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IIQ2603",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "26/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IIC1062",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICM2503",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "IMM3313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "IMM2700",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC2433",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2764",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2713",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2173",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2154",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "22/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "IMM3313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2700",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2433",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2764",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2713",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2173",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2154",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "21/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IMM3313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2173",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2700",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2433",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2764",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2713",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2154",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "16/11 - 18:30"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IMM3313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "IMM2700",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IIC2433",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IIC2764",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IEE2713",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIC2173",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIC2154",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "25/08 - 18:30"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "25/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "ICS2523",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 6,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 6,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 6,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 7,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 7,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 7,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 8,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 8,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 8,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I1",
+    "sec": 9,
+    "fecha": "12/09 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "I2",
+    "sec": 9,
+    "fecha": "24/10 - 9:00"`
+  },
+  {
+    "sigla": "IIC1103",
+    "tipo": "EX",
+    "sec": 9,
+    "fecha": "21/11 - NA"
+  },
+  {
+    "sigla": "IIC3745",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2028",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "15/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3273",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3745",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2028",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "16/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3273",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3745",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2028",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3273",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "20/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3745",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICM2028",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICT3273",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "15/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "16/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "20/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "15/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "16/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "20/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "15/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "16/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "20/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2613",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "IIC3753",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3222",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2604",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICC3454",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2513",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3753",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3222",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2604",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICC3454",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2513",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3753",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3222",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2604",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICC3454",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2513",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3753",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICS3222",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICE2604",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IIC2513",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICC3454",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICE3623",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IMM3503",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ2663",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3674",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2122",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICT2223",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3623",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3503",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2663",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3674",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2122",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2223",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3623",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3503",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ2663",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3674",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2122",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICT2223",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICE3623",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IEE3674",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IIQ2663",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICM2122",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICT2223",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IMM3503",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 5,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 6,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 6,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 6,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 6,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I1",
+    "sec": 7,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I2",
+    "sec": 7,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "I3",
+    "sec": 7,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS1513",
+    "tipo": "EX",
+    "sec": 7,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IEE3433",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IEE2113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2403",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2514",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2203",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3912",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IMM1003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3433",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2403",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2514",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2203",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3912",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IMM1003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3433",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2403",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2514",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2203",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3912",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IMM1003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3433",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IEE2113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICE2403",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICH2514",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICM2203",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IIC3912",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IMM1003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICM2233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "IIC3686",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICE2029",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICE2135",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2133",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IIC3894",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IEE2743",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3734",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2714",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2432",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "22/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2029",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2135",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2133",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3894",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2743",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3734",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2714",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2432",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "21/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2029",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2135",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2133",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3894",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2743",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3734",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2714",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2432",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "16/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2029",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICE2135",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC2133",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC3894",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IEE2743",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IEE3734",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IIC2714",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICC2432",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "IIC2632",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICT3984",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2143",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ING2055",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3784",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IIC1253",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3254",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2223",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3443",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2632",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3984",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2143",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ING2055",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3784",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IIC1253",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3254",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2223",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3443",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2632",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3984",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2143",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ING2055",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3784",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IIC1253",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICH3254",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2223",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3443",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2632",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICT3984",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC2143",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ING2055",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IEE3784",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IIC1253",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICM2223",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICH3254",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICT3443",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS3502",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2713",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ2113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICT2213",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ1003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICM3762",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3514",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3502",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2713",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2213",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ1003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICM3762",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3514",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3502",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2713",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ2113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICT2213",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ1003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICM3762",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3514",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3502",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IIC2713",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IIQ2113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "IIQ1003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICT2213",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICM3762",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IEE3514",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "I3",
+    "sec": 5,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3013",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICE3753",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "IIC3633",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICC3464",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3742",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2114",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ1603",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3533",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICM1003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3753",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3633",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICC3464",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3742",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2114",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ1603",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3533",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICM1003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3753",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3633",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICC3464",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3742",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICE2114",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ1603",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3533",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICM1003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3753",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICC3464",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC3633",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICE2114",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IIQ1603",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICT3533",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICM1003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS3742",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICC2234",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "IRB2001",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2323",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICM1001",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2543",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2234",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "IRB2001",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2323",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICM1001",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2543",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2234",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "IRB2001",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2323",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICM1001",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2543",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2234",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "IRB2001",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICM1001",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICM2323",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2543",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ING1004",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ING1004",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ING1004",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ING1004",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS2015",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICH2114",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IEE3323",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IIC2562",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3380",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3215",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3000",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH3350",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2015",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2114",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3323",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2562",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3380",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3215",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3000",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH3350",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2015",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2114",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3323",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2562",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3380",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3215",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3000",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH3350",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2015",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IEE3323",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC2562",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICS3215",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC3000",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICH3350",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIC3380",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH1104",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICC2514",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICT3352",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICT3256",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICT2904",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "14/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3313",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "15/09 - 18:30"
+  },
+  {
+    "sigla": "ICC2514",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3352",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3256",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3313",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "15/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2904",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "ICC2514",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3352",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3256",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3313",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "19/11 - 18:30"
+  },
+  {
+    "sigla": "ICC2514",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICT3256",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICT3352",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "ICT2904",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IEE3313",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "IIC3113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICS2704",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2213",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3743",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2010",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2714",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2403",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ3633",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3244",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "23/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2704",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2213",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3743",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2010",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2714",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2403",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ3633",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3244",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "22/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2704",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2213",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3743",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2010",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2714",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2403",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ3633",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3244",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS2704",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ICM2213",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICE3743",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICS2010",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2714",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICM2403",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIQ3633",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICT3244",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICE2022",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3283",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "2/09 - 18:30"
+  },
+  {
+    "sigla": "IMM3521",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICT2303",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3623",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "ICS2532",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICE2022",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3283",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "5/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3521",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICT2303",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3623",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "ICS2532",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICE2022",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3283",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "3/11 - 18:30"
+  },
+  {
+    "sigla": "IMM3521",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICT2303",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3623",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "ICS2532",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICE2022",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICT3283",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "25/11 - NA"
+  },
+  {
+    "sigla": "ICT2303",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICT3623",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "ICS2532",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IMM3521",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "I3",
+    "sec": 5,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3413",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "IEE2213",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3680",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3543",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2333",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2523",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2413",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2213",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3680",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3543",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2333",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2523",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2413",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2213",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3680",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3543",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICM2333",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2523",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2413",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2213",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICM2333",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC2523",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IIC2413",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICE3680",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICT3543",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "IEE3363",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "27/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2132",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "3/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2123",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2613",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IMM3323",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICE3031",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2115",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "22/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3363",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "29/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2132",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "6/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2123",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2613",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IMM3323",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICE3031",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2115",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3363",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "28/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2132",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "4/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2123",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2613",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IMM3323",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICE3031",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2115",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "17/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3363",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICM2132",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIC2115",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IEE2123",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IIC2613",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IMM3323",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICE3031",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "3/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "6/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "4/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "3/09 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "6/10 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "4/11 - 18:30"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ING1024",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "ICH2304",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "IEE1100",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IIQ2003",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IIC3585",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "ICT3723",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "16/09 - 18:30"
+  },
+  {
+    "sigla": "ICC3244",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3005",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IIC1005",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "21/09 - 18:30"
+  },
+  {
+    "sigla": "IEE1100",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2003",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IIC3585",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "ICT3723",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "19/10 - 18:30"
+  },
+  {
+    "sigla": "ICC3244",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3005",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IIC1005",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "20/10 - 18:30"
+  },
+  {
+    "sigla": "IEE1100",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ2003",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IIC3585",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "ICT3723",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "12/11 - 18:30"
+  },
+  {
+    "sigla": "ICC3244",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3005",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IIC1005",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "13/11 - 18:30"
+  },
+  {
+    "sigla": "IEE1100",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "IIQ2003",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "ICT3723",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "2/12 - NA"
+  },
+  {
+    "sigla": "ICC3244",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "ICS3005",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIC1005",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "3/12 - NA"
+  },
+  {
+    "sigla": "IIC3585",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ING2010",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "28/08 - 18:30"
+  },
+  {
+    "sigla": "ICM2243",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "31/08 - 18:30"
+  },
+  {
+    "sigla": "IBM1005",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2413",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IMM2103",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "8/09 - 18:30"
+  },
+  {
+    "sigla": "IIC2343",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IIQ1001",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "10/09 - 18:30"
+  },
+  {
+    "sigla": "IEE2224",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "22/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ING2010",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "30/09 - 18:30"
+  },
+  {
+    "sigla": "ICM2243",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "1/10 - 18:30"
+  },
+  {
+    "sigla": "IBM1005",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2413",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IMM2103",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "9/10 - 18:30"
+  },
+  {
+    "sigla": "IIC2343",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IIQ1001",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "14/10 - 18:30"
+  },
+  {
+    "sigla": "IEE2224",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "21/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ING2010",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "29/10 - 18:30"
+  },
+  {
+    "sigla": "ICM2243",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "30/10 - 18:30"
+  },
+  {
+    "sigla": "IBM1005",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2413",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IMM2103",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "9/11 - 18:30"
+  },
+  {
+    "sigla": "IIC2343",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IIQ1001",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "11/11 - 18:30"
+  },
+  {
+    "sigla": "IEE2224",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "16/11 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "ICM2243",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "24/11 - NA"
+  },
+  {
+    "sigla": "ING2010",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "IIC2343",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IIQ1001",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "30/11 - NA"
+  },
+  {
+    "sigla": "IBM1005",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2413",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IMM2103",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "1/12 - NA"
+  },
+  {
+    "sigla": "IEE2224",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "9/12 - NA"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "24/08 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "24/09 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "23/10 - 18:30"
+  },
+  {
+    "sigla": "ICS3532",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "23/11 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3233",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "4/09 - 18:30"
+  },
+  {
+    "sigla": "IEE3533",
+    "tipo": "I1",
+    "sec": 1,
+    "fecha": "7/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3233",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "7/10 - 18:30"
+  },
+  {
+    "sigla": "IEE3533",
+    "tipo": "I2",
+    "sec": 1,
+    "fecha": "8/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3233",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "5/11 - 18:30"
+  },
+  {
+    "sigla": "IEE3533",
+    "tipo": "I3",
+    "sec": 1,
+    "fecha": "6/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "IEE3233",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "27/11 - NA"
+  },
+  {
+    "sigla": "IEE3533",
+    "tipo": "EX",
+    "sec": 1,
+    "fecha": "4/12 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 2,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 2,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 2,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 2,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 3,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 3,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 3,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 3,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 4,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 4,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 4,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 4,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 5,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 5,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 5,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 5,
+    "fecha": "26/11 - NA"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I1",
+    "sec": 6,
+    "fecha": "1/09 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I2",
+    "sec": 6,
+    "fecha": "2/10 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "I3",
+    "sec": 6,
+    "fecha": "2/11 - 18:30"
+  },
+  {
+    "sigla": "EYP1113",
+    "tipo": "EX",
+    "sec": 6,
+    "fecha": "26/11 - NA"
+  }
+]
