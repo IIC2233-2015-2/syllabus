@@ -75,8 +75,9 @@ class Termometro:
 ```
 
 **¿Qué problemas trae este _approach_?**
+
 1. Estamos ocupando memoria de nuestro computador guardando valores redundantes.
-2. Si queremos cambiar el valor de una unidad, tenemos que actualizar los otros dos.
+1. Si queremos cambiar el valor de una unidad, tenemos que actualizar los otros dos.
 
 Probemos esta otra solución:
 
@@ -186,9 +187,10 @@ class FixedStack(Stack):
 ```
 
 **d)** Finalmente, programar una clase `StepStack` que herede de `FixedStack` y vaya concatenandose más `StepStack` a medida que se vayan llenando. Estos deben ser accedidos secuencialmente. Es decir:
+
 1. Intentamos agregar un elemento al `StepStack` principal.
-2. Si está lleno, revisamos si hay uno después de él y lo intentamos agregar.
-3. Si no existe uno después de él, lo creamos y agruegamos el elemento.
+1. Si está lleno, revisamos si hay uno después de él y lo intentamos agregar.
+1. Si no existe uno después de él, lo creamos y agruegamos el elemento.
 
 Todo esto de manera recursiva. De manera análoga debe funcionar el `pop()` y `top()`
 
