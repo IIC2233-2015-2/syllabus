@@ -30,19 +30,22 @@
 
 # Calendario
 
+Todas las Actividades (AC) son evaluadas.
+
 ### Agosto
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 11 |           | Primera cátedra            | Sin evaluación        |
-| Jueves 13 | [AC01](Actividades/AC01) | 1.- Objetos - Modelación | Primera AC evaluada |
-| Martes 18 | [AC02](Actividades/AC02) | 2.- Herencia - Multiherencia | AC evaluada |
-| Jueves 20 | [AC03](Actividades/AC03) | 3.- Polimorfismo | AC evaluada |
-| Martes 25 | [AC04](Actividades/AC04) | 4.- Estructuras de Datos | Hasta antes de árboles - AC evaluada |
-| Jueves 27 | [AC05](Actividades/AC05) | | |
+| Jueves 13 | [AC01](Actividades/AC01) | Objetos - Modelación | Primera AC evaluada |
+| Martes 18 | [AC02](Actividades/AC02) | Herencia - Multiherencia |  |
+| Jueves 20 | [AC03](Actividades/AC03) | Polimorfismo |  |
+| Martes 25 | [AC04](Actividades/AC04) | Estructuras de Datos | Hasta antes de árboles |
+| Jueves 27 | [AC05](Actividades/AC05) | Estructuras de Datos | Árboles y nodos |
 
 ### Septiembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
+| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | 10:30 - Deadline |
 | Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
 ### Octubre
