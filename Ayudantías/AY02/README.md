@@ -28,17 +28,17 @@ Para hacer esto, en `zoologico.py` tenemos las siguientes opciones:
 # Importa todo el módulo y accedemos
 # a sus contenidos a través de 'personal'
 import personal
-g = personal.Guardia(nombre='G' + str(i), equipamento=['Equipamento'])
+g = personal.Guardia(nombre='G1', equipamento=['Equipamento'])
 
 # Podemos usar un 'alias'
 import personal as p
-g = p.Guardia(nombre='G' + str(i), equipamento=['Equipamento'])
+g = p.Guardia(nombre='G1', equipamento=['Equipamento'])
 ```
 
 ```python
 # Importa un elemento específico.
 from personal import Guardia
-g = Guardia(nombre='G' + str(i), equipamento=['Equipamento'])
+g = Guardia(nombre='G1', equipamento=['Equipamento'])
 
 # Podemos encadenarlos, por ejemplo:
 from personal import Guardia, Visitante, Veterinario, crear_personal
@@ -49,7 +49,7 @@ from personal import Guardia, Visitante, Veterinario, crear_personal
 # Esta es la opción MENOS RECOMENDADA porque perdemos control
 # de lo que importamos y puede generar conflictos.
 from personal import *
-g = Guardia(nombre='G' + str(i), equipamento=['Equipamento'])
+g = Guardia(nombre='G1', equipamento=['Equipamento'])
 ```
 
 Habrás notado que no solo importa clases, sino que también puedes importar **funciones** y **variables**.
@@ -68,7 +68,7 @@ Esta sintaxis indica que: cada vez que intentamos obtener el valor de un atribut
 
 ```python
 class Termometro:
-    def __init__(self, kelvin):
+    def __init__(self, temperatura_abs):
         self.kelvin = temperatura_abs
         self.celsius = self.kelvin - 273
         self.fahrenheit = (self.celsius * 1.8) + 32
@@ -152,6 +152,9 @@ El código completo del `termometro` lo puedes encontrar [aquí](termometro.py).
 Le dice a Python que el método que acabamos de definir en nuestra clase (el que decoramos con `@property`) es en verdad un atributo, y que queremos que cuando hagamos una acción sobre este atributo nuestra clase debería hacer otras cosas, segun las funciones definidas bajo los decoradores `@property.setter`, `@property.getter` y `@property.deleter`.
 
 ## Ejercicio Estructura de Datos: `StepStack`
+
+> La solución está [aquí](stepstack/solucion.py)
+
 **a)** Se necesita programar una clase llamada `Stack` que utilice internamente una lista y que exponga los métodos `push(value)`, `pop()`, `top()` y `__len__`.
 
 ```python
