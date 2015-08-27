@@ -4,7 +4,7 @@ En esta carpeta usted encontrará dos archivos:
 
 ` bacanosidad.pdf `
 
-* Posee un método para verificar si los cálculos que usted realiza son los correctos. Asegúrese de leer **todo** el documento para entenderlo correctamente.
+* Explica un método para verificar si los cálculos que usted realiza son los correctos. Asegúrese de leer **todo** el documento para entenderlo correctamente.
 
 ` bacanosidad.txt `
 
