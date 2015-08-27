@@ -2,11 +2,10 @@
 
 En esta carpeta usted encontrará dos archivos:
 
-* ```bacanosidad.pdf```
- 
- Posee un método para verificar si los cálculos que usted realiza son los correctos. Asegúrese de leer **todo** el documento para entenderlo correctamente.
+` bacanosidad.pdf `
 
-* ```bacanosidad.txt```
+* Posee un método para verificar si los cálculos que usted realiza son los correctos. Asegúrese de leer **todo** el documento para entenderlo correctamente.
 
- Un archivo que contiene las bacanosidades relativas (con respecto al alumno más bacán) de todos. Este archivo se encuentra en el formato
- ```nombre_alumno \t\t\t bacanosidad_relativa```
+` bacanosidad.txt `
+
+* Un archivo que contiene las bacanosidades relativas (con respecto al alumno más bacán) de todos. Este archivo se encuentra en el formato  ` nombre_alumno \t\t\t bacanosidad_relativa `
