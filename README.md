@@ -45,7 +45,9 @@ Todas las Actividades (AC) son evaluadas.
 ### Septiembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | 10:30 - Deadline |
+| Martes 1 | [AC06](Actividades/AC06) | Functional | Hasta generadores |
+| Jueves 3 | [AC07](Actividades/AC07) | Functional | Desde Lambda Functions |
+| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | 10:30 - Deadline (recordar: Diagrama vía SIDING) |
 | Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
 ### Octubre
