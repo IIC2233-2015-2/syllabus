@@ -1185,6 +1185,44 @@ K Trebol
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">b</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">Baraja</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1 Espada
+2 Espada
+3 Espada
+4 Espada
+5 Espada
+6 Espada
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1571,7 +1609,7 @@ Contando en forma decreciente desde 5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -1584,7 +1622,6 @@ Contando en forma decreciente desde 5
         
 <span class="n">elements</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">33</span><span class="p">]</span>
 <span class="n">res</span> <span class="o">=</span> <span class="n">maximo</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">res</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">res</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">res</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">res</span><span class="p">))</span>
@@ -1615,20 +1652,6 @@ Contando en forma decreciente desde 5
 </div>
 </div>
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansired">---------------------------------------------------------------------------</span>
-<span class="ansired">StopIteration</span>                             Traceback (most recent call last)
-<span class="ansigreen">&lt;ipython-input-46-74f567459f64&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     16</span> print<span class="ansiblue">(</span>next<span class="ansiblue">(</span>res<span class="ansiblue">)</span><span class="ansiblue">)</span><span class="ansiblue"></span>
-<span class="ansigreen">     17</span> print<span class="ansiblue">(</span>next<span class="ansiblue">(</span>res<span class="ansiblue">)</span><span class="ansiblue">)</span><span class="ansiblue"></span>
-<span class="ansigreen">---&gt; 18</span><span class="ansired"> </span>print<span class="ansiblue">(</span>next<span class="ansiblue">(</span>res<span class="ansiblue">)</span><span class="ansiblue">)</span><span class="ansired">#aquí se acabó la lista</span><span class="ansiblue"></span>
-
-<span class="ansired">StopIteration</span>: </pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -1647,7 +1670,7 @@ Contando en forma decreciente desde 5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">mov_avg</span><span class="p">():</span>
@@ -1679,7 +1702,7 @@ Contando en forma decreciente desde 5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">m</span> <span class="o">=</span> <span class="n">mov_avg</span><span class="p">()</span>
@@ -1688,7 +1711,7 @@ Contando en forma decreciente desde 5
 <span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="mi">20</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -1715,10 +1738,10 @@ i = 0
 total = 15.0
 cont = 4
 3.75
-i = 5
-total = 20.0
+i = 20
+total = 35.0
 cont = 5
-4.0
+7.0
 </pre>
 </div>
 </div>
@@ -2188,7 +2211,7 @@ siguiente forma: f(f(f(f(s1,s2),s3),s4),s5),...</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">reduce</span>
@@ -2203,7 +2226,7 @@ siguiente forma: f(f(f(f(s1,s2),s3),s4),s5),...</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[54]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[100]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2218,7 +2241,7 @@ siguiente forma: f(f(f(f(s1,s2),s3),s4),s5),...</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">datetime</span>
@@ -2226,20 +2249,41 @@ siguiente forma: f(f(f(f(s1,s2),s3),s4),s5),...</p>
 <span class="c">#rstrip retorna una copia del string que resulta de eliminar los espacios (u otro caracter deseado)</span>
 <span class="c">#del final del string. Ej:  &quot;Hola...&quot;.rstrip(&quot;.&quot;) retorna &quot;Hola&quot;</span>
 
+<span class="n">file_name</span> <span class="o">=</span> <span class="s">&quot;lineas.dat&quot;</span>
+
 <span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
-<span class="n">r1</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="nb">max</span><span class="p">,</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">l</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">l</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()),</span> <span class="p">[</span><span class="n">line</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;logs_out.txt&#39;</span><span class="p">)]))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s">&quot;reduce time: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span><span class="p">))</span>
+<span class="n">r0</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="nb">max</span><span class="p">,</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">l</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">l</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()),</span> <span class="p">[</span><span class="n">line</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">)]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;reduce 1 time: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">r0</span><span class="p">)</span>
+
+<span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">)]</span>
+<span class="n">r1</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="nb">max</span><span class="p">,</span> <span class="n">lista</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;reduce 2 time: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">r1</span><span class="p">)</span>
 
-<span class="c">#version con comprensión de generadores y numpy</span>
+
+<span class="c">#version con comprensión de generadores</span>
 <span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
-<span class="n">r2</span> <span class="o">=</span> <span class="nb">max</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;logs_out.txt&#39;</span><span class="p">)))</span>
+<span class="n">r2</span> <span class="o">=</span> <span class="nb">max</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">)))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s">&quot;max(generator) time: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span>
 
+<span class="c">#version con for clásico</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">r3</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">infty</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">):</span>
+    <span class="n">l</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">l</span> <span class="o">&gt;</span> <span class="n">r3</span><span class="p">:</span>
+        <span class="n">r3</span> <span class="o">=</span> <span class="n">l</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;max(for clásico) time: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">r3</span><span class="p">)</span>
+
+
+
 <span class="c">#para visualizar las lineas del archivo</span>
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;logs_out.txt&#39;</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> 
+<span class="c">#for line in open(&#39;logs_out.txt&#39;):</span>
+<span class="c">#    print(line) </span>
 </pre></div>
 
 </div>
@@ -2252,17 +2296,14 @@ siguiente forma: f(f(f(f(s1,s2),s3),s4),s5),...</p>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>reduce time: 0:00:00.002377
-38
-max(generator) time: 0:00:00.000834
-38
- Estamos cercanos a tener un problema.
-
- Otro warning!
-
- Casi un bug
-
- Tenga mucho cuidado
+<pre>reduce 1 time: 0:00:00.123022
+361
+reduce 2 time: 0:00:00.058031
+361
+max(generator) time: 0:00:00.067856
+361
+max(for clásico) time: 0:00:00.060237
+361
 </pre>
 </div>
 </div>
