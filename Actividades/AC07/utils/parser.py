@@ -22,7 +22,7 @@ class ApacheLogsParser:
 
             for line in raw_logs:
                 try:
-                    groups = re.match(self.REGEX, line).groups()
+                    groups = re.match(self.REGEX, line.rstrip()).groups()
                     logs.append(ApacheLog(*groups))
                 except AttributeError:
                     pass
