@@ -8,7 +8,7 @@ __author__ = "rpalmaotero"
 
 class ApacheLogsParser:
 
-    REGEX = '^(\S+) (\S+) (\S+) \[(.*?)] "(.*?)" (\S+) (\S+)$'
+    REGEX = '^(\S+) (\S+) (\S+) \[(.*?)] "(.*?)" (\S+) (\S+)'
 
     def __init__(self, path):
         self.path = path
