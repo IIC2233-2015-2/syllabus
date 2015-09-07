@@ -1,6 +1,7 @@
 __author__ = 'Ivania Donoso'
 
-# Las funciones son objetos, se pueden pasar como parámetros y recibir como resultados
+# Las funciones son objetos, se pueden pasar como parámetros y recibir
+# como resultados
 
 
 # def foobar(funcion_original):
@@ -43,9 +44,3 @@ talkative_widget_func()
 
 # Podemos usar "sugar syntax"
 # @verbose
-
-
-
-
-
-

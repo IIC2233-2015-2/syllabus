@@ -27,25 +27,3 @@ saludar('P-chan', 'Ivania')
 print("Despúes de que saluda a Ivania")
 saludar('P-chan', 'Pato')
 print("Después de que saluda a Pato")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
