@@ -1,6 +1,6 @@
 # Control 1 
 
-### Pregunta 1
+### Forma 1
 **¿Qué es el overriding de operadores y para qué sirve? Escriba un ejemplo (en código).**
 
 ###### Basado en el material de [**Poliformismo**](https://github.com/IIC2233-2015-2/syllabus/blob/master/Material%20de%20clases/01_OOP/3-Polimorfismo.html)
@@ -32,14 +32,14 @@ class Curso():
 # len(IIC2233_2015_2) + len(IIC2233_2015_1)
 ```
 
-### Pregunta 2
+### Forma 2
 **Explique cómo la sentencia `super()` permite evitar el problema del diamante.**
 
 ###### Basado en el material de [**Herencia y Multiherencia**](https://github.com/IIC2233-2015-2/syllabus/blob/master/Material%20de%20clases/01_OOP/2-Herencia-Multiherencia.html)
 
 Para que cada clase se preocupe de llamar el método de la clase que la *precede* en el orden del esquema de multiherencia, debemos decirle este orden a Python. Pero, ¿cómo lo hacemos? A través de la sentencia `super()`. Esta sentencia permite evitar el problema del diamante **diciendole a Python desde donde hereda** la sub-clase (la que *invoca* `super()`), lo que permitirá que Python se encargue de que la llamada corresponda a la clase que respeta el orden en la multiherencia.
 
-### Pregunta 3
+### Forma 3
 **¿Cuál es la diferencia entre una variable que pertenece a la clase y una que pertenece a la instancia? Explique cómo se define la variable en cada uno de los casos.**
 
 En el caso de las **variables de clase** estas corresponden a las definidas dentro del bloque de clase (`class ...`), y son comunes a todas las instancias. Mientras que las **variables de una instancia** se definen en tiempo de ejecución, cuando usamos `__init__` por ejemplo y cuyo valor solo pertenece a la instancia.
