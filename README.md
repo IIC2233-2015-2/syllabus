@@ -50,6 +50,8 @@ Todas las Actividades (AC) son evaluadas.
 | Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | 10:30 - Deadline (recordar: Diagrama vía SIDING) |
 | Martes 8 | [AC08](Actividades/AC08) | Decoradores | Último de Functional|
 | Jueves 10| [AC09](Actividades/AC09) | Metaclases  | |
+| Martes 15| [AC10](Actividades/AC10) | Metaclases  | Si, otra vez. |
+| Jueves 17| [AC11](Actividades/AC11) | Abstract classes | |
 | Viernes 18 | [T02](Tareas/T02) | EDD y Programación Funcional | 10:30 - Deadline |
 | Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
