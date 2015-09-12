@@ -127,6 +127,7 @@ Todas las Actividades (AC) son evaluadas.
 | Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
 | Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
 | Nicolás Santibañez    | Tarea       | [@nfsantibanez](https://github.com/nfsantibanez) | nfsantibanez@uc.cl |
+| Antonio López         | Tarea       | [@alopez7](https://github.com/alopez7) | alopez7@uc.cl |
 
 ## Descripcion del curso
 
