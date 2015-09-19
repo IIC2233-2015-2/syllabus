@@ -53,7 +53,7 @@ Todas las Actividades (AC) son evaluadas.
 | Martes 15| [AC10](Actividades/AC10) | Metaclases  | Si, otra vez. |
 | Jueves 17| [AC11](Actividades/AC11) | Abstract classes | |
 | Viernes 18 | [T02](Tareas/T02) | EDD y Programación Funcional | 10:30 - Deadline |
-| Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
+| Lunes 21  | **I1**    | Hasta metaclases (incluido) | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
