@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="utf-8" />
-<title>02-manejo-excepciones</title>
+<title>01-excepciones-intro</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -189,7 +189,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Generando-Excepciones">Generando Excepciones<a class="anchor-link" href="#Generando-Excepciones">&#182;</a></h1>
+<h1 id="Excepciones">Excepciones<a class="anchor-link" href="#Excepciones">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -198,30 +198,78 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Para gatillar una excepción dentro de un programa, una clase o una función se utiliza la sentencia <b>raise</b>. Las excepciones permiten opcionalmente incluir, junto con la definición del tipo de excepción, un mensaje explicativo definido por el usuario.</p>
+<p>Las excepciones corresponden a errores de ejecución o situaciones en las cuales el programa <b>NO</b> puede obtener un valor válido o esperado. En su mayoría son indicadores de que algo va mal con la ejecución del programa durante <b>situaciones legítimas</b>, debido a que los datos utilizados no son los esperados en alguna sección de nuestro programa de acuerdo al diseño que realizamos. Por ejemplo, error del usuario al ingresar un dato o suministrar entradas no válidas a una función. Estas situaciones anómalas producen el término inesperado del programa. Comúnmente los lenguajes de programación modelan las excepciones como un objeto.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Tipos-de-excepciones">Tipos de excepciones<a class="anchor-link" href="#Tipos-de-excepciones">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Cada lenguaje posee distintos tipos o clases de excepciones. A continuación veremos algunos ejemplos de las excepciones más comunes que podrían suceder.</p>
+<h2 id="SyntaxError-exception:">SyntaxError exception:<a class="anchor-link" href="#SyntaxError-exception:">&#182;</a></h2><p>Por ejemplo el uso de la sentencia <em>print</em> sin paréntesis es válido en Python2.x, pero incorrecto en Python3.x</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">dividir</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">den</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">den</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="c"># Aquí se genera la excepción y se incluye información </span>
-            <span class="c"># con el significado de ella.</span>
-            <span class="k">raise</span> <span class="ne">ZeroDivisionError</span><span class="p">(</span><span class="s">&#39;El denominador es 0&#39;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-    
-<span class="n">o1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">o1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="nb">print</span> <span class="s">&#39;Hola Mundo&#39;</span>
+</pre></div>
 
-<span class="n">o2</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">o2</span><span class="p">)</span>
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansicyan">  File </span><span class="ansigreen">&quot;&lt;ipython-input-21-0e74229960b6&gt;&quot;</span><span class="ansicyan">, line </span><span class="ansigreen">1</span>
+<span class="ansiyellow">    print &apos;Hola Mundo&apos;</span>
+<span class="ansigrey">                     ^</span>
+<span class="ansired">SyntaxError</span><span class="ansired">:</span> Missing parentheses in call to &apos;print&apos;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El uso de <em>print</em> válido en Python3.x. es como una función y require parámetros dentro de paréntesis <strong>()</strong>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="s">&#39;Hola Mundo&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -234,30 +282,52 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>0.75
+<pre>Hola Mundo
 </pre>
 </div>
 </div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="NameError-exception:">NameError exception:<a class="anchor-link" href="#NameError-exception:">&#182;</a></h2><p>Ocurre cuando no se encuentra un llamado local o global a algún nombre o función. Por ejemplo la entrada de datos en Python2.x es distinta a como se realiza en Python3.x</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">a</span> <span class="o">=</span> <span class="n">raw_input</span><span class="p">(</span><span class="s">&#39;Ingrese un numero: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_text output_error">
 <pre>
 <span class="ansired">---------------------------------------------------------------------------</span>
-<span class="ansired">ZeroDivisionError</span>                         Traceback (most recent call last)
-<span class="ansigreen">&lt;ipython-input-1-0a0367802236&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     11</span> print<span class="ansiyellow">(</span>o1<span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">     12</span> <span class="ansiyellow"></span>
-<span class="ansigreen">---&gt; 13</span><span class="ansiyellow"> </span>o2 <span class="ansiyellow">=</span> Operaciones<span class="ansiyellow">.</span>dividir<span class="ansiyellow">(</span><span class="ansicyan">3</span><span class="ansiyellow">,</span><span class="ansicyan">0</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">     14</span> print<span class="ansiyellow">(</span>o2<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansired">NameError</span>                                 Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-9-9dd4df144643&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">----&gt; 1</span><span class="ansiyellow"> </span>a <span class="ansiyellow">=</span> raw_input<span class="ansiyellow">(</span><span class="ansiblue">&apos;Ingrese un numero: &apos;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">      2</span> print<span class="ansiyellow">(</span>a<span class="ansiyellow">)</span><span class="ansiyellow"></span>
 
-<span class="ansigreen">&lt;ipython-input-1-0a0367802236&gt;</span> in <span class="ansicyan">dividir</span><span class="ansiblue">(num, den)</span>
-<span class="ansigreen">      5</span>             <span class="ansired"># Aquí se genera la excepción y se incluye información</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
-<span class="ansigreen">      6</span>             <span class="ansired"># con el significado de ella.</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
-<span class="ansigreen">----&gt; 7</span><span class="ansiyellow">             </span><span class="ansigreen">raise</span> ZeroDivisionError<span class="ansiyellow">(</span><span class="ansiblue">&apos;El denominador es 0&apos;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">      8</span>         <span class="ansigreen">return</span> float<span class="ansiyellow">(</span>num<span class="ansiyellow">)</span><span class="ansiyellow">/</span>float<span class="ansiyellow">(</span>den<span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">      9</span> <span class="ansiyellow"></span>
-
-<span class="ansired">ZeroDivisionError</span>: El denominador es 0</pre>
+<span class="ansired">NameError</span>: name &apos;raw_input&apos; is not defined</pre>
 </div>
 </div>
 
@@ -270,57 +340,18 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Las excepciones son anidables. Si una excepción ocurre dentro de una función llamada por otra, la excepción interrumpe todas las funciones superiores y el programa completo. Una vez que ocurre la excepción el resto del código no se ejecuta y termina el programa</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Generando-Excepciones-Personalizadas">Generando Excepciones Personalizadas<a class="anchor-link" href="#Generando-Excepciones-Personalizadas">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En general Python denomina a casi todas sus excepciones como <b>ERRORES</b>. Además de las excepciones existentes, es posible producir nuestras propias excepciones mediante la excepción general controlada por la clase <b>Exception</b>.</p>
-<p>Por ejemplo, creemos una clase que al momento de crear un objeto requiera como parámetro de entrada una tupla de dos elementos y por lo tanto que controle cuando esto no ocurra.</p>
+<p>En Python3.x. la funcion raw_input() fue renombrada a input(), por lo tanto la llamada a este nombre no puede ser hallado por el interprete.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Circulo</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">centro</span><span class="p">):</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">centro</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&#39;El centro debe ser una tupla&#39;</span><span class="p">)</span>
-            <span class="c"># recordar que cuando ocurre el raise la ejecución se interrumpe</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Esta línea no se imprime&#39;</span><span class="p">)</span>
-            
-        <span class="bp">self</span><span class="o">.</span><span class="n">centro</span> <span class="o">=</span> <span class="n">centro</span>
-
-    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s">&#39;El centro es {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">centro</span><span class="p">)</span>
-
-
-<span class="c"># Caso correcto donde se crea un objeto usando una tupla</span>
-<span class="n">c1</span> <span class="o">=</span> <span class="n">Circulo</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>
-
-<span class="c"># Caso que genera la excepción al usar una lista como entrada</span>
-<span class="n">c2</span> <span class="o">=</span> <span class="n">Circulo</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">c2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&#39;Ingrese un numero: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -333,92 +364,8 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>El centro es (2, 3)
-</pre>
-</div>
-</div>
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansired">---------------------------------------------------------------------------</span>
-<span class="ansired">Exception</span>                                 Traceback (most recent call last)
-<span class="ansigreen">&lt;ipython-input-4-42484f851f2c&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     18</span> <span class="ansiyellow"></span>
-<span class="ansigreen">     19</span> <span class="ansired"># Caso que genera la excepción al usar una lista como entrada</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
-<span class="ansigreen">---&gt; 20</span><span class="ansiyellow"> </span>c2 <span class="ansiyellow">=</span> Circulo<span class="ansiyellow">(</span><span class="ansiyellow">[</span><span class="ansicyan">2</span><span class="ansiyellow">,</span><span class="ansicyan">3</span><span class="ansiyellow">]</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">     21</span> print<span class="ansiyellow">(</span>c2<span class="ansiyellow">)</span><span class="ansiyellow"></span>
-
-<span class="ansigreen">&lt;ipython-input-4-42484f851f2c&gt;</span> in <span class="ansicyan">__init__</span><span class="ansiblue">(self, centro)</span>
-<span class="ansigreen">      3</span>     <span class="ansigreen">def</span> __init__<span class="ansiyellow">(</span>self<span class="ansiyellow">,</span> centro<span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
-<span class="ansigreen">      4</span>         <span class="ansigreen">if</span> <span class="ansigreen">not</span> isinstance<span class="ansiyellow">(</span>centro<span class="ansiyellow">,</span> tuple<span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
-<span class="ansigreen">----&gt; 5</span><span class="ansiyellow">             </span><span class="ansigreen">raise</span> Exception<span class="ansiyellow">(</span><span class="ansiblue">&apos;El centro debe ser una tupla&apos;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">      6</span>             <span class="ansired"># recordar que cuando ocurre el raise la ejecución se interrumpe</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
-<span class="ansigreen">      7</span>             print<span class="ansiyellow">(</span><span class="ansiblue">&apos;Esta línea no se imprime&apos;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-
-<span class="ansired">Exception</span>: El centro debe ser una tupla</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Manejo-de-Excepciones">Manejo de Excepciones<a class="anchor-link" href="#Manejo-de-Excepciones">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Cada vez que se produce una excepción es posible manejarla mediante el conjunto de sentencias <b>try</b> y <b>except</b>. En este caso, cuando un excepción se produce dentro del bloque de instrucciones definidas en el <i>try</i> el programa continua su curso normalmente y <b>no</b> se detiene. Junto al <i>try</i> se utiliza la sentencia la sentencia <b>except</b> en donde se define el tratamiento que se le dará a la excepción según sea su tipo.</p>
-<p>A continución usaremos el mismo ejemplo de la función para dividir dos número. Durante la ejecución podemos observamos que el error no ocurre a pesar que los datos ingresados para realizar la función no son válidos.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">dividir</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">den</span><span class="p">):</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-        <span class="k">except</span> <span class="p">(</span><span class="ne">ZeroDivisionError</span><span class="p">)</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Aquí hacemos el tratamiento de la excepción.</span>
-            <span class="c"># El error ocurre y lo señalamos, pero el programa sigue su ejecución normal</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;El denominador debe ser distinto de 0&#39;</span><span class="p">)</span>
-        
-<span class="n">o1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">o1</span><span class="p">)</span>
-
-<span class="n">o2</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0.8
-Error: float division by zero
-El denominador debe ser distinto de 0
+<pre>Ingrese un numero: 4
+4
 </pre>
 </div>
 </div>
@@ -432,7 +379,7 @@ El denominador debe ser distinto de 0
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>En la sentencia <b>except</b> podemos incluir varios tipos de excepciones. En este caso las causas que generarán las excepciones son distintas, pero el tratamiento para todas ellas será el mismo. Si lo que necesitamos es realizar un tratamiento diferenciado según el tipo de excepción podemos adicionar más bloques de <i>except</i>, en donde cada uno tiene definido la excepción sobre la que debe actuar.</p>
+<h2 id="ZeroDivisionError-exception:">ZeroDivisionError exception:<a class="anchor-link" href="#ZeroDivisionError-exception:">&#182;</a></h2><p>Esta excepción ocurre cuando el segundo elemento o denominador de una división es cero. En el ejemplo vemos que la función <em>dividir</em> está correctamente escrita, sin embargo, los valores ingresados por el usuario son incorrectos.</p>
 
 </div>
 </div>
@@ -442,37 +389,8 @@ El denominador debe ser distinto de 0
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">dividir</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">den</span><span class="p">):</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="c"># verificamos que los parámetros de entrada sean de un tipo específico</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">()</span>
-
-            <span class="c"># Verificamos que el numerador y denominador sean positivos</span>
-            <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">den</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="c"># El mensaje que se incluye en Exception() es que se despliega</span>
-                <span class="c"># una vez que se maneja la excepcion</span>
-                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&#39;Valores negativos&#39;</span><span class="p">)</span>
-                
-            <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-        
-        <span class="c"># En esta parte manejamos las excepciones una vez que ocurren</span>
-        <span class="k">except</span> <span class="p">(</span><span class="ne">ZeroDivisionError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">)</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Este bloque opera para los tipos de excepciones definidos</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Revise los datos de entrada</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
-        
-        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Este bloque solo maneja excepciones del tipo Except&#39;&#39;&#39;</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Cambie los valores de entrada</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
-
-            
-
-<span class="n">o1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mf">4.5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="n">o2</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">dividir</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span><span class="o">/</span><span class="n">y</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">dividir</span><span class="p">(</span><span class="mf">5.0</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -484,14 +402,15 @@ El denominador debe ser distinto de 0
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Error: 
-Revise los datos de entrada
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">ZeroDivisionError</span>                         Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-11-013092bb405a&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      1</span> dividir <span class="ansiyellow">=</span> <span class="ansigreen">lambda</span> x<span class="ansiyellow">,</span> y<span class="ansiyellow">:</span> x<span class="ansiyellow">/</span>y<span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 2</span><span class="ansiyellow"> </span>x <span class="ansiyellow">=</span> dividir<span class="ansiyellow">(</span><span class="ansicyan">5.0</span> <span class="ansiyellow">/</span> <span class="ansicyan">0</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
 
-Error: Valores negativos
-Cambie los valores de entrada
-
-</pre>
+<span class="ansired">ZeroDivisionError</span>: float division by zero</pre>
 </div>
 </div>
 
@@ -504,49 +423,18 @@ Cambie los valores de entrada
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>El bloque de <em>try</em> y <em>except</em> puede ser complementado opcionalmente mediante las sentencias <b>else</b> y <b>finally</b>. Las instrucciones dentro del bloque <i>else</i> se ejecutarán siempre y cuando no se produzca ninguna excepción. En el bloque de la sentencia <em>finally</em> van instrucciones que se realizan siempre, para todos los casos. La sentencia <em>finally</em> es comunmente usada para gatillar acciones de limpieza, como por ejemplo, cerrar un archivo independientemente si este fue exitosamente abierto o no.</p>
+<h2 id="IndexError-exception:">IndexError exception:<a class="anchor-link" href="#IndexError-exception:">&#182;</a></h2><p>Ocurre cuando existe una indexación fuera de rango. El error típico es refereciar un elemento dentro de una lista (o tupla) con un índice que excede los índices válidos acorde al número de elementos que contiene la lista. Por ejemplo, al considerar que la cuenta de los elementos comienza en 1. Siempre las listas se indexan desde 0 hasta len(lista) - 1.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">dividir</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">den</span><span class="p">):</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">()</span>
-
-            <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">den</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&#39;Valores negativos&#39;</span><span class="p">)</span>
-            
-            <span class="n">resultado</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-        
-        <span class="k">except</span> <span class="p">(</span><span class="ne">ZeroDivisionError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">):</span>
-            <span class="c"># Este bloque opera para los tipos de excepciones definidos</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Revise los datos de entrada, no son ints o bien el denominador es 0!&#39;</span><span class="p">)</span>
-        
-        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
-            <span class="c"># Este bloque solo maneja excepciones del tipo Except</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Los valores ingresados son negativos&#39;</span><span class="p">)</span>
-        
-        <span class="k">else</span><span class="p">:</span>
-            <span class="c"># Como no hubo excepciones puede retornar normalmente el resultado</span>
-            <span class="c"># En este caso si se coloca el return después de la operación, </span>
-            <span class="c"># si esta es correcta nunca llegará a este punto</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Todo OK!, no hay errores con los datos&#39;</span><span class="p">)</span>
-            <span class="k">return</span> <span class="n">resultado</span>
-        
-        <span class="k">finally</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Recuerde SIEMPRE usar excepciones para manejar los errores de su programa</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
-            
-<span class="n">o1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">o2</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s">&#39;resultado: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">o2</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">edad</span> <span class="o">=</span> <span class="p">[</span><span class="mi">36</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">edad</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -558,15 +446,15 @@ Cambie los valores de entrada
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Revise los datos de entrada, no son ints o bien el denominador es 0!
-Recuerde SIEMPRE usar excepciones para manejar los errores de su programa
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">IndexError</span>                                Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-12-d225b7442f63&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      1</span> edad <span class="ansiyellow">=</span> <span class="ansiyellow">[</span><span class="ansicyan">36</span><span class="ansiyellow">,</span> <span class="ansicyan">23</span><span class="ansiyellow">,</span> <span class="ansicyan">12</span><span class="ansiyellow">]</span><span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 2</span><span class="ansiyellow"> </span>print<span class="ansiyellow">(</span>edad<span class="ansiyellow">[</span><span class="ansicyan">3</span><span class="ansiyellow">]</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
 
-Todo OK!, no hay errores con los datos
-Recuerde SIEMPRE usar excepciones para manejar los errores de su programa
-
-resultado: 3.3333333333333335
-</pre>
+<span class="ansired">IndexError</span>: list index out of range</pre>
 </div>
 </div>
 
@@ -579,64 +467,19 @@ resultado: 3.3333333333333335
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Creando-Excepciones-Personalizadas">Creando Excepciones Personalizadas<a class="anchor-link" href="#Creando-Excepciones-Personalizadas">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En Python todas las excepciones descienden de BaseException. A partir de ella existen tres tipos de excepciones: <b>SystemExit</b>, <b>KeyboardInterrupt</b>, y <b>Exception</b>. Todas las excepcion generadas por errores durante la ejecución son subclases de <i>Exception</i>, tal como se muestra en el siguiente diagrama.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/jerarquia-excepciones.png" width=60%></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Esto quiere decir, que si se usa Exception para tratar las excepciones, actuaremos sobre todas las subclases de Exception. De esta forma el tratamiento es general y no específico a un tipo de error en especial.</p>
+<h2 id="TypeError-exception:">TypeError exception:<a class="anchor-link" href="#TypeError-exception:">&#182;</a></h2><p>Esta excepción suele ocurrir con el manejo erróneo de tipos de datos. Un error común es concatenar una lista con datos que no son una lista. En este ejemplo, la función está definida como la suma de variables, sin embargo, debido al duck-typing el operador suma se comporta distinto para distintos tipos de datos, lo que puede llevar a un error en tiempo de ejecución.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">dividir</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">den</span><span class="p">):</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">()</span>
-
-            <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">den</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&#39;Valores negativos&#39;</span><span class="p">)</span>
-                
-            <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-        
-        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Este bloque opera para todos los tipos de excepciones</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Revise los datos de entrada&#39;</span><span class="p">)</span>
-        
-<span class="n">o1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">dividir</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">o1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">juntar</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span>
+<span class="n">edades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">36</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">juntar</span><span class="p">(</span><span class="n">edades</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -648,11 +491,21 @@ resultado: 3.3333333333333335
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Error: float division by zero
-Revise los datos de entrada
-None
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-16-12204954763e&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      1</span> juntar <span class="ansiyellow">=</span> <span class="ansigreen">lambda</span> x<span class="ansiyellow">,</span> y<span class="ansiyellow">:</span> x<span class="ansiyellow">+</span>y<span class="ansiyellow"></span>
+<span class="ansigreen">      2</span> edades <span class="ansiyellow">=</span> <span class="ansiyellow">[</span><span class="ansicyan">36</span><span class="ansiyellow">,</span> <span class="ansicyan">23</span><span class="ansiyellow">,</span> <span class="ansicyan">12</span><span class="ansiyellow">]</span><span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 3</span><span class="ansiyellow"> </span>print<span class="ansiyellow">(</span>juntar<span class="ansiyellow">(</span>edades<span class="ansiyellow">,</span> <span class="ansicyan">2</span><span class="ansiyellow">)</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+
+<span class="ansigreen">&lt;ipython-input-16-12204954763e&gt;</span> in <span class="ansicyan">&lt;lambda&gt;</span><span class="ansiblue">(x, y)</span>
+<span class="ansigreen">----&gt; 1</span><span class="ansiyellow"> </span>juntar <span class="ansiyellow">=</span> <span class="ansigreen">lambda</span> x<span class="ansiyellow">,</span> y<span class="ansiyellow">:</span> x<span class="ansiyellow">+</span>y<span class="ansiyellow"></span>
+<span class="ansigreen">      2</span> edades <span class="ansiyellow">=</span> <span class="ansiyellow">[</span><span class="ansicyan">36</span><span class="ansiyellow">,</span> <span class="ansicyan">23</span><span class="ansiyellow">,</span> <span class="ansicyan">12</span><span class="ansiyellow">]</span><span class="ansiyellow"></span>
+<span class="ansigreen">      3</span> print<span class="ansiyellow">(</span>juntar<span class="ansiyellow">(</span>edades<span class="ansiyellow">,</span> <span class="ansicyan">2</span><span class="ansiyellow">)</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+
+<span class="ansired">TypeError</span>: can only concatenate list (not &quot;int&quot;) to list</pre>
 </div>
 </div>
 
@@ -665,46 +518,19 @@ None
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Para crear personalizar nuestros propios tipos de excepciones debemos heredar desde la clase Exception. Podemos modificar el comportamiento heredado sobre-escribiedo los métodos que tiene implementado la clase Exception.</p>
+<p>Como ocurre a continuación, el manejo correcto para concatenar una lista con otra es que ambos elementos deben ser una lista.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Excepcion1</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
-    <span class="k">pass</span>
-
-<span class="k">class</span> <span class="nc">Excepcion2</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-        <span class="c"># sobre escribimos el __init__ para cambiar el ingreso de los parámetros</span>
-        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="s">&#39;Alguno de los valores {0} o {1} no son enteros</span><span class="se">\n</span><span class="s">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
-        
-<span class="k">class</span> <span class="nc">Operaciones</span><span class="p">:</span>
-    
-    <span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">den</span><span class="p">):</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span>
-                <span class="k">raise</span> <span class="n">Excepcion2</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">den</span><span class="p">)</span>
-
-            <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">den</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="n">Excepcion1</span><span class="p">(</span><span class="s">&#39;Los valores son negativos</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
-                
-            <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">den</span><span class="p">)</span>
-        
-        <span class="k">except</span> <span class="n">Excepcion1</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Este bloque opera para la Excepcion1</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-
-        <span class="k">except</span> <span class="n">Excepcion2</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="c"># Este bloque opera para Excepcion2 cuando los datos no son enteros</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
-
-<span class="n">op1</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">3</span><span class="p">)</span>
-<span class="n">op2</span> <span class="o">=</span> <span class="n">Operaciones</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mf">4.4</span><span class="p">,</span><span class="o">-</span><span class="mi">3</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">juntar</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span>
+<span class="n">edades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">36</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">juntar</span><span class="p">(</span><span class="n">edades</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
 </pre></div>
 
 </div>
@@ -717,10 +543,7 @@ None
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Error: Los valores son negativos
-
-Error: Alguno de los valores 4.4 o -3 no son enteros
-
+<pre>[36, 23, 12, 2]
 </pre>
 </div>
 </div>
@@ -734,41 +557,24 @@ Error: Alguno de los valores 4.4 o -3 no son enteros
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Podemos definir comportamientos más complejos para las excepciones que creamos. Como por ejemplo agregar métodos que nos permitan recuperar información de la excepción.</p>
+<h2 id="AttributeError-exception:">AttributeError exception:<a class="anchor-link" href="#AttributeError-exception:">&#182;</a></h2><p>Esta excepción señala el uso incorrecto de métodos o atributos para una clase o tipo de dato. En este ejemplo la clase <strong>Auto</strong> solo tiene definido el método avanzar, sin embargo, el usuario ejecuta el método <strong>frena()</strong> que es inexistente en esta clase.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">ErrorTransaccion</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fondos</span><span class="p">,</span> <span class="n">gasto</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="s">&quot;El dinero en la billetera no alcanza para pagar ${}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">gasto</span><span class="p">))</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">fondos</span> <span class="o">=</span> <span class="n">fondos</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">gasto</span> <span class="o">=</span> <span class="n">gasto</span>
-    
-    <span class="k">def</span> <span class="nf">exceso</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">fondos</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gasto</span>
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Auto</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">puertas</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">puertas</span> <span class="o">=</span> <span class="n">puertas</span>
+    <span class="k">def</span> <span class="nf">avanzar</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;avanzando&#39;</span><span class="p">)</span>
 
-<span class="k">class</span> <span class="nc">Billetera</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dinero</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">fondos</span> <span class="o">=</span> <span class="n">dinero</span>
-    
-    <span class="k">def</span> <span class="nf">pagar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">gasto</span><span class="p">):</span>
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">fondos</span> <span class="o">-</span> <span class="n">gasto</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="n">ErrorTransaccion</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fondos</span><span class="p">,</span> <span class="n">gasto</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">fondos</span> <span class="o">-=</span> <span class="n">gasto</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="n">Billetera</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">b</span><span class="o">.</span><span class="n">pagar</span><span class="p">(</span><span class="mi">1500</span><span class="p">)</span>
-    <span class="k">except</span> <span class="n">ErrorTransaccion</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Error: {}. Hay un exceso de gastos de ${}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">err</span><span class="p">,</span> <span class="n">err</span><span class="o">.</span><span class="n">exceso</span><span class="p">()))</span>
+<span class="n">chevi</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">()</span>
+<span class="n">chevi</span><span class="o">.</span><span class="n">frena</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -780,9 +586,16 @@ Error: Alguno de los valores 4.4 o -3 no son enteros
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Error: El dinero en la billetera no alcanza para pagar $1500. Hay un exceso de gastos de $-500.
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">AttributeError</span>                            Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-18-36e17e2f6697&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      6</span> <span class="ansiyellow"></span>
+<span class="ansigreen">      7</span> chevi <span class="ansiyellow">=</span> Auto<span class="ansiyellow">(</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 8</span><span class="ansiyellow"> </span>chevi<span class="ansiyellow">.</span>frena<span class="ansiyellow">(</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+
+<span class="ansired">AttributeError</span>: &apos;Auto&apos; object has no attribute &apos;frena&apos;</pre>
 </div>
 </div>
 
@@ -795,22 +608,44 @@ Error: Alguno de los valores 4.4 o -3 no son enteros
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Observaciones">Observaciones<a class="anchor-link" href="#Observaciones">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>El manejo de excepciones es otra forma de control del flujo del programa, similar a lo que ocurre con la sentencia IF.</li>
-<li>IF vs manejo de excepciones? Usar las excepciones para circunstancias excepcionales, por muy poco excepcionales que estas sean. Modelar lo mismo usando IFs puede generar casos particulares que complejizan el diseño del programa.</li>
-</ul>
+<h2 id="KeyError-exception:">KeyError exception:<a class="anchor-link" href="#KeyError-exception:">&#182;</a></h2><p>Esta excepción tiene relación con el uso incorrecto de llaves en diccionarios. En el ejemplo a continuación el usuario pide un dato asociado a una llave inexistente en el diccionario.</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">libro</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;autor&#39;</span><span class="p">:</span> <span class="s">&#39;Juanito Los Palotes&#39;</span><span class="p">,</span> <span class="s">&#39;paginas&#39;</span><span class="p">:</span><span class="s">&#39;muchas&#39;</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">libro</span><span class="p">[</span><span class="s">&#39;editorial&#39;</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">KeyError</span>                                  Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-20-3bfb368482f2&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      1</span> libro <span class="ansiyellow">=</span> <span class="ansiyellow">{</span><span class="ansiblue">&apos;autor&apos;</span><span class="ansiyellow">:</span> <span class="ansiblue">&apos;Juanito Los Palotes&apos;</span><span class="ansiyellow">,</span> <span class="ansiblue">&apos;paginas&apos;</span><span class="ansiyellow">:</span><span class="ansiblue">&apos;muchas&apos;</span><span class="ansiyellow">}</span><span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 2</span><span class="ansiyellow"> </span>print<span class="ansiyellow">(</span>libro<span class="ansiyellow">[</span><span class="ansiblue">&apos;editorial&apos;</span><span class="ansiyellow">]</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+
+<span class="ansired">KeyError</span>: &apos;editorial&apos;</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     </div>
   </div>
