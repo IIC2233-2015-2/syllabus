@@ -56,6 +56,7 @@ Todas las Actividades (AC) son evaluadas.
 | Lunes 21 | **I1**    | Hasta metaclases (incluido) | 18:30 - Salas avisadas por SIDING. |
 | Martes 22| [AC11](Actividades/AC11) | Abstract classes | **No hay clases.** Enunciado subido como propuesto. |
 | Jueves 24| [AC12](Actividades/AC12) | Manejo de excepciones | |
+| Jueves 24| [AC13](Actividades/AC13) | Testing con Unittest | |
 
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
@@ -104,7 +105,6 @@ Todas las Actividades (AC) son evaluadas.
 |:--------------------- |:------------|:-------------|:--------------|
 | Antonio Ossa          | Docencia    | [@aaossa](https://www.github.com/aaossa) | aaossa@uc.cl |
 | Ivania Donoso         | Docencia    | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
-| Félix Fischer         | Docencia    | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
 | Felipe Garrido        | Docencia    | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
 | Matias Jünemann       | Tarea       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
 | Carlos Santander      | Tarea       | [@cjsantander](https://www.github.com/cjsantander) | cjsantander@uc.cl |
