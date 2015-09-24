@@ -56,7 +56,7 @@ Todas las Actividades (AC) son evaluadas.
 | Lunes 21 | **I1**    | Hasta metaclases (incluido) | 18:30 - Salas avisadas por SIDING. |
 | Martes 22| [AC11](Actividades/AC11) | Abstract classes | **No hay clases.** Enunciado subido como propuesto. |
 | Jueves 24| [AC12](Actividades/AC12) | Manejo de excepciones | |
-| Jueves 24| [AC13](Actividades/AC13) | Testing con Unittest | |
+| Martes 29| [AC13](Actividades/AC13) | Testing con Unittest | |
 
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
