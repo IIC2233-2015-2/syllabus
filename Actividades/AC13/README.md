@@ -1,6 +1,6 @@
 ### Información
 
-### Lo importante es que se mantengas los puestos !
+### Lo importante es que se mantengas las parejas !
 
 Las parejas para cada actividad son generadas de forma aleatoria y publicadas antes de cada cátedra. 
 
