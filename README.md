@@ -1,4 +1,4 @@
-# IIC2233 - Programación Avanzada
+﻿# IIC2233 - Programación Avanzada
 
 ## Tabla de contenidos
 * [Calendario](#calendario)
@@ -61,7 +61,7 @@ Todas las Actividades (AC) son evaluadas.
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-| Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | |
+| Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | ¡Instalen Pytest! |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
