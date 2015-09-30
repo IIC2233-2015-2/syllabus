@@ -47,12 +47,12 @@ Todas las Actividades (AC) son evaluadas.
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 1 | [AC06](Actividades/AC06) | Functional | Hasta generadores |
 | Jueves 3 | [AC07](Actividades/AC07) | Functional | Desde Lambda Functions |
-| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | 10:30 - Deadline (recordar: Diagrama vía SIDING) |
+| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | **10:30 - Deadline** (recordar: Diagrama vía SIDING) |
 | Martes 8 | [AC08](Actividades/AC08) | Decoradores | Último de Functional|
 | Jueves 10| [AC09](Actividades/AC09) | Metaclases  | |
 | Martes 15| [AC10](Actividades/AC10) | Metaclases  | Si, otra vez. |
 | Jueves 17| [AC11](Actividades/AC11) | Abstract classes | **Suspendida por el terremoto** |
-| Viernes 18 | [T02](Tareas/T02) | EDD y Programación Funcional | 10:30 - Deadline |
+| Viernes 18 | [T02](Tareas/T02) | EDD y Programación Funcional | **10:30 - Deadline** |
 | Lunes 21 | **I1**    | Hasta metaclases (incluido) | 18:30 - Salas avisadas por SIDING. |
 | Martes 22| [AC11](Actividades/AC11) | Abstract classes | **No hay clases.** Enunciado subido como propuesto. |
 | Jueves 24| [AC12](Actividades/AC12) | Manejo de excepciones | |
@@ -62,6 +62,7 @@ Todas las Actividades (AC) son evaluadas.
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
 | Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | ¡Instalen Pytest! |
+| Miércoles 7 | [T03](Tareas/T03) | Testing y Exceptiones | **23:59 - Deadline** |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
