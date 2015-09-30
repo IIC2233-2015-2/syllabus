@@ -61,7 +61,7 @@ Todas las Actividades (AC) son evaluadas.
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-|           | | | |
+| Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
