@@ -126,12 +126,10 @@ Todas las Actividades (AC) son evaluadas.
 | Vicente Besa          | Tarea       | [@vabesa](https://github.com/vabesa) | vabesa@uc.cl |
 | Rodolfo Palma         | Tarea       | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
 | Eduardo Vildosola     | Tarea       | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
-| Diego Alliende        | Tarea       | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
 | Guillermo Figueroa    | Tarea       | [@gafigueroa](https://github.com/gafigueroa) | gafigueroa@uc.cl |
 | Fernando Florenzano   | Tarea       | [@fdoflorenzano](https://github.com/fdoflorenzano) | faflorenzano@uc.cl |
 | Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
 | Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
-| Nicolás Santibañez    | Tarea       | [@nfsantibanez](https://github.com/nfsantibanez) | nfsantibanez@uc.cl |
 | Antonio López         | Tarea       | [@alopez7](https://github.com/alopez7) | alopez7@uc.cl |
 
 ## Descripcion del curso
