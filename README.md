@@ -62,7 +62,9 @@ Todas las Actividades (AC) son evaluadas.
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
 | Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | ¡Instalen Pytest! |
+| Martes 6 | [AC15](Actividades/AC15) | Threading básico |  |
 | Miércoles 7 | [T03](Tareas/T03) | Testing y Exceptiones | **23:59 - Deadline** |
+| Jueves 8 | [AC16](Actividades/AC16) | Threading avanzado | |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
