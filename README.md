@@ -65,6 +65,8 @@ Todas las Actividades (AC) son evaluadas.
 | Martes 6 | [AC15](Actividades/AC15) | Threading básico |  |
 | Miércoles 7 | [T03](Tareas/T03) | Testing y Exceptiones | **23:59 - Deadline** |
 | Jueves 8 | [AC16](Actividades/AC16) | Threading avanzado | |
+| Martes 13 | [AC17](Actividades/AC17) | Simulación | | 
+| Jueves 15 | [AC18](Actividades/AC18) | Simulación con SimPy | ** Instalen SimPy** |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
