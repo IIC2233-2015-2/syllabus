@@ -1,0 +1,401 @@
+20x20
+0,0 casa de metal [16, 30]
+0,1 calle abajo
+0,2 casa de hormigon [18, 37]
+0,3 casa de metal [14, 37]
+0,4 calle arriba
+0,5 casa de hormigon [19, 33]
+0,6 casa de ladrillos [14, 32]
+0,7 calle abajo
+0,8 casa de madera [19, 34]
+0,9 casa de ladrillos [14, 31]
+0,10 casa de madera [20, 35]
+0,11 calle arriba
+0,12 casa de metal [18, 31]
+0,13 casa de hormigon [16, 35]
+0,14 casa de ladrillos [18, 37]
+0,15 calle abajo
+0,16 casa de metal [18, 34]
+0,17 casa de madera [18, 30]
+0,18 calle arriba
+0,19 casa de madera [16, 40]
+1,0 casa de madera [19, 37]
+1,1 calle abajo
+1,2 casa de hormigon [13, 35]
+1,3 casa de madera [13, 39]
+1,4 calle arriba
+1,5 casa de ladrillos [13, 32]
+1,6 casa de metal [11, 31]
+1,7 calle abajo
+1,8 calle abajo
+1,9 casa de hormigon [18, 37]
+1,10 casa de madera [14, 38]
+1,11 calle arriba
+1,12 calle arriba
+1,13 casa de hormigon [11, 38]
+1,14 casa de hormigon [18, 33]
+1,15 calle abajo
+1,16 casa de hormigon [17, 31]
+1,17 casa de metal [15, 39]
+1,18 calle arriba
+1,19 casa de ladrillos [14, 32]
+2,0 casa de ladrillos [12, 30]
+2,1 calle abajo
+2,2 casa de hormigon [17, 31]
+2,3 casa de madera [20, 32]
+2,4 calle arriba
+2,5 casa de ladrillos [10, 31]
+2,6 casa de metal [18, 34]
+2,7 calle abajo
+2,8 calle abajo
+2,9 casa de ladrillos [13, 40]
+2,10 casa de metal [19, 34]
+2,11 calle arriba
+2,12 calle arriba
+2,13 casa de metal [17, 40]
+2,14 casa de hormigon [11, 35]
+2,15 calle abajo
+2,16 casa de madera [17, 39]
+2,17 casa de hormigon [13, 33]
+2,18 calle arriba
+2,19 casa de madera [14, 31]
+3,0 casa de ladrillos [15, 32]
+3,1 calle izquierda
+3,2 calle izquierda
+3,3 calle izquierda
+3,4 calle arriba
+3,5 calle izquierda
+3,6 calle izquierda
+3,7 calle abajo
+3,8 calle abajo
+3,9 calle izquierda
+3,10 calle izquierda
+3,11 calle arriba
+3,12 calle arriba
+3,13 calle izquierda
+3,14 calle izquierda
+3,15 calle abajo
+3,16 calle izquierda
+3,17 calle izquierda
+3,18 calle arriba
+3,19 casa de hormigon [16, 30]
+4,0 casa de madera [12, 33]
+4,1 calle abajo
+4,2 casa de madera [19, 40]
+4,3 casa de madera [10, 31]
+4,4 calle arriba
+4,5 vacio
+4,6 casa de madera [16, 31]
+4,7 calle abajo
+4,8 calle abajo
+4,9 casa de hormigon [11, 30]
+4,10 casa de madera [13, 32]
+4,11 calle arriba
+4,12 calle arriba
+4,13 casa de madera [17, 33]
+4,14 casa de madera [20, 30]
+4,15 calle abajo
+4,16 casa de metal [19, 31]
+4,17 casa de hormigon [11, 33]
+4,18 calle arriba
+4,19 casa de madera [20, 34]
+5,0 casa de hormigon [16, 32]
+5,1 calle abajo
+5,2 casa de madera [18, 37]
+5,3 casa de madera [19, 31]
+5,4 calle arriba
+5,5 casa de metal [13, 34]
+5,6 casa de hormigon [17, 39]
+5,7 calle abajo
+5,8 calle abajo
+5,9 casa de ladrillos [20, 33]
+5,10 casa de madera [20, 32]
+5,11 calle arriba
+5,12 calle arriba
+5,13 casa de ladrillos [15, 38]
+5,14 casa de hormigon [11, 39]
+5,15 calle abajo
+5,16 casa de metal [20, 32]
+5,17 casa de madera [17, 40]
+5,18 calle arriba
+5,19 casa de metal [19, 38]
+6,0 casa de hormigon [20, 35]
+6,1 calle abajo
+6,2 casa de metal [20, 34]
+6,3 casa de ladrillos [18, 30]
+6,4 calle arriba
+6,5 casa de metal [11, 35]
+6,6 casa de madera [18, 34]
+6,7 calle abajo
+6,8 calle abajo
+6,9 casa de ladrillos [13, 37]
+6,10 casa de hormigon [19, 34]
+6,11 calle arriba
+6,12 calle arriba
+6,13 casa de hormigon [19, 40]
+6,14 casa de ladrillos [14, 36]
+6,15 calle abajo
+6,16 casa de metal [20, 31]
+6,17 casa de madera [19, 33]
+6,18 calle arriba
+6,19 casa de hormigon [12, 33]
+7,0 casa de ladrillos [20, 37]
+7,1 calle derecha
+7,2 calle derecha
+7,3 calle derecha
+7,4 calle arriba
+7,5 calle derecha
+7,6 calle derecha
+7,7 calle abajo
+7,8 calle abajo
+7,9 casa de metal [20, 39]
+7,10 casa de metal [10, 36]
+7,11 calle arriba
+7,12 calle arriba
+7,13 casa de metal [20, 30]
+7,14 casa de ladrillos [17, 31]
+7,15 calle abajo
+7,16 casa de hormigon [12, 37]
+7,17 casa de metal [18, 39]
+7,18 calle arriba
+7,19 casa de madera [10, 37]
+8,0 casa de hormigon [14, 37]
+8,1 calle abajo
+8,2 casa de madera [16, 33]
+8,3 casa de madera [12, 30]
+8,4 calle arriba
+8,5 casa de metal [20, 36]
+8,6 casa de hormigon [10, 33]
+8,7 calle abajo
+8,8 calle abajo
+8,9 casa de madera [10, 40]
+8,10 casa de madera [13, 31]
+8,11 calle arriba
+8,12 calle arriba
+8,13 casa de ladrillos [14, 34]
+8,14 casa de ladrillos [11, 37]
+8,15 calle abajo
+8,16 casa de metal [20, 31]
+8,17 casa de madera [14, 37]
+8,18 calle arriba
+8,19 casa de madera [14, 32]
+9,0 casa de hormigon [11, 32]
+9,1 calle abajo
+9,2 casa de hormigon [10, 30]
+9,3 casa de madera [13, 40]
+9,4 calle arriba
+9,5 casa de hormigon [18, 35]
+9,6 casa de hormigon [19, 30]
+9,7 calle abajo
+9,8 calle abajo
+9,9 casa de metal [20, 37]
+9,10 casa de metal [15, 38]
+9,11 calle arriba
+9,12 calle arriba
+9,13 casa de ladrillos [13, 36]
+9,14 casa de hormigon [10, 32]
+9,15 calle abajo
+9,16 casa de ladrillos [14, 35]
+9,17 casa de hormigon [15, 31]
+9,18 calle arriba
+9,19 casa de hormigon [19, 30]
+10,0 casa de madera [14, 32]
+10,1 calle abajo
+10,2 casa de ladrillos [19, 34]
+10,3 casa de hormigon [16, 38]
+10,4 calle arriba
+10,5 casa de ladrillos [14, 31]
+10,6 casa de metal [13, 30]
+10,7 calle abajo
+10,8 calle abajo
+10,9 casa de hormigon [12, 38]
+10,10 casa de madera [14, 36]
+10,11 calle arriba
+10,12 calle arriba
+10,13 casa de hormigon [14, 36]
+10,14 casa de madera [11, 38]
+10,15 calle abajo
+10,16 casa de metal [17, 35]
+10,17 casa de hormigon [11, 37]
+10,18 calle arriba
+10,19 casa de madera [17, 36]
+11,0 vacio
+11,1 calle abajo
+11,2 casa de ladrillos [12, 40]
+11,3 casa de metal [20, 31]
+11,4 calle arriba
+11,5 casa de madera [11, 33]
+11,6 casa de ladrillos [10, 36]
+11,7 calle abajo
+11,8 calle abajo
+11,9 casa de madera [11, 36]
+11,10 casa de hormigon [17, 37]
+11,11 calle arriba
+11,12 calle arriba
+11,13 casa de ladrillos [16, 31]
+11,14 casa de hormigon [13, 34]
+11,15 calle abajo
+11,16 casa de ladrillos [16, 33]
+11,17 casa de hormigon [11, 31]
+11,18 calle arriba
+11,19 casa de madera [18, 37]
+12,0 casa de ladrillos [11, 37]
+12,1 calle abajo
+12,2 casa de metal [14, 33]
+12,3 casa de madera [13, 39]
+12,4 calle arriba
+12,5 casa de ladrillos [11, 33]
+12,6 casa de metal [16, 35]
+12,7 calle abajo
+12,8 calle abajo
+12,9 calle izquierda
+12,10 calle izquierda
+12,11 calle arriba
+12,12 calle arriba
+12,13 calle izquierda
+12,14 calle izquierda
+12,15 calle abajo
+12,16 calle izquierda
+12,17 calle izquierda
+12,18 calle arriba
+12,19 casa de ladrillos [11, 39]
+13,0 casa de metal [12, 39]
+13,1 calle abajo
+13,2 casa de metal [20, 40]
+13,3 casa de metal [18, 37]
+13,4 calle arriba
+13,5 casa de hormigon [17, 37]
+13,6 casa de ladrillos [18, 39]
+13,7 calle abajo
+13,8 calle abajo
+13,9 casa de ladrillos [10, 35]
+13,10 casa de hormigon [15, 30]
+13,11 calle arriba
+13,12 calle arriba
+13,13 casa de ladrillos [14, 39]
+13,14 casa de ladrillos [16, 39]
+13,15 calle abajo
+13,16 casa de hormigon [17, 31]
+13,17 casa de madera [18, 30]
+13,18 calle arriba
+13,19 casa de madera [13, 32]
+14,0 casa de madera [14, 30]
+14,1 calle abajo
+14,2 casa de metal [15, 32]
+14,3 vacio
+14,4 calle arriba
+14,5 casa de hormigon [18, 36]
+14,6 casa de madera [19, 31]
+14,7 calle abajo
+14,8 calle abajo
+14,9 casa de madera [16, 33]
+14,10 casa de hormigon [18, 39]
+14,11 calle arriba
+14,12 calle arriba
+14,13 casa de metal [17, 36]
+14,14 casa de ladrillos [10, 40]
+14,15 calle abajo
+14,16 casa de madera [12, 34]
+14,17 casa de hormigon [15, 31]
+14,18 calle arriba
+14,19 casa de metal [14, 34]
+15,0 casa de metal [16, 36]
+15,1 calle abajo
+15,2 casa de madera [12, 40]
+15,3 casa de ladrillos [13, 34]
+15,4 calle arriba
+15,5 casa de hormigon [10, 30]
+15,6 casa de metal [16, 32]
+15,7 calle abajo
+15,8 calle abajo
+15,9 casa de metal [19, 31]
+15,10 casa de ladrillos [15, 36]
+15,11 calle arriba
+15,12 calle arriba
+15,13 casa de madera [19, 37]
+15,14 casa de metal [17, 30]
+15,15 calle abajo
+15,16 casa de madera [17, 32]
+15,17 casa de madera [10, 39]
+15,18 calle arriba
+15,19 casa de ladrillos [20, 35]
+16,0 casa de madera [18, 40]
+16,1 calle izquierda
+16,2 calle izquierda
+16,3 calle izquierda
+16,4 calle arriba
+16,5 calle izquierda
+16,6 calle izquierda
+16,7 calle abajo
+16,8 calle abajo
+16,9 calle derecha
+16,10 calle derecha
+16,11 calle arriba
+16,12 calle arriba
+16,13 calle derecha
+16,14 calle derecha
+16,15 calle abajo
+16,16 calle derecha
+16,17 calle derecha
+16,18 calle arriba
+16,19 casa de hormigon [13, 36]
+17,0 casa de metal [11, 30]
+17,1 calle abajo
+17,2 casa de metal [19, 40]
+17,3 casa de hormigon [20, 31]
+17,4 calle arriba
+17,5 casa de hormigon [12, 36]
+17,6 casa de hormigon [20, 31]
+17,7 calle abajo
+17,8 calle abajo
+17,9 casa de ladrillos [10, 36]
+17,10 casa de metal [15, 33]
+17,11 calle arriba
+17,12 calle arriba
+17,13 casa de metal [15, 40]
+17,14 casa de madera [10, 30]
+17,15 calle abajo
+17,16 casa de metal [14, 30]
+17,17 casa de ladrillos [13, 31]
+17,18 calle arriba
+17,19 casa de metal [18, 34]
+18,0 casa de madera [12, 36]
+18,1 calle abajo
+18,2 casa de metal [11, 31]
+18,3 casa de metal [11, 31]
+18,4 calle arriba
+18,5 casa de metal [12, 30]
+18,6 casa de metal [16, 40]
+18,7 calle abajo
+18,8 calle abajo
+18,9 casa de metal [10, 37]
+18,10 casa de hormigon [14, 31]
+18,11 calle arriba
+18,12 calle arriba
+18,13 casa de hormigon [11, 31]
+18,14 casa de hormigon [10, 35]
+18,15 calle abajo
+18,16 casa de hormigon [12, 30]
+18,17 casa de ladrillos [15, 31]
+18,18 calle arriba
+18,19 casa de ladrillos [13, 30]
+19,0 casa de ladrillos [20, 40]
+19,1 calle derecha
+19,2 calle derecha
+19,3 calle derecha
+19,4 calle derecha
+19,5 calle derecha
+19,6 calle derecha
+19,7 vacio
+19,8 calle derecha
+19,9 calle derecha
+19,10 calle derecha
+19,11 calle derecha
+19,12 calle derecha
+19,13 calle derecha
+19,14 calle derecha
+19,15 calle derecha
+19,16 calle derecha
+19,17 calle derecha
+19,18 calle derecha
+19,19 casa de madera [10, 34]

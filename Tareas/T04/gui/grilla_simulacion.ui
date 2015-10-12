@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tarea 4 - IIC2233-2015-2</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>800</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>780</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="simulationGrid">
+     <item row="1" column="1">
+      <widget class="QLabel" name="label11"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label12"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label13"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label14"/>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label15"/>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label16"/>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLabel" name="label17"/>
+     </item>
+     <item row="1" column="8">
+      <widget class="QLabel" name="label18"/>
+     </item>
+     <item row="1" column="9">
+      <widget class="QLabel" name="label19"/>
+     </item>
+     <item row="1" column="10">
+      <widget class="QLabel" name="label110"/>
+     </item>
+     <item row="1" column="11">
+      <widget class="QLabel" name="label111"/>
+     </item>
+     <item row="1" column="12">
+      <widget class="QLabel" name="label112"/>
+     </item>
+     <item row="1" column="13">
+      <widget class="QLabel" name="label113"/>
+     </item>
+     <item row="1" column="14">
+      <widget class="QLabel" name="label114"/>
+     </item>
+     <item row="1" column="15">
+      <widget class="QLabel" name="label115"/>
+     </item>
+     <item row="1" column="16">
+      <widget class="QLabel" name="label116"/>
+     </item>
+     <item row="1" column="17">
+      <widget class="QLabel" name="label117"/>
+     </item>
+     <item row="1" column="18">
+      <widget class="QLabel" name="label118"/>
+     </item>
+     <item row="1" column="19">
+      <widget class="QLabel" name="label119"/>
+     </item>
+     <item row="1" column="20">
+      <widget class="QLabel" name="label120"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label21"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label22"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="label23"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="label24"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLabel" name="label25"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLabel" name="label26"/>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLabel" name="label27"/>
+     </item>
+     <item row="2" column="8">
+      <widget class="QLabel" name="label28"/>
+     </item>
+     <item row="2" column="9">
+      <widget class="QLabel" name="label29"/>
+     </item>
+     <item row="2" column="10">
+      <widget class="QLabel" name="label210"/>
+     </item>
+     <item row="2" column="11">
+      <widget class="QLabel" name="label211"/>
+     </item>
+     <item row="2" column="12">
+      <widget class="QLabel" name="label212"/>
+     </item>
+     <item row="2" column="13">
+      <widget class="QLabel" name="label213"/>
+     </item>
+     <item row="2" column="14">
+      <widget class="QLabel" name="label214"/>
+     </item>
+     <item row="2" column="15">
+      <widget class="QLabel" name="label215"/>
+     </item>
+     <item row="2" column="16">
+      <widget class="QLabel" name="label216"/>
+     </item>
+     <item row="2" column="17">
+      <widget class="QLabel" name="label217"/>
+     </item>
+     <item row="2" column="18">
+      <widget class="QLabel" name="label218"/>
+     </item>
+     <item row="2" column="19">
+      <widget class="QLabel" name="label219"/>
+     </item>
+     <item row="2" column="20">
+      <widget class="QLabel" name="label220"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label31"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="label32"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="label33"/>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLabel" name="label34"/>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLabel" name="label35"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLabel" name="label36"/>
+     </item>
+     <item row="3" column="7">
+      <widget class="QLabel" name="label37"/>
+     </item>
+     <item row="3" column="8">
+      <widget class="QLabel" name="label38"/>
+     </item>
+     <item row="3" column="9">
+      <widget class="QLabel" name="label39"/>
+     </item>
+     <item row="3" column="10">
+      <widget class="QLabel" name="label310"/>
+     </item>
+     <item row="3" column="11">
+      <widget class="QLabel" name="label311"/>
+     </item>
+     <item row="3" column="12">
+      <widget class="QLabel" name="label312"/>
+     </item>
+     <item row="3" column="13">
+      <widget class="QLabel" name="label313"/>
+     </item>
+     <item row="3" column="14">
+      <widget class="QLabel" name="label314"/>
+     </item>
+     <item row="3" column="15">
+      <widget class="QLabel" name="label315"/>
+     </item>
+     <item row="3" column="16">
+      <widget class="QLabel" name="label316"/>
+     </item>
+     <item row="3" column="17">
+      <widget class="QLabel" name="label317"/>
+     </item>
+     <item row="3" column="18">
+      <widget class="QLabel" name="label318"/>
+     </item>
+     <item row="3" column="19">
+      <widget class="QLabel" name="label319"/>
+     </item>
+     <item row="3" column="20">
+      <widget class="QLabel" name="label320"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label41"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="label42"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="label43"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLabel" name="label44"/>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLabel" name="label45"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLabel" name="label46"/>
+     </item>
+     <item row="4" column="7">
+      <widget class="QLabel" name="label47"/>
+     </item>
+     <item row="4" column="8">
+      <widget class="QLabel" name="label48"/>
+     </item>
+     <item row="4" column="9">
+      <widget class="QLabel" name="label49"/>
+     </item>
+     <item row="4" column="10">
+      <widget class="QLabel" name="label410"/>
+     </item>
+     <item row="4" column="11">
+      <widget class="QLabel" name="label411"/>
+     </item>
+     <item row="4" column="12">
+      <widget class="QLabel" name="label412"/>
+     </item>
+     <item row="4" column="13">
+      <widget class="QLabel" name="label413"/>
+     </item>
+     <item row="4" column="14">
+      <widget class="QLabel" name="label414"/>
+     </item>
+     <item row="4" column="15">
+      <widget class="QLabel" name="label415"/>
+     </item>
+     <item row="4" column="16">
+      <widget class="QLabel" name="label416"/>
+     </item>
+     <item row="4" column="17">
+      <widget class="QLabel" name="label417"/>
+     </item>
+     <item row="4" column="18">
+      <widget class="QLabel" name="label418"/>
+     </item>
+     <item row="4" column="19">
+      <widget class="QLabel" name="label419"/>
+     </item>
+     <item row="4" column="20">
+      <widget class="QLabel" name="label420"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label51"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="label52"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="label53"/>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLabel" name="label54"/>
+     </item>
+     <item row="5" column="5">
+      <widget class="QLabel" name="label55"/>
+     </item>
+     <item row="5" column="6">
+      <widget class="QLabel" name="label56"/>
+     </item>
+     <item row="5" column="7">
+      <widget class="QLabel" name="label57"/>
+     </item>
+     <item row="5" column="8">
+      <widget class="QLabel" name="label58"/>
+     </item>
+     <item row="5" column="9">
+      <widget class="QLabel" name="label59"/>
+     </item>
+     <item row="5" column="10">
+      <widget class="QLabel" name="label510"/>
+     </item>
+     <item row="5" column="11">
+      <widget class="QLabel" name="label511"/>
+     </item>
+     <item row="5" column="12">
+      <widget class="QLabel" name="label512"/>
+     </item>
+     <item row="5" column="13">
+      <widget class="QLabel" name="label513"/>
+     </item>
+     <item row="5" column="14">
+      <widget class="QLabel" name="label514"/>
+     </item>
+     <item row="5" column="15">
+      <widget class="QLabel" name="label515"/>
+     </item>
+     <item row="5" column="16">
+      <widget class="QLabel" name="label516"/>
+     </item>
+     <item row="5" column="17">
+      <widget class="QLabel" name="label517"/>
+     </item>
+     <item row="5" column="18">
+      <widget class="QLabel" name="label518"/>
+     </item>
+     <item row="5" column="19">
+      <widget class="QLabel" name="label519"/>
+     </item>
+     <item row="5" column="20">
+      <widget class="QLabel" name="label520"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label61"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLabel" name="label62"/>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLabel" name="label63"/>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLabel" name="label64"/>
+     </item>
+     <item row="6" column="5">
+      <widget class="QLabel" name="label65"/>
+     </item>
+     <item row="6" column="6">
+      <widget class="QLabel" name="label66"/>
+     </item>
+     <item row="6" column="7">
+      <widget class="QLabel" name="label67"/>
+     </item>
+     <item row="6" column="8">
+      <widget class="QLabel" name="label68"/>
+     </item>
+     <item row="6" column="9">
+      <widget class="QLabel" name="label69"/>
+     </item>
+     <item row="6" column="10">
+      <widget class="QLabel" name="label610"/>
+     </item>
+     <item row="6" column="11">
+      <widget class="QLabel" name="label611"/>
+     </item>
+     <item row="6" column="12">
+      <widget class="QLabel" name="label612"/>
+     </item>
+     <item row="6" column="13">
+      <widget class="QLabel" name="label613"/>
+     </item>
+     <item row="6" column="14">
+      <widget class="QLabel" name="label614"/>
+     </item>
+     <item row="6" column="15">
+      <widget class="QLabel" name="label615"/>
+     </item>
+     <item row="6" column="16">
+      <widget class="QLabel" name="label616"/>
+     </item>
+     <item row="6" column="17">
+      <widget class="QLabel" name="label617"/>
+     </item>
+     <item row="6" column="18">
+      <widget class="QLabel" name="label618"/>
+     </item>
+     <item row="6" column="19">
+      <widget class="QLabel" name="label619"/>
+     </item>
+     <item row="6" column="20">
+      <widget class="QLabel" name="label620"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label71"/>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLabel" name="label72"/>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLabel" name="label73"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLabel" name="label74"/>
+     </item>
+     <item row="7" column="5">
+      <widget class="QLabel" name="label75"/>
+     </item>
+     <item row="7" column="6">
+      <widget class="QLabel" name="label76"/>
+     </item>
+     <item row="7" column="7">
+      <widget class="QLabel" name="label77"/>
+     </item>
+     <item row="7" column="8">
+      <widget class="QLabel" name="label78"/>
+     </item>
+     <item row="7" column="9">
+      <widget class="QLabel" name="label79"/>
+     </item>
+     <item row="7" column="10">
+      <widget class="QLabel" name="label710"/>
+     </item>
+     <item row="7" column="11">
+      <widget class="QLabel" name="label711"/>
+     </item>
+     <item row="7" column="12">
+      <widget class="QLabel" name="label712"/>
+     </item>
+     <item row="7" column="13">
+      <widget class="QLabel" name="label713"/>
+     </item>
+     <item row="7" column="14">
+      <widget class="QLabel" name="label714"/>
+     </item>
+     <item row="7" column="15">
+      <widget class="QLabel" name="label715"/>
+     </item>
+     <item row="7" column="16">
+      <widget class="QLabel" name="label716"/>
+     </item>
+     <item row="7" column="17">
+      <widget class="QLabel" name="label717"/>
+     </item>
+     <item row="7" column="18">
+      <widget class="QLabel" name="label718"/>
+     </item>
+     <item row="7" column="19">
+      <widget class="QLabel" name="label719"/>
+     </item>
+     <item row="7" column="20">
+      <widget class="QLabel" name="label720"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="label81"/>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLabel" name="label82"/>
+     </item>
+     <item row="8" column="3">
+      <widget class="QLabel" name="label83"/>
+     </item>
+     <item row="8" column="4">
+      <widget class="QLabel" name="label84"/>
+     </item>
+     <item row="8" column="5">
+      <widget class="QLabel" name="label85"/>
+     </item>
+     <item row="8" column="6">
+      <widget class="QLabel" name="label86"/>
+     </item>
+     <item row="8" column="7">
+      <widget class="QLabel" name="label87"/>
+     </item>
+     <item row="8" column="8">
+      <widget class="QLabel" name="label88"/>
+     </item>
+     <item row="8" column="9">
+      <widget class="QLabel" name="label89"/>
+     </item>
+     <item row="8" column="10">
+      <widget class="QLabel" name="label810"/>
+     </item>
+     <item row="8" column="11">
+      <widget class="QLabel" name="label811"/>
+     </item>
+     <item row="8" column="12">
+      <widget class="QLabel" name="label812"/>
+     </item>
+     <item row="8" column="13">
+      <widget class="QLabel" name="label813"/>
+     </item>
+     <item row="8" column="14">
+      <widget class="QLabel" name="label814"/>
+     </item>
+     <item row="8" column="15">
+      <widget class="QLabel" name="label815"/>
+     </item>
+     <item row="8" column="16">
+      <widget class="QLabel" name="label816"/>
+     </item>
+     <item row="8" column="17">
+      <widget class="QLabel" name="label817"/>
+     </item>
+     <item row="8" column="18">
+      <widget class="QLabel" name="label818"/>
+     </item>
+     <item row="8" column="19">
+      <widget class="QLabel" name="label819"/>
+     </item>
+     <item row="8" column="20">
+      <widget class="QLabel" name="label820"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="label91"/>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLabel" name="label92"/>
+     </item>
+     <item row="9" column="3">
+      <widget class="QLabel" name="label93"/>
+     </item>
+     <item row="9" column="4">
+      <widget class="QLabel" name="label94"/>
+     </item>
+     <item row="9" column="5">
+      <widget class="QLabel" name="label95"/>
+     </item>
+     <item row="9" column="6">
+      <widget class="QLabel" name="label96"/>
+     </item>
+     <item row="9" column="7">
+      <widget class="QLabel" name="label97"/>
+     </item>
+     <item row="9" column="8">
+      <widget class="QLabel" name="label98"/>
+     </item>
+     <item row="9" column="9">
+      <widget class="QLabel" name="label99"/>
+     </item>
+     <item row="9" column="10">
+      <widget class="QLabel" name="label910"/>
+     </item>
+     <item row="9" column="11">
+      <widget class="QLabel" name="label911"/>
+     </item>
+     <item row="9" column="12">
+      <widget class="QLabel" name="label912"/>
+     </item>
+     <item row="9" column="13">
+      <widget class="QLabel" name="label913"/>
+     </item>
+     <item row="9" column="14">
+      <widget class="QLabel" name="label914"/>
+     </item>
+     <item row="9" column="15">
+      <widget class="QLabel" name="label915"/>
+     </item>
+     <item row="9" column="16">
+      <widget class="QLabel" name="label916"/>
+     </item>
+     <item row="9" column="17">
+      <widget class="QLabel" name="label917"/>
+     </item>
+     <item row="9" column="18">
+      <widget class="QLabel" name="label918"/>
+     </item>
+     <item row="9" column="19">
+      <widget class="QLabel" name="label919"/>
+     </item>
+     <item row="9" column="20">
+      <widget class="QLabel" name="label920"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="label101"/>
+     </item>
+     <item row="10" column="2">
+      <widget class="QLabel" name="label102"/>
+     </item>
+     <item row="10" column="3">
+      <widget class="QLabel" name="label103"/>
+     </item>
+     <item row="10" column="4">
+      <widget class="QLabel" name="label104"/>
+     </item>
+     <item row="10" column="5">
+      <widget class="QLabel" name="label105"/>
+     </item>
+     <item row="10" column="6">
+      <widget class="QLabel" name="label106"/>
+     </item>
+     <item row="10" column="7">
+      <widget class="QLabel" name="label107"/>
+     </item>
+     <item row="10" column="8">
+      <widget class="QLabel" name="label108"/>
+     </item>
+     <item row="10" column="9">
+      <widget class="QLabel" name="label109"/>
+     </item>
+     <item row="10" column="10">
+      <widget class="QLabel" name="label1010"/>
+     </item>
+     <item row="10" column="11">
+      <widget class="QLabel" name="label1011"/>
+     </item>
+     <item row="10" column="12">
+      <widget class="QLabel" name="label1012"/>
+     </item>
+     <item row="10" column="13">
+      <widget class="QLabel" name="label1013"/>
+     </item>
+     <item row="10" column="14">
+      <widget class="QLabel" name="label1014"/>
+     </item>
+     <item row="10" column="15">
+      <widget class="QLabel" name="label1015"/>
+     </item>
+     <item row="10" column="16">
+      <widget class="QLabel" name="label1016"/>
+     </item>
+     <item row="10" column="17">
+      <widget class="QLabel" name="label1017"/>
+     </item>
+     <item row="10" column="18">
+      <widget class="QLabel" name="label1018"/>
+     </item>
+     <item row="10" column="19">
+      <widget class="QLabel" name="label1019"/>
+     </item>
+     <item row="10" column="20">
+      <widget class="QLabel" name="label1020"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLabel" name="label111"/>
+     </item>
+     <item row="11" column="2">
+      <widget class="QLabel" name="label112"/>
+     </item>
+     <item row="11" column="3">
+      <widget class="QLabel" name="label113"/>
+     </item>
+     <item row="11" column="4">
+      <widget class="QLabel" name="label114"/>
+     </item>
+     <item row="11" column="5">
+      <widget class="QLabel" name="label115"/>
+     </item>
+     <item row="11" column="6">
+      <widget class="QLabel" name="label116"/>
+     </item>
+     <item row="11" column="7">
+      <widget class="QLabel" name="label117"/>
+     </item>
+     <item row="11" column="8">
+      <widget class="QLabel" name="label118"/>
+     </item>
+     <item row="11" column="9">
+      <widget class="QLabel" name="label119"/>
+     </item>
+     <item row="11" column="10">
+      <widget class="QLabel" name="label1110"/>
+     </item>
+     <item row="11" column="11">
+      <widget class="QLabel" name="label1111"/>
+     </item>
+     <item row="11" column="12">
+      <widget class="QLabel" name="label1112"/>
+     </item>
+     <item row="11" column="13">
+      <widget class="QLabel" name="label1113"/>
+     </item>
+     <item row="11" column="14">
+      <widget class="QLabel" name="label1114"/>
+     </item>
+     <item row="11" column="15">
+      <widget class="QLabel" name="label1115"/>
+     </item>
+     <item row="11" column="16">
+      <widget class="QLabel" name="label1116"/>
+     </item>
+     <item row="11" column="17">
+      <widget class="QLabel" name="label1117"/>
+     </item>
+     <item row="11" column="18">
+      <widget class="QLabel" name="label1118"/>
+     </item>
+     <item row="11" column="19">
+      <widget class="QLabel" name="label1119"/>
+     </item>
+     <item row="11" column="20">
+      <widget class="QLabel" name="label1120"/>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="label121"/>
+     </item>
+     <item row="12" column="2">
+      <widget class="QLabel" name="label122"/>
+     </item>
+     <item row="12" column="3">
+      <widget class="QLabel" name="label123"/>
+     </item>
+     <item row="12" column="4">
+      <widget class="QLabel" name="label124"/>
+     </item>
+     <item row="12" column="5">
+      <widget class="QLabel" name="label125"/>
+     </item>
+     <item row="12" column="6">
+      <widget class="QLabel" name="label126"/>
+     </item>
+     <item row="12" column="7">
+      <widget class="QLabel" name="label127"/>
+     </item>
+     <item row="12" column="8">
+      <widget class="QLabel" name="label128"/>
+     </item>
+     <item row="12" column="9">
+      <widget class="QLabel" name="label129"/>
+     </item>
+     <item row="12" column="10">
+      <widget class="QLabel" name="label1210"/>
+     </item>
+     <item row="12" column="11">
+      <widget class="QLabel" name="label1211"/>
+     </item>
+     <item row="12" column="12">
+      <widget class="QLabel" name="label1212"/>
+     </item>
+     <item row="12" column="13">
+      <widget class="QLabel" name="label1213"/>
+     </item>
+     <item row="12" column="14">
+      <widget class="QLabel" name="label1214"/>
+     </item>
+     <item row="12" column="15">
+      <widget class="QLabel" name="label1215"/>
+     </item>
+     <item row="12" column="16">
+      <widget class="QLabel" name="label1216"/>
+     </item>
+     <item row="12" column="17">
+      <widget class="QLabel" name="label1217"/>
+     </item>
+     <item row="12" column="18">
+      <widget class="QLabel" name="label1218"/>
+     </item>
+     <item row="12" column="19">
+      <widget class="QLabel" name="label1219"/>
+     </item>
+     <item row="12" column="20">
+      <widget class="QLabel" name="label1220"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="label131"/>
+     </item>
+     <item row="13" column="2">
+      <widget class="QLabel" name="label132"/>
+     </item>
+     <item row="13" column="3">
+      <widget class="QLabel" name="label133"/>
+     </item>
+     <item row="13" column="4">
+      <widget class="QLabel" name="label134"/>
+     </item>
+     <item row="13" column="5">
+      <widget class="QLabel" name="label135"/>
+     </item>
+     <item row="13" column="6">
+      <widget class="QLabel" name="label136"/>
+     </item>
+     <item row="13" column="7">
+      <widget class="QLabel" name="label137"/>
+     </item>
+     <item row="13" column="8">
+      <widget class="QLabel" name="label138"/>
+     </item>
+     <item row="13" column="9">
+      <widget class="QLabel" name="label139"/>
+     </item>
+     <item row="13" column="10">
+      <widget class="QLabel" name="label1310"/>
+     </item>
+     <item row="13" column="11">
+      <widget class="QLabel" name="label1311"/>
+     </item>
+     <item row="13" column="12">
+      <widget class="QLabel" name="label1312"/>
+     </item>
+     <item row="13" column="13">
+      <widget class="QLabel" name="label1313"/>
+     </item>
+     <item row="13" column="14">
+      <widget class="QLabel" name="label1314"/>
+     </item>
+     <item row="13" column="15">
+      <widget class="QLabel" name="label1315"/>
+     </item>
+     <item row="13" column="16">
+      <widget class="QLabel" name="label1316"/>
+     </item>
+     <item row="13" column="17">
+      <widget class="QLabel" name="label1317"/>
+     </item>
+     <item row="13" column="18">
+      <widget class="QLabel" name="label1318"/>
+     </item>
+     <item row="13" column="19">
+      <widget class="QLabel" name="label1319"/>
+     </item>
+     <item row="13" column="20">
+      <widget class="QLabel" name="label1320"/>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label141"/>
+     </item>
+     <item row="14" column="2">
+      <widget class="QLabel" name="label142"/>
+     </item>
+     <item row="14" column="3">
+      <widget class="QLabel" name="label143"/>
+     </item>
+     <item row="14" column="4">
+      <widget class="QLabel" name="label144"/>
+     </item>
+     <item row="14" column="5">
+      <widget class="QLabel" name="label145"/>
+     </item>
+     <item row="14" column="6">
+      <widget class="QLabel" name="label146"/>
+     </item>
+     <item row="14" column="7">
+      <widget class="QLabel" name="label147"/>
+     </item>
+     <item row="14" column="8">
+      <widget class="QLabel" name="label148"/>
+     </item>
+     <item row="14" column="9">
+      <widget class="QLabel" name="label149"/>
+     </item>
+     <item row="14" column="10">
+      <widget class="QLabel" name="label1410"/>
+     </item>
+     <item row="14" column="11">
+      <widget class="QLabel" name="label1411"/>
+     </item>
+     <item row="14" column="12">
+      <widget class="QLabel" name="label1412"/>
+     </item>
+     <item row="14" column="13">
+      <widget class="QLabel" name="label1413"/>
+     </item>
+     <item row="14" column="14">
+      <widget class="QLabel" name="label1414"/>
+     </item>
+     <item row="14" column="15">
+      <widget class="QLabel" name="label1415"/>
+     </item>
+     <item row="14" column="16">
+      <widget class="QLabel" name="label1416"/>
+     </item>
+     <item row="14" column="17">
+      <widget class="QLabel" name="label1417"/>
+     </item>
+     <item row="14" column="18">
+      <widget class="QLabel" name="label1418"/>
+     </item>
+     <item row="14" column="19">
+      <widget class="QLabel" name="label1419"/>
+     </item>
+     <item row="14" column="20">
+      <widget class="QLabel" name="label1420"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="label151"/>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLabel" name="label152"/>
+     </item>
+     <item row="15" column="3">
+      <widget class="QLabel" name="label153"/>
+     </item>
+     <item row="15" column="4">
+      <widget class="QLabel" name="label154"/>
+     </item>
+     <item row="15" column="5">
+      <widget class="QLabel" name="label155"/>
+     </item>
+     <item row="15" column="6">
+      <widget class="QLabel" name="label156"/>
+     </item>
+     <item row="15" column="7">
+      <widget class="QLabel" name="label157"/>
+     </item>
+     <item row="15" column="8">
+      <widget class="QLabel" name="label158"/>
+     </item>
+     <item row="15" column="9">
+      <widget class="QLabel" name="label159"/>
+     </item>
+     <item row="15" column="10">
+      <widget class="QLabel" name="label1510"/>
+     </item>
+     <item row="15" column="11">
+      <widget class="QLabel" name="label1511"/>
+     </item>
+     <item row="15" column="12">
+      <widget class="QLabel" name="label1512"/>
+     </item>
+     <item row="15" column="13">
+      <widget class="QLabel" name="label1513"/>
+     </item>
+     <item row="15" column="14">
+      <widget class="QLabel" name="label1514"/>
+     </item>
+     <item row="15" column="15">
+      <widget class="QLabel" name="label1515"/>
+     </item>
+     <item row="15" column="16">
+      <widget class="QLabel" name="label1516"/>
+     </item>
+     <item row="15" column="17">
+      <widget class="QLabel" name="label1517"/>
+     </item>
+     <item row="15" column="18">
+      <widget class="QLabel" name="label1518"/>
+     </item>
+     <item row="15" column="19">
+      <widget class="QLabel" name="label1519"/>
+     </item>
+     <item row="15" column="20">
+      <widget class="QLabel" name="label1520"/>
+     </item>
+     <item row="16" column="1">
+      <widget class="QLabel" name="label161"/>
+     </item>
+     <item row="16" column="2">
+      <widget class="QLabel" name="label162"/>
+     </item>
+     <item row="16" column="3">
+      <widget class="QLabel" name="label163"/>
+     </item>
+     <item row="16" column="4">
+      <widget class="QLabel" name="label164"/>
+     </item>
+     <item row="16" column="5">
+      <widget class="QLabel" name="label165"/>
+     </item>
+     <item row="16" column="6">
+      <widget class="QLabel" name="label166"/>
+     </item>
+     <item row="16" column="7">
+      <widget class="QLabel" name="label167"/>
+     </item>
+     <item row="16" column="8">
+      <widget class="QLabel" name="label168"/>
+     </item>
+     <item row="16" column="9">
+      <widget class="QLabel" name="label169"/>
+     </item>
+     <item row="16" column="10">
+      <widget class="QLabel" name="label1610"/>
+     </item>
+     <item row="16" column="11">
+      <widget class="QLabel" name="label1611"/>
+     </item>
+     <item row="16" column="12">
+      <widget class="QLabel" name="label1612"/>
+     </item>
+     <item row="16" column="13">
+      <widget class="QLabel" name="label1613"/>
+     </item>
+     <item row="16" column="14">
+      <widget class="QLabel" name="label1614"/>
+     </item>
+     <item row="16" column="15">
+      <widget class="QLabel" name="label1615"/>
+     </item>
+     <item row="16" column="16">
+      <widget class="QLabel" name="label1616"/>
+     </item>
+     <item row="16" column="17">
+      <widget class="QLabel" name="label1617"/>
+     </item>
+     <item row="16" column="18">
+      <widget class="QLabel" name="label1618"/>
+     </item>
+     <item row="16" column="19">
+      <widget class="QLabel" name="label1619"/>
+     </item>
+     <item row="16" column="20">
+      <widget class="QLabel" name="label1620"/>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLabel" name="label171"/>
+     </item>
+     <item row="17" column="2">
+      <widget class="QLabel" name="label172"/>
+     </item>
+     <item row="17" column="3">
+      <widget class="QLabel" name="label173"/>
+     </item>
+     <item row="17" column="4">
+      <widget class="QLabel" name="label174"/>
+     </item>
+     <item row="17" column="5">
+      <widget class="QLabel" name="label175"/>
+     </item>
+     <item row="17" column="6">
+      <widget class="QLabel" name="label176"/>
+     </item>
+     <item row="17" column="7">
+      <widget class="QLabel" name="label177"/>
+     </item>
+     <item row="17" column="8">
+      <widget class="QLabel" name="label178"/>
+     </item>
+     <item row="17" column="9">
+      <widget class="QLabel" name="label179"/>
+     </item>
+     <item row="17" column="10">
+      <widget class="QLabel" name="label1710"/>
+     </item>
+     <item row="17" column="11">
+      <widget class="QLabel" name="label1711"/>
+     </item>
+     <item row="17" column="12">
+      <widget class="QLabel" name="label1712"/>
+     </item>
+     <item row="17" column="13">
+      <widget class="QLabel" name="label1713"/>
+     </item>
+     <item row="17" column="14">
+      <widget class="QLabel" name="label1714"/>
+     </item>
+     <item row="17" column="15">
+      <widget class="QLabel" name="label1715"/>
+     </item>
+     <item row="17" column="16">
+      <widget class="QLabel" name="label1716"/>
+     </item>
+     <item row="17" column="17">
+      <widget class="QLabel" name="label1717"/>
+     </item>
+     <item row="17" column="18">
+      <widget class="QLabel" name="label1718"/>
+     </item>
+     <item row="17" column="19">
+      <widget class="QLabel" name="label1719"/>
+     </item>
+     <item row="17" column="20">
+      <widget class="QLabel" name="label1720"/>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLabel" name="label181"/>
+     </item>
+     <item row="18" column="2">
+      <widget class="QLabel" name="label182"/>
+     </item>
+     <item row="18" column="3">
+      <widget class="QLabel" name="label183"/>
+     </item>
+     <item row="18" column="4">
+      <widget class="QLabel" name="label184"/>
+     </item>
+     <item row="18" column="5">
+      <widget class="QLabel" name="label185"/>
+     </item>
+     <item row="18" column="6">
+      <widget class="QLabel" name="label186"/>
+     </item>
+     <item row="18" column="7">
+      <widget class="QLabel" name="label187"/>
+     </item>
+     <item row="18" column="8">
+      <widget class="QLabel" name="label188"/>
+     </item>
+     <item row="18" column="9">
+      <widget class="QLabel" name="label189"/>
+     </item>
+     <item row="18" column="10">
+      <widget class="QLabel" name="label1810"/>
+     </item>
+     <item row="18" column="11">
+      <widget class="QLabel" name="label1811"/>
+     </item>
+     <item row="18" column="12">
+      <widget class="QLabel" name="label1812"/>
+     </item>
+     <item row="18" column="13">
+      <widget class="QLabel" name="label1813"/>
+     </item>
+     <item row="18" column="14">
+      <widget class="QLabel" name="label1814"/>
+     </item>
+     <item row="18" column="15">
+      <widget class="QLabel" name="label1815"/>
+     </item>
+     <item row="18" column="16">
+      <widget class="QLabel" name="label1816"/>
+     </item>
+     <item row="18" column="17">
+      <widget class="QLabel" name="label1817"/>
+     </item>
+     <item row="18" column="18">
+      <widget class="QLabel" name="label1818"/>
+     </item>
+     <item row="18" column="19">
+      <widget class="QLabel" name="label1819"/>
+     </item>
+     <item row="18" column="20">
+      <widget class="QLabel" name="label1820"/>
+     </item>
+     <item row="19" column="1">
+      <widget class="QLabel" name="label191"/>
+     </item>
+     <item row="19" column="2">
+      <widget class="QLabel" name="label192"/>
+     </item>
+     <item row="19" column="3">
+      <widget class="QLabel" name="label193"/>
+     </item>
+     <item row="19" column="4">
+      <widget class="QLabel" name="label194"/>
+     </item>
+     <item row="19" column="5">
+      <widget class="QLabel" name="label195"/>
+     </item>
+     <item row="19" column="6">
+      <widget class="QLabel" name="label196"/>
+     </item>
+     <item row="19" column="7">
+      <widget class="QLabel" name="label197"/>
+     </item>
+     <item row="19" column="8">
+      <widget class="QLabel" name="label198"/>
+     </item>
+     <item row="19" column="9">
+      <widget class="QLabel" name="label199"/>
+     </item>
+     <item row="19" column="10">
+      <widget class="QLabel" name="label1910"/>
+     </item>
+     <item row="19" column="11">
+      <widget class="QLabel" name="label1911"/>
+     </item>
+     <item row="19" column="12">
+      <widget class="QLabel" name="label1912"/>
+     </item>
+     <item row="19" column="13">
+      <widget class="QLabel" name="label1913"/>
+     </item>
+     <item row="19" column="14">
+      <widget class="QLabel" name="label1914"/>
+     </item>
+     <item row="19" column="15">
+      <widget class="QLabel" name="label1915"/>
+     </item>
+     <item row="19" column="16">
+      <widget class="QLabel" name="label1916"/>
+     </item>
+     <item row="19" column="17">
+      <widget class="QLabel" name="label1917"/>
+     </item>
+     <item row="19" column="18">
+      <widget class="QLabel" name="label1918"/>
+     </item>
+     <item row="19" column="19">
+      <widget class="QLabel" name="label1919"/>
+     </item>
+     <item row="19" column="20">
+      <widget class="QLabel" name="label1920"/>
+     </item>
+     <item row="20" column="1">
+      <widget class="QLabel" name="label201"/>
+     </item>
+     <item row="20" column="2">
+      <widget class="QLabel" name="label202"/>
+     </item>
+     <item row="20" column="3">
+      <widget class="QLabel" name="label203"/>
+     </item>
+     <item row="20" column="4">
+      <widget class="QLabel" name="label204"/>
+     </item>
+     <item row="20" column="5">
+      <widget class="QLabel" name="label205"/>
+     </item>
+     <item row="20" column="6">
+      <widget class="QLabel" name="label206"/>
+     </item>
+     <item row="20" column="7">
+      <widget class="QLabel" name="label207"/>
+     </item>
+     <item row="20" column="8">
+      <widget class="QLabel" name="label208"/>
+     </item>
+     <item row="20" column="9">
+      <widget class="QLabel" name="label209"/>
+     </item>
+     <item row="20" column="10">
+      <widget class="QLabel" name="label2010"/>
+     </item>
+     <item row="20" column="11">
+      <widget class="QLabel" name="label2011"/>
+     </item>
+     <item row="20" column="12">
+      <widget class="QLabel" name="label2012"/>
+     </item>
+     <item row="20" column="13">
+      <widget class="QLabel" name="label2013"/>
+     </item>
+     <item row="20" column="14">
+      <widget class="QLabel" name="label2014"/>
+     </item>
+     <item row="20" column="15">
+      <widget class="QLabel" name="label2015"/>
+     </item>
+     <item row="20" column="16">
+      <widget class="QLabel" name="label2016"/>
+     </item>
+     <item row="20" column="17">
+      <widget class="QLabel" name="label2017"/>
+     </item>
+     <item row="20" column="18">
+      <widget class="QLabel" name="label2018"/>
+     </item>
+     <item row="20" column="19">
+      <widget class="QLabel" name="label2019"/>
+     </item>
+     <item row="20" column="20">
+      <widget class="QLabel" name="label2020"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
