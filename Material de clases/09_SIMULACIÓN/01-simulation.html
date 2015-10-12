@@ -275,36 +275,13 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>23
-14
-5
+<pre>9
+96
+184
 </pre>
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-
-<span class="n">normSamples</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">expovariate</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">20</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10000</span><span class="p">)]</span>
-<span class="c">#print normSamples[0:10]  #Take a look at the first 10</span>
-<span class="n">fig</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
-<span class="n">axis</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">normSamples</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span><span class="c">#, normed=True)</span>
-<span class="n">axis</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">r&quot;Histogram of an Normal RNG $\mu = 9$ and $\sigma = 2$&quot;</span><span class="p">)</span>
-<span class="n">axis</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">&quot;x&quot;</span><span class="p">)</span>
-<span class="n">axis</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">&quot;normalized frequency of occurrence&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-</div>
 </div>
 </div>
 
@@ -340,7 +317,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">deque</span>
@@ -374,6 +351,7 @@ div#notebook {
         <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">=</span> <span class="k">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_revision</span> <span class="o">=</span> <span class="mi">0</span>
 
+    <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">ocupado</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">!=</span> <span class="k">None</span>
 
@@ -422,7 +400,7 @@ div#notebook {
             <span class="nb">print</span><span class="p">(</span><span class="s">&#39;[COLA] llega {} en tiempo de simulacion t={} min. Hay {} vehiculos en la cola.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                     <span class="n">cola_revision</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">cola_revision</span><span class="p">)))</span>
                  
-        <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">planta_revision</span><span class="o">.</span><span class="n">ocupado</span><span class="p">())</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">cola_revision</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">planta_revision</span><span class="o">.</span><span class="n">ocupado</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">cola_revision</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
             
             <span class="c"># se extrae el proximo auto en la cola de atención</span>
             
@@ -464,23 +442,25 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[COLA] llega camioneta en tiempo de simulacion t=24 min. Hay 1 vehiculos en la cola.
-[PLANTA] Atendiendo camioneta con un tiempo promedio de 25 min
-[COLA] llega camioneta en tiempo de simulacion t=25 min. Hay 1 vehiculos en la cola.
-[COLA] llega camioneta en tiempo de simulacion t=26 min. Hay 2 vehiculos en la cola.
-[COLA] llega auto en tiempo de simulacion t=38 min. Hay 3 vehiculos en la cola.
-[COLA] llega auto en tiempo de simulacion t=45 min. Hay 4 vehiculos en la cola.
+<pre>[COLA] llega camioneta en tiempo de simulacion t=10 min. Hay 1 vehiculos en la cola.
+[PLANTA] Atendiendo camioneta con un tiempo promedio de 7 min
+[COLA] llega auto en tiempo de simulacion t=13 min. Hay 1 vehiculos en la cola.
 [Planta] termina revision de camioneta
-[PLANTA] Atendiendo camioneta con un tiempo promedio de 35 min
-[COLA] llega camioneta en tiempo de simulacion t=50 min. Hay 4 vehiculos en la cola.
-[COLA] llega moto en tiempo de simulacion t=51 min. Hay 5 vehiculos en la cola.
-[COLA] llega moto en tiempo de simulacion t=64 min. Hay 6 vehiculos en la cola.
-[COLA] llega moto en tiempo de simulacion t=66 min. Hay 7 vehiculos en la cola.
-[COLA] llega camioneta en tiempo de simulacion t=77 min. Hay 8 vehiculos en la cola.
+[PLANTA] Atendiendo auto con un tiempo promedio de 75 min
+[COLA] llega moto en tiempo de simulacion t=19 min. Hay 1 vehiculos en la cola.
+[COLA] llega moto en tiempo de simulacion t=29 min. Hay 2 vehiculos en la cola.
+[COLA] llega auto en tiempo de simulacion t=31 min. Hay 3 vehiculos en la cola.
+[COLA] llega moto en tiempo de simulacion t=42 min. Hay 4 vehiculos en la cola.
+[COLA] llega moto en tiempo de simulacion t=49 min. Hay 5 vehiculos en la cola.
+[COLA] llega camioneta en tiempo de simulacion t=53 min. Hay 6 vehiculos en la cola.
+[COLA] llega camioneta en tiempo de simulacion t=66 min. Hay 7 vehiculos en la cola.
+[COLA] llega camioneta en tiempo de simulacion t=67 min. Hay 8 vehiculos en la cola.
+[COLA] llega auto en tiempo de simulacion t=68 min. Hay 9 vehiculos en la cola.
+[COLA] llega camioneta en tiempo de simulacion t=77 min. Hay 10 vehiculos en la cola.
 
 Estadísticas:
-Tiempo promedio de espera  30.00 min.
-Tiempo total de atención de la planta fue de  60.00 min
+Tiempo promedio de espera  41.00 min.
+Tiempo total de atención de la planta fue de  82.00 min
 Total de vehículos atendidos: 2
 </pre>
 </div>
@@ -535,14 +515,15 @@ Total de vehículos atendidos: 2
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Ahora veamos el mismo ejemplo anterior para la planta de revisión técnica desde el punto de vista de simulación de eventos discretos.</p>
+<p>Ahora veamos el mismo ejemplo anterior para la planta de revisión técnica desde el punto de vista de simulación de eventos discretos. La figura siguiente explica el problema gráficamente.</p>
+<p><img src="./imgs/diagrama_flujo_ejemplo.png" width=70%></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">deque</span>
@@ -558,29 +539,46 @@ Total de vehículos atendidos: 2
    
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s">&#39;Tipo vehiculo: {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">)</span>
+</pre></div>
 
-        
-<span class="k">class</span> <span class="nc">Taller</span><span class="p">:</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Taller</span><span class="p">:</span>
     
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tipos</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">=</span> <span class="k">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_revision</span> <span class="o">=</span> <span class="mi">0</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tipos</span> <span class="o">=</span> <span class="n">tipos</span>
-
-    <span class="k">def</span> <span class="nf">ocupado</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">!=</span> <span class="k">None</span>
-
+    
     <span class="k">def</span> <span class="nf">pasar_vehiculo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vehiculo</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">=</span> <span class="n">vehiculo</span>
         <span class="c"># Creamos un tiempo de atención aleatorio</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_revision</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">expovariate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tipos</span><span class="p">[</span><span class="n">vehiculo</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">])</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">)</span>  
-    
-    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s">&#39;[PLANTA] Entra: {0} con un tiempo de atencion de esperado de {1} min.&#39;</span>\
-    <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_revision</span><span class="p">)</span>
-        
 
-<span class="k">class</span> <span class="nc">Simulacion</span><span class="p">:</span>
+    <span class="nd">@property</span>    
+    <span class="k">def</span> <span class="nf">ocupado</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">tarea_actual</span> <span class="o">!=</span> <span class="k">None</span>       
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Simulacion</span><span class="p">:</span>
     <span class="c"># Esta clase implemeta la simulación. También se puede usar una función como en el caso anterior.</span>
     <span class="c"># Se inicializarn todas las variables utilizadas en la simulación.</span>
 
@@ -604,15 +602,16 @@ Total de vehículos atendidos: 2
         <span class="c"># se estima aleatoreamente la llegada de un auto a la linea de revisión</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">proximo_auto</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tasa_llegada</span><span class="p">)</span>
 
-        <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_maximo_sim</span><span class="p">:</span>
+            
             <span class="c"># Primero revisamos el evento actual. Si la planta está vacía o </span>
             <span class="c"># si la planta está ocupada, y no ha salido algún vehículo de la planta, </span>
             <span class="c"># el tiempo de simulación siempre será el tiempo de llegada de los vehículos. </span>
             <span class="c"># Cuando sale el vehículo, el tiempo de simulación debe ser el tiempo transcurrido</span>
             <span class="c"># hasta esta revisión.</span>
 
-            <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span><span class="p">()</span> <span class="ow">and</span> 
-                <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_proximo_auto</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_atencion</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span><span class="p">()):</span>
+            <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span> <span class="ow">and</span> 
+                <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_proximo_auto</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_atencion</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span><span class="p">):</span>
                 
                 <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_proximo_auto</span>
                 
@@ -620,9 +619,6 @@ Total de vehículos atendidos: 2
                 
                 <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_atencion</span>
 
-            <span class="c"># Verificamos que el tiempo de simulación no supere el tiempo máximo de simulación</span>
-            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_maximo_sim</span><span class="p">:</span> <span class="k">break</span>
-            
             <span class="nb">print</span><span class="p">(</span><span class="s">&#39;[SIMULACION] tiempo: {0} min&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span><span class="p">))</span>
             
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_proximo_auto</span><span class="p">:</span>
@@ -636,7 +632,7 @@ Total de vehículos atendidos: 2
                 <span class="nb">print</span><span class="p">(</span><span class="s">&#39;[COLA] Llega {0} en tiempo simulación: {1} min.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                         <span class="bp">self</span><span class="o">.</span><span class="n">cola_espera</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span><span class="p">))</span>
                 
-                <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span><span class="p">())</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cola_espera</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">ocupado</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cola_espera</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
                     <span class="c"># Si la planta está desocupada y queden elementos en la cola de espera, </span>
                     <span class="c"># el siguiente vehículo se retira de la cola y entra a la planta. </span>
                     <span class="c"># Al entrar se le asigna aleatoriamente el tiempo de atención y se genera </span>
@@ -648,9 +644,11 @@ Total de vehículos atendidos: 2
                     <span class="c"># nuevo tiempo de revisión</span>
                     <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_atencion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_simulacion</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">tiempo_revision</span>   
                     
+                    <span class="nb">print</span><span class="p">(</span><span class="s">&#39;[PLANTA] Entra {0} con un tiempo de atencion esperado de {1} min.&#39;</span><span class="o">.</span>\
+                          <span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">tarea_actual</span><span class="o">.</span><span class="n">tipo_vehiculo</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="o">.</span><span class="n">tiempo_revision</span><span class="p">))</span>
 
-                    <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">planta</span><span class="p">)</span>
             <span class="k">else</span><span class="p">:</span>
+                
                 <span class="c"># Cuando el tiempo de simulación es igual al tiempo transcurrido</span>
                 <span class="c"># durante la revisión se retira el vehículo del taller y el siguiente</span>
                 <span class="c"># vehículo puede entrar a la atención</span>
@@ -670,7 +668,7 @@ Total de vehículos atendidos: 2
         <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Tiempo promedio de espera {0} min.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tiempo_espera</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">vehiculos_atendidos</span><span class="p">)))</span>
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
-    <span class="c"># En este ejemplo inicializamos la simulación con 80 min como tiempo máximo.</span>
+    <span class="c"># En este ejemplo inicializamos la simulación con 50 min como tiempo máximo.</span>
     <span class="c"># Definimos la tasa de llegada de los vehículos en un vehícuo cada 5 minutos. </span>
     <span class="c"># También definimos un diccionario con los tipos de vehículos que atenderá la planta </span>
     <span class="c"># y la tasa promedio de atención para cada tipo de vehículo. </span>
@@ -678,7 +676,7 @@ Total de vehículos atendidos: 2
     
     <span class="n">vehiculos</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;moto&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">,</span> <span class="s">&#39;auto&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">15</span><span class="p">,</span> <span class="s">&#39;camioneta&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">20</span><span class="p">}</span>
     <span class="n">tasa_llegada_vehiculos</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="mi">5</span>
-    <span class="n">s</span> <span class="o">=</span> <span class="n">Simulacion</span><span class="p">(</span><span class="mi">80</span><span class="p">,</span> <span class="n">tasa_llegada_vehiculos</span><span class="p">,</span> <span class="n">vehiculos</span><span class="p">)</span> 
+    <span class="n">s</span> <span class="o">=</span> <span class="n">Simulacion</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">tasa_llegada_vehiculos</span><span class="p">,</span> <span class="n">vehiculos</span><span class="p">)</span> 
     <span class="n">s</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></div>
 
@@ -692,60 +690,40 @@ Total de vehículos atendidos: 2
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[SIMULACION] tiempo: 1 min
-[COLA] Llega auto en tiempo simulación: 1 min.
-[PLANTA] Entra: auto con un tiempo de atencion de esperado de 29 min.
-[SIMULACION] tiempo: 6 min
-[COLA] Llega camioneta en tiempo simulación: 6 min.
+<pre>[SIMULACION] tiempo: 6 min
+[COLA] Llega auto en tiempo simulación: 6 min.
+[PLANTA] Entra auto con un tiempo de atencion esperado de 1 min.
 [SIMULACION] tiempo: 7 min
-[COLA] Llega camioneta en tiempo simulación: 7 min.
-[SIMULACION] tiempo: 10 min
-[COLA] Llega camioneta en tiempo simulación: 10 min.
-[SIMULACION] tiempo: 14 min
-[COLA] Llega camioneta en tiempo simulación: 14 min.
-[SIMULACION] tiempo: 28 min
-[COLA] Llega auto en tiempo simulación: 28 min.
-[SIMULACION] tiempo: 30 min
-[COLA] Llega moto en tiempo simulación: 30 min.
-[SIMULACION] tiempo: 30 min
-[PLANTA] Sale: auto a los 30 min.
+[PLANTA] Sale: auto a los 7 min.
+[SIMULACION] tiempo: 19 min
+[COLA] Llega auto en tiempo simulación: 19 min.
+[PLANTA] Entra auto con un tiempo de atencion esperado de 10 min.
+[SIMULACION] tiempo: 20 min
+[COLA] Llega moto en tiempo simulación: 20 min.
+[SIMULACION] tiempo: 26 min
+[COLA] Llega moto en tiempo simulación: 26 min.
+[SIMULACION] tiempo: 29 min
+[PLANTA] Sale: auto a los 29 min.
+[SIMULACION] tiempo: 31 min
+[COLA] Llega camioneta en tiempo simulación: 31 min.
+[PLANTA] Entra moto con un tiempo de atencion esperado de 7 min.
 [SIMULACION] tiempo: 35 min
 [COLA] Llega moto en tiempo simulación: 35 min.
-[PLANTA] Entra: camioneta con un tiempo de atencion de esperado de 14 min.
-[SIMULACION] tiempo: 36 min
-[COLA] Llega auto en tiempo simulación: 36 min.
-[SIMULACION] tiempo: 40 min
-[COLA] Llega camioneta en tiempo simulación: 40 min.
-[SIMULACION] tiempo: 44 min
-[COLA] Llega moto en tiempo simulación: 44 min.
-[SIMULACION] tiempo: 48 min
-[COLA] Llega auto en tiempo simulación: 48 min.
-[SIMULACION] tiempo: 49 min
-[PLANTA] Sale: camioneta a los 49 min.
+[SIMULACION] tiempo: 38 min
+[PLANTA] Sale: moto a los 38 min.
+[SIMULACION] tiempo: 41 min
+[COLA] Llega camioneta en tiempo simulación: 41 min.
+[PLANTA] Entra moto con un tiempo de atencion esperado de 6 min.
+[SIMULACION] tiempo: 47 min
+[PLANTA] Sale: moto a los 47 min.
 [SIMULACION] tiempo: 51 min
-[COLA] Llega camioneta en tiempo simulación: 51 min.
-[PLANTA] Entra: camioneta con un tiempo de atencion de esperado de 12 min.
-[SIMULACION] tiempo: 52 min
-[COLA] Llega moto en tiempo simulación: 52 min.
-[SIMULACION] tiempo: 62 min
-[COLA] Llega auto en tiempo simulación: 62 min.
-[SIMULACION] tiempo: 63 min
-[PLANTA] Sale: camioneta a los 63 min.
-[SIMULACION] tiempo: 66 min
-[COLA] Llega auto en tiempo simulación: 66 min.
-[PLANTA] Entra: camioneta con un tiempo de atencion de esperado de 11 min.
-[SIMULACION] tiempo: 76 min
-[COLA] Llega camioneta en tiempo simulación: 76 min.
-[SIMULACION] tiempo: 77 min
-[PLANTA] Sale: camioneta a los 77 min.
-[SIMULACION] tiempo: 80 min
-[COLA] Llega moto en tiempo simulación: 80 min.
-[PLANTA] Entra: camioneta con un tiempo de atencion de esperado de 44 min.
+[COLA] Llega moto en tiempo simulación: 51 min.
+[PLANTA] Entra camioneta con un tiempo de atencion esperado de 4 min.
 
 Estadísticas:
-Tiempo total atención 124 min.
+Tiempo total atención 55 min.
 Total de vehículos atendidos: 4
-Tiempo promedio de espera 49 min.
+Tiempo promedio de espera 12 min.
 </pre>
 </div>
 </div>
