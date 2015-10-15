@@ -72,3 +72,9 @@ class GrillaSimulacion(*grilla_simulacion_ui):
             pixmap = pixmap.transformed(QtGui.QTransform().scale(-1, 1))
 
         label.setPixmap(pixmap)
+
+    def quitar_imagen(self, x, y):
+        pixmap = QtGui.QPixmap()
+        label = self.simulationGrid.itemAtPosition(y, x).widget()
+
+        label.setPixmap(pixmap)
