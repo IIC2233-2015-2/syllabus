@@ -3,6 +3,7 @@
 from PyQt4 import QtCore, QtGui, uic
 import random as rnd
 import os
+import time
 
 grilla_simulacion_ui = uic.loadUiType(
     os.path.join(os.path.dirname(__file__), "grilla_simulacion.ui")
@@ -10,9 +11,12 @@ grilla_simulacion_ui = uic.loadUiType(
 
 
 class GrillaSimulacion(*grilla_simulacion_ui):
-    def __init__(self):
+    def __init__(self, app):
         super().__init__()
         self.setupUi(self)
+
+        self.app = app
+        self.tiempo_intervalo = 0
 
     def agregar_ambulancia(self, x, y, theta, reflection):
         self.agregar_imagen("Ambulance-64.png", x, y, theta, reflection)
@@ -71,10 +75,14 @@ class GrillaSimulacion(*grilla_simulacion_ui):
         if reflection:
             pixmap = pixmap.transformed(QtGui.QTransform().scale(-1, 1))
 
+        time.sleep(self.tiempo_intervalo)
         label.setPixmap(pixmap)
+        self.app.processEvents()
 
     def quitar_imagen(self, x, y):
         pixmap = QtGui.QPixmap()
         label = self.simulationGrid.itemAtPosition(y, x).widget()
 
+        time.sleep(self.tiempo_intervalo)
         label.setPixmap(pixmap)
+        self.app.processEvents()
