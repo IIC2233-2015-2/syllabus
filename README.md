@@ -67,6 +67,9 @@ Todas las Actividades (AC) son evaluadas.
 | Jueves 8 | [AC16](Actividades/AC16) | Threading avanzado | |
 | Martes 13 | [AC17](Actividades/AC17) | Simulación | | 
 | Jueves 15 | [AC18](Actividades/AC18) | Simulación con SimPy | **Instalen SimPy** |
+| Martes 20 | [AC19](Actividades/AC19) | Interfaces Gráficas | **Instalen PyQt4**|
+| Jueves 22 | [AC20](Actividades/AC20) | Interfaces Gráficas con **QtDesigner**| Asegúrense de tener instalado el programa|
+| Lunes 26 | [T04](Tareas/T04) | Simulación | **23:59 - Deadline** |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
