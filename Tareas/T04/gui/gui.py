@@ -11,12 +11,18 @@ grilla_simulacion_ui = uic.loadUiType(
 
 
 class GrillaSimulacion(*grilla_simulacion_ui):
-    def __init__(self, app):
+    def __init__(self, app, rows=20, cols=20):
         super().__init__()
         self.setupUi(self)
+        self.setup_labels(rows, cols)
 
         self.app = app
         self.tiempo_intervalo = 0
+
+    def setup_labels(self, rows, cols):
+        for y in range(1, rows + 1):
+            for x in range(1, cols + 1):
+                self.simulationGrid.addWidget(QtGui.QLabel(), y, x)
 
     def agregar_ambulancia(self, x, y, theta, reflection):
         self.agregar_imagen("Ambulance-64.png", x, y, theta, reflection)
@@ -25,12 +31,21 @@ class GrillaSimulacion(*grilla_simulacion_ui):
         self.agregar_imagen("Being Sick-64.png", x, y)
 
     def agregar_auto(self, x, y, theta, reflection):
-        filename = rnd.choice([
-            "Convertible-64.png",
-            "Pickup-64.png",
-            "Sedan-64.png"
+        nuevo_auto = rnd.choice([
+            self.agregar_convertible,
+            self.agregar_pickup,
+            self.agregar_sedan
         ])
-        self.agregar_imagen(filename, x, y, theta, reflection)
+        nuevo_auto(x, y, theta, reflection)
+
+    def agregar_convertible(self, x, y, theta, reflection):
+        self.agregar_imagen("Convertible-64.png", x, y, theta, reflection)
+
+    def agregar_pickup(self, x, y, theta, reflection):
+        self.agregar_imagen("Pickup-64.png", x, y, theta, reflection)
+
+    def agregar_sedan(self, x, y, theta, reflection):
+        self.agregar_imagen("Sedan-64.png", x, y, theta, reflection)
 
     def agregar_cuartel_bomberos(self, x, y):
         self.agregar_imagen("Fire Station-64.png", x, y)
