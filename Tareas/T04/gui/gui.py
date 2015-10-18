@@ -36,7 +36,7 @@ class GrillaSimulacion(*grilla_simulacion_ui):
         self.agregar_imagen("Fire Station-64.png", x, y)
 
     def agregar_carro_bomba(self, x, y, theta, reflection):
-        self.agregar_imagen("Fire Truck-64.png", x, y)
+        self.agregar_imagen("Fire Truck-64.png", x, y, theta, reflection)
 
     def agregar_incendio(self, x, y):
         self.agregar_imagen("Fires-64.png", x, y)
@@ -54,7 +54,7 @@ class GrillaSimulacion(*grilla_simulacion_ui):
         self.agregar_imagen("Police Station Filled-64.png", x, y)
 
     def agregar_patrulla(self, x, y, theta, reflection):
-        self.agregar_imagen("Police-64.png", x, y)
+        self.agregar_imagen("Police-64.png", x, y, theta, reflection)
 
     def agregar_taxi(self, x, y, theta, reflection):
         self.agregar_imagen("Taxi-64.png", x, y, theta, reflection)
