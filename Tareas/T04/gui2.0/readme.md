@@ -17,9 +17,9 @@ Para utilizar esta gui, simplemente descargue el archivo `gui.py` y cámbielo po
 ## Método nuevo
 
 La clase `GrillaSimulacion`ahora posee el nuevo método
-
-    GrillaSimulacion.actualizar() 
-
+```python
+GrillaSimulacion.actualizar() 
+```
 Este actúa en conjunto con el atributo `tiempo_intervalo` para ir actualizando la interfaz en intervalos más amigables para aquel que esté observando.
 
 A diferencia de la interfaz antigua, este método permite hacer **todos** los cambios acumulados hasta el momento en conjunto, pero siempre manteniendo `tiempo_intervalo` segundos entre cada conjunto de actualizaciones
@@ -28,14 +28,18 @@ A diferencia de la interfaz antigua, este método permite hacer **todos** los ca
 
 Agregamos una calle y dos casas a la interfaz
 
-    grilla = GrillaSimulacion(app, 30, 30)
-    grilla.agregar_calle(2, 2)
-    grilla.agregar_casa(4, 4)
-    grilla.agregar_casa(5, 10)
+```python
+grilla = GrillaSimulacion(app, 30, 30)
+grilla.agregar_calle(2, 2)
+grilla.agregar_casa(4, 4)
+grilla.agregar_casa(5, 10)
+```
 
 En este instante, la interfaz aún se mostrará en blanco. Para que se vea lo que ha cambiado, basta llamar el método `actualizar`
 
-    grilla.actualizar()
+```python
+grilla.actualizar()
+```
 
 Ahora todos los cambios se debiesen ver reflejados.
 
@@ -44,33 +48,38 @@ Ahora todos los cambios se debiesen ver reflejados.
 
 Veamos cómo el método `actualizar` puede ser de gran utilidad para su simulación. Observe el siguiente código:
 
-    grilla.tiempo_intervalo = 0.5
-    for x in range(1, 21):
-        for y in range(1, 21):
-            grilla.agregar_casa(x, y)
-            grilla_simulacion.actualizar()
+```python
+grilla.tiempo_intervalo = 0.5
+for x in range(1, 21):
+    for y in range(1, 21):
+        grilla.agregar_casa(x, y)
+        grilla_simulacion.actualizar()
+```
 
 Esto debiese ir agregando casas llenando por fila de izquierda a derecha y luego hacia abajo. Cada casa se agrega cada 0.5 segundos.
 
 Ahora, tome el siguiente código
 
-    grilla.tiempo_intervalo = 0.5
-    for x in range(1, 31):
-        for y in range(1, 31):
-            grilla.agregar_casa(x, y)
-        grilla_simulacion.actualizar()
+```python
+grilla.tiempo_intervalo = 0.5
+for x in range(1, 31):
+    for y in range(1, 31):
+        grilla.agregar_casa(x, y)
+    grilla_simulacion.actualizar()
+```
 
 Nótese que el método `actualizar` se llama ahora dentro del primer for. Esto quiere decir que se llama una única vez por fila. Esto se traduce a que en la interfaz se llenarán las filas con casas desde arriba hacia abajo. Cada ** *FILA* ** se imprimirá cada 0.5 segundos, y toda la fila se llenará de casas en el mismo instante.
 
 Por último, si al mismo código le agrega un nuevo comando al final:
 
-    grilla.tiempo_intervalo = 0.5
-    for x in range(1, 31):
-        for y in range(1, 31):
-            grilla.agregar_casa(x, y)
-        grilla_simulacion.actualizar()
-    print("Terminamos!")
-
+```python
+grilla.tiempo_intervalo = 0.5
+for x in range(1, 31):
+    for y in range(1, 31):
+        grilla.agregar_casa(x, y)
+    grilla_simulacion.actualizar()
+print("Terminamos!")
+```
 El comando `print("Terminamos!")` se ejecutará *sin* atraso alguno. Es decir, se observará en consola `Terminamos!` incluso antes de que comiencen a mostrarse las casas en la consola.
 
 
