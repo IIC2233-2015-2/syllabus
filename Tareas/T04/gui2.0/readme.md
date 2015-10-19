@@ -81,7 +81,7 @@ for x in range(1, 31):
     grilla.actualizar()
 print("Terminamos!")
 ```
-El comando `print("Terminamos!")` se ejecutará *sin* atraso alguno. Es decir, se observará en consola `Terminamos!` incluso antes de que comiencen a mostrarse las casas en la consola.
+El comando `print("Terminamos!")` se ejecutará *sin* atraso alguno. Es decir, se observará en consola `Terminamos!` incluso antes de que comiencen a mostrarse las casas en la interfaz.
 
 
 Esto debiese permitirle separar por completo el flujo de la simulación al del uso de la interfaz gráfica y a su vez darle mayor libertar para elegir qué cosas desea ir actualizando en la interfaz.
