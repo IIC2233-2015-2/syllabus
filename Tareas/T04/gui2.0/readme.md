@@ -17,6 +17,7 @@ Para utilizar esta gui, simplemente descargue el archivo `gui.py` y cámbielo po
 ## Método nuevo
 
 La clase `GrillaSimulacion`ahora posee el nuevo método
+
 ```python
 GrillaSimulacion.actualizar() 
 ```
@@ -50,8 +51,8 @@ Veamos cómo el método `actualizar` puede ser de gran utilidad para su simulaci
 
 ```python
 grilla.tiempo_intervalo = 0.5
-for x in range(1, 21):
-    for y in range(1, 21):
+for x in range(1, 31):
+    for y in range(1, 31):
         grilla.agregar_casa(x, y)
         grilla_simulacion.actualizar()
 ```
