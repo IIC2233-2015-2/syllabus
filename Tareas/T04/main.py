@@ -19,6 +19,7 @@ def main():
     grilla_simulacion.agregar_patrulla(10, 10, 0, False)
     grilla_simulacion.agregar_robo(11, 11)
     grilla_simulacion.agregar_taxi(12, 13, 0, True)
+    grilla_simulacion.quitar_imagen(3, 3)
 
     for i in range(1, 21):
         grilla_simulacion.agregar_calle(i, 13)

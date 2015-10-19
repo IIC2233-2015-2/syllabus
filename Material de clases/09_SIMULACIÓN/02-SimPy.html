@@ -200,14 +200,33 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>La implementación de simulaciones se ve facilitada por lenguages y módulos creados específicamente para esta tarea. <b>SimPy</b> corresponde a un módulo de Python diseñado para simulación de eventos discretos basado en procesos. En esencia es un <b>manejador de eventos asíncronos</b>, en donde los eventos se ordenan según prioridad, tiempo de simulación y un número identificador de evento. Los eventos también tienen una lista de funciones que se van ejecutando en la medida que son gatillados por el lazo de eventos.</p>
 <p>En SimPy las entidades que evolucionan en el tiempo, como por ejemplo clientes en una cola, son modelados como <b>procesos</b>. Los procesos definen el comportamiento o actividad que se deben desarrollar durante la simulación. Cada proceso se implementa como una función generadora de python que requieren como referencia en ambiente de simulación o <em>Environment()</em> para crear y retornar un nuevo <b>evento</b>.</p>
-<p>Todos los procesos viven en un ambiente denominado en SimPy como <b>environment</b>. El environment mantiene una lista de eventos y un registro del tiempo de simulación. Todos los procesos interactúan con otros procesos o con el ambiente mediante eventos. Cuando un proceso retorna un evento, SimPy agrega el proceso a una lista de funciones y suspende el proceso hasta que el evento es gatillado y procesado. Cuando un proceso que está esperando por un evento es resumido recibirá también el valor del evento. También puede ocurrir que varios procesos esperen por un mismo evento. En este caso SimPy los continúa de acuerdo al orden en que ellos fueron retornados por la función generadora.</p>
+<p>Todos los procesos viven en un ambiente denominado en SimPy como <b>environment</b>. El environment mantiene una lista de eventos y un registro del tiempo de simulación. Todos los procesos interactúan con otros procesos o con el ambiente mediante eventos. Cuando un proceso retorna un evento (timeout por ejemplo), SimPy agrega el proceso a una lista de funciones y suspende el proceso hasta que el evento es gatillado y procesado. También puede ocurrir que varios procesos esperen por un mismo evento. En este caso SimPy los continúa de acuerdo al orden en que ellos fueron retornados por la función generadora.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El objeto <em>Environment()</em> es el análogo al objeto o función simulación usado en los ejemplos de DES que revisamos en la sección anterior. Este maneja el tiempo de simulación, la programación de los eventos y el procesamiento de los eventos.</p>
+<p>La simulación puede ser ejecutada:</p>
+<ul>
+<li>hasta que no haya más eventos, </li>
+<li>hasta que un tiempo de simulación es alcanzado, o </li>
+<li>hasta que un determinado evento es gatillado.</li>
+</ul>
+<p>También es posible simular todo manualmente evento por evento.</p>
+<p>La clase <em>Environment()</em> consta del método <b>run()</b> que permite la ejecución de la simulación. Cuando <i>env.run()</i> se llama sin argumentos la simulación se ejecuta hasta que no existen más eventos que procesar. Tal como vimos en los casos de simulación por DES, es posible asignar el tiempo máximo de simulación pasando este valor como argumento del método <i>run()</i>, e.g., <b>env.run(until=10)</b>.</p>
+<p>El tiempo de simulación puede ser obtenido mediante la propiedad <b>now</b> de la clase Environment. Este tiempo es adimensional y se incrementa a través de los eventos <b>Timeout</b>.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
@@ -234,17 +253,11 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>tiempo actual = 10.752179107078174
-tiempo actual = 11.360083435947313
-tiempo actual = 14.118419031591019
-tiempo actual = 15.113040896640372
-tiempo actual = 16.83010637693127
-tiempo actual = 16.886498640405907
-tiempo actual = 20.761580275680735
-tiempo actual = 25.1149851581459
-tiempo actual = 25.827933738836933
-tiempo actual = 27.150135372734894
-tiempo actual = 28.001180689886674
+<pre>tiempo actual = 1.2145298930778599
+tiempo actual = 2.024299567965407
+tiempo actual = 16.11021780634709
+tiempo actual = 20.80392337698583
+tiempo actual = 23.555696543390297
 </pre>
 </div>
 </div>
@@ -258,16 +271,6 @@ tiempo actual = 28.001180689886674
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>El objeto <em>Environment()</em> es el análogo al objeto o función simulación usado en los ejemplos de DES que revisamos en la sección anterior. Este maneja el tiempo de simulación, la programación de los eventos y el procesamiento de los eventos.</p>
-<p>La simulación puede ser ejecutada:</p>
-<ul>
-<li>hasta que no haya más eventos, </li>
-<li>hasta que un tiempo de simulación es alcanzado, o </li>
-<li>hasta que un determinado evento es gatillado.</li>
-</ul>
-<p>También es posible simular todo manualmente evento por evento.</p>
-<p>La clase <em>Environment()</em> consta del método <b>run()</b> que permite la ejecución de la simulación. Cuando <i>env.run()</i> se llama sin argumentos la simulación se ejecuta hasta que no existen más eventos que procesar. Tal como vimos en los casos de simulación por DES, es posible asignar el tiempo máximo de simulación pasando este valor como argumento del método <i>run()</i>, e.g., <b>env.run(until=10)</b>.</p>
-<p>El tiempo de simulación puede ser obtenido mediante la propiedad <b>now</b> de la clase Environment. Este tiempo es adimensional y se incrementa a través de los eventos <b>Timeout</b>. Por defecto, <i>now</i> comienza en  0, sin embargo, es posible asignarle un tiempo inicial.</p>
 <p>Otra forma para poder generar un proceso consiste en crear una clase que contiene los procesos. En ella creamos un método <strong>run()</strong> que contiene lo que debe realizar el proceso.</p>
 
 </div>
@@ -275,7 +278,7 @@ tiempo actual = 28.001180689886674
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
@@ -284,13 +287,14 @@ tiempo actual = 28.001180689886674
 
 <span class="k">class</span> <span class="nc">Proceso</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">accion</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">run</span><span class="p">())</span>
              
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="c"># En el método run agregamos lo que ejecuta el proceso</span>
         <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
-            <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">expovariate</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">5</span><span class="p">))</span>    <span class="c"># El proceso retorna un evento</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;tiempo actual = {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">expovariate</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">5</span><span class="p">))</span>    <span class="c"># El proceso retorna un evento</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;tiempo actual = {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
     
 
 <span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>
@@ -308,11 +312,17 @@ tiempo actual = 28.001180689886674
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>tiempo actual = 11.623507286904356
-tiempo actual = 19.46203968450897
-tiempo actual = 29.29532237120047
-tiempo actual = 37.22242977145513
-tiempo actual = 38.49894194818254
+<pre>tiempo actual = 1.3566834560216725
+tiempo actual = 2.0063633192863795
+tiempo actual = 3.368291648730676
+tiempo actual = 8.462009767203677
+tiempo actual = 13.33704849963576
+tiempo actual = 13.661379512457765
+tiempo actual = 22.721834945054894
+tiempo actual = 26.185863361814764
+tiempo actual = 30.025796601536978
+tiempo actual = 35.02354614217055
+tiempo actual = 39.302435047523836
 </pre>
 </div>
 </div>
@@ -321,31 +331,55 @@ tiempo actual = 38.49894194818254
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Los eventos en SimPy equivalen a sucesos que ocurrirán. El tiempo asociado a estos eventos causa el avance de los estados. Los eventos transitan ordenadamente por los siguientes tres estados:</p>
+<ul>
+<li>puedría ocurrir, no ha sido gatillado;</li>
+<li>está ocurriendo, ha sido gatillado;</li>
+<li>ocurrió, fue procesado.</li>
+</ul>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
 <span class="kn">import</span> <span class="nn">random</span>
 
 
-<span class="k">def</span> <span class="nf">cocina</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
-    <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
-        <span class="n">duracion_preparacion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_preparacion</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Cocina</span><span class="p">:</span>
 
-        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
-        <span class="n">duracion_coccion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_coccion</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>    <span class="c"># referenciamos el environment</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">accion</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">run</span><span class="p">())</span>  <span class="c"># asociamos el proceso para cada instancia</span>
 
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+
+            <span class="c"># Modelaremos que el proceso debe esperar por la preparación del plato</span>
+            <span class="c"># Generamos un nuevo evento que espera por la preparación</span>
+            <span class="n">duracion_preparacion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_preparacion</span><span class="p">)</span>
+
+            <span class="c"># La cocción de los platos tendrá un tiempo variable entre 5 y 10 min</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="n">duracion_coccion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_coccion</span><span class="p">)</span>
 
 <span class="c"># En este ejemplo ejecutaremos la simulación hasta el tiempo_maximo</span>
-<span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">80</span>
 
 <span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>     <span class="c"># creamos un ambiente para simular</span>
-<span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">cocina</span><span class="p">(</span><span class="n">env</span><span class="p">))</span>      <span class="c"># agregamos al ambiente un proceso</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">Cocina</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>               <span class="c"># agregamos al ambiente un proceso</span>
 <span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="n">tiempo_maximo</span><span class="p">)</span>  <span class="c"># ejecutamos la simulacion hasta el tiempo máximo</span>
 </pre></div>
 
@@ -361,11 +395,20 @@ tiempo actual = 38.49894194818254
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Comineza praparacion del plato t=0
 Plato al horno en t=3
-Comineza praparacion del plato t=4
-Plato al horno en t=9
-Comineza praparacion del plato t=10
-Plato al horno en t=16
-Comineza praparacion del plato t=19
+Comineza praparacion del plato t=11
+Plato al horno en t=12
+Comineza praparacion del plato t=21
+Plato al horno en t=24
+Comineza praparacion del plato t=30
+Plato al horno en t=35
+Comineza praparacion del plato t=43
+Plato al horno en t=45
+Comineza praparacion del plato t=55
+Plato al horno en t=61
+Comineza praparacion del plato t=66
+Plato al horno en t=71
+Comineza praparacion del plato t=78
+Plato al horno en t=79
 </pre>
 </div>
 </div>
@@ -379,31 +422,6 @@ Comineza praparacion del plato t=19
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Los eventos en SimPy equivalen a sucesos que ocurriran. El tiempo asociado a estos eventos causa el avance de los estados. Los eventos transitan ordenadamente por los siguientes tres estados:</p>
-<ul>
-<li>puedría ocurrir, no ha sido gatillado;</li>
-<li>está ocurriendo, ha sido gatillado;</li>
-<li>ocurrió, fue procesado.</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>SimPy incluye un conjunto de recursos compartidos que forman un punto de congestion y que permiten modelar la interacción entre los procesos. Para que estos recursos puedan ser utilizados los procesos deben ser acumulados en una cola. Existen tres tipos de recursos: Resources, Containers y Stores.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Esperar-Procesos">Esperar Procesos<a class="anchor-link" href="#Esperar-Procesos">&#182;</a></h2><p>En ocasiones la ejecución de un proceso puede requerir esperar que otros procesos se ejecuten antes o tener varios subprocesos intermedios. Para esto, el o los sub-procesos deben generar un nuevo <strong>timeout</strong> como evento. A continuación implementamos una simulación simple con el proceso de preparación de platos en una cocina</p>
 
 </div>
@@ -411,7 +429,7 @@ Comineza praparacion del plato t=19
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
@@ -426,14 +444,14 @@ Comineza praparacion del plato t=19
         
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
             
             <span class="c"># Modelaremos que el proceso debe esperar por la preparación del plato</span>
             <span class="c"># Generamos un nuevo evento que espera por la preparación</span>
             <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">preparacion</span><span class="p">())</span>
             
             <span class="c"># La cocción de los platos tendrá un tiempo variable entre 5 y 10 min</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
             <span class="n">duracion_coccion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
             <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_coccion</span><span class="p">)</span>
 
@@ -446,7 +464,7 @@ Comineza praparacion del plato t=19
 <span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">80</span>
 
 <span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>     <span class="c"># creamos un ambiente para simular</span>
-<span class="n">cocina</span> <span class="o">=</span> <span class="n">Cocina</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>          <span class="c"># agregamos al ambiente un proceso</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">Cocina</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>               <span class="c"># agregamos al ambiente un proceso</span>
 <span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="n">tiempo_maximo</span><span class="p">)</span>  <span class="c"># ejecutamos la simulacion hasta el tiempo máximo</span>
 </pre></div>
 
@@ -461,12 +479,12 @@ Comineza praparacion del plato t=19
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Comineza praparacion del plato t=0
-Plato al horno en t=9
-Comineza praparacion del plato t=16
-Plato al horno en t=30
-Comineza praparacion del plato t=39
-Plato al horno en t=50
-Comineza praparacion del plato t=60
+Plato al horno en t=5
+Comineza praparacion del plato t=13
+Plato al horno en t=33
+Comineza praparacion del plato t=38
+Plato al horno en t=55
+Comineza praparacion del plato t=62
 Plato al horno en t=75
 </pre>
 </div>
@@ -481,18 +499,79 @@ Plato al horno en t=75
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Interrumpir-Procesos">Interrumpir Procesos<a class="anchor-link" href="#Interrumpir-Procesos">&#182;</a></h2><p>En SimPy existe también la posibilidad de interrumpir un proceso desde otro proceso. Para esto existe el método <strong>interrupt()</strong> el cual levanta una excepción el proceso que está en ejecución. Esta debe ser manejada usando <strong>simpy.Interrupt()</strong>. Por ejemplo, modificaremos el caso anterior de la cocina incluyendo al mesero, el cual que en un instante puede interrumpir la preparación de un plato por alguna razón.</p>
+<h2 id="Interrumpir-Procesos">Interrumpir Procesos<a class="anchor-link" href="#Interrumpir-Procesos">&#182;</a></h2><p>En SimPy existe también la posibilidad de interrumpir un proceso desde otro proceso mediante el método <strong>interrupt()</strong>. Este método genera una excepción en el proceso que está en ejecución. Esta excepción debe ser manejada mediante <em>try/except</em> haciendo referencia al tipo de error <strong>simpy.Interrupt()</strong>. Aquí un ejemplo:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">mesero</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">cocina</span><span class="p">):</span>
-    <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>      <span class="c"># el tiempo en el cual se interrumpirá la preparación</span>
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">mediador</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
+    <span class="n">discusion_proc</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">discusion</span><span class="p">(</span><span class="n">env</span><span class="p">))</span>
+    <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span><span class="c">#si este tiempo es mayor al mínimo en el randint de abajo tratará de interrumpir</span>
+                         <span class="c">#algo que ya terminó</span>
+    <span class="n">discusion_proc</span><span class="o">.</span><span class="n">interrupt</span><span class="p">(</span><span class="s">&quot;Se acabó el tiempo&quot;</span><span class="p">)</span>  
+    
+<span class="k">def</span> <span class="nf">discusion</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">25</span><span class="p">))</span>
+    <span class="k">except</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Interrupt</span> <span class="k">as</span> <span class="n">interr</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">interr</span><span class="o">.</span><span class="n">cause</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Termina discusión..&quot;</span><span class="p">)</span>
+    
+
+<span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>     
+<span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">mediador</span><span class="p">(</span><span class="n">env</span><span class="p">))</span>
+<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>  <span class="c"># ejecutamos la simulacion hasta el tiempo máximo</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Se acabó el tiempo
+Termina discusión..
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Modificaremos el caso anterior de la cocina incluyendo al mesero, el cual en un instante puede interrumpir la preparación de un plato dada alguna condición de la simulación:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">mesero</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">cocina</span><span class="p">):</span>
+    <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>      <span class="c"># el tiempo en el cual se interrumpirá la preparación</span>
     <span class="n">cocina</span><span class="o">.</span><span class="n">accion</span><span class="o">.</span><span class="n">interrupt</span><span class="p">()</span>  <span class="c"># usamos el método interrupt() del proceso cocina</span>
 </pre></div>
 
@@ -513,7 +592,7 @@ Plato al horno en t=75
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">class</span> <span class="nc">Cocina</span><span class="p">:</span>
@@ -524,21 +603,22 @@ Plato al horno en t=75
         
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Comineza praparacion del plato t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
             
             <span class="c"># Modelaremos que el proceso debe esperar por la preparación del plato</span>
             <span class="c"># Generamos un nuevo evento que espera por la preparación</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">preparacion</span><span class="p">())</span>
+                
             <span class="k">except</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Interrupt</span><span class="p">:</span>
                 <span class="c"># Si la preparación del plato demora más del tiempo permitido</span>
                 <span class="c"># debe interrumpirse y ser pasado a cocción</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s">&#39;[MESERO] la preparación demora mucho, llevar al horno tal como esté&#39;</span><span class="p">)</span>
             
             <span class="c"># La cocción de los platos tendrá un tiempo variable entre 5 y 10 min</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Plato al horno en t={0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
             <span class="n">duracion_coccion</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-            <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_coccion</span><span class="p">)</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">duracion_coccion</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">preparacion</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="c"># La preparación de cada plato dura entre 5 y 20 min</span>
@@ -546,7 +626,7 @@ Plato al horno en t=75
         
 
 <span class="c"># En este ejemplo ejecutaremos la simulación hasta el tiempo_maximo</span>
-<span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">50</span>
+<span class="n">tiempo_maximo</span> <span class="o">=</span> <span class="mi">100</span>
 
 <span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>     <span class="c"># creamos un ambiente para simular</span>
 <span class="n">cocina</span> <span class="o">=</span> <span class="n">Cocina</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>          <span class="c"># agregamos al ambiente un proceso</span>
@@ -565,13 +645,18 @@ Plato al horno en t=75
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Comineza praparacion del plato t=0
-Plato al horno en t=8
-Comineza praparacion del plato t=15
 [MESERO] la preparación demora mucho, llevar al horno tal como esté
-Plato al horno en t=20
-Comineza praparacion del plato t=29
-Plato al horno en t=38
-Comineza praparacion del plato t=44
+Plato al horno en t=5
+Comineza praparacion del plato t=10
+Plato al horno en t=26
+Comineza praparacion del plato t=32
+Plato al horno en t=40
+Comineza praparacion del plato t=49
+Plato al horno en t=64
+Comineza praparacion del plato t=70
+Plato al horno en t=76
+Comineza praparacion del plato t=83
+Plato al horno en t=98
 </pre>
 </div>
 </div>
@@ -579,6 +664,16 @@ Comineza praparacion del plato t=44
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Recursos">Recursos<a class="anchor-link" href="#Recursos">&#182;</a></h2><p>SimPy incluye un conjunto de recursos compartidos que forman un punto de congestion y que permiten modelar la interacción entre los procesos. Para que estos recursos puedan ser utilizados los procesos deben ser acumulados en una cola. Existen tres tipos de recursos: Resources, Containers y Stores.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -601,28 +696,43 @@ Comineza praparacion del plato t=44
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
 <span class="kn">import</span> <span class="nn">random</span>
 
-<span class="k">def</span> <span class="nf">cliente</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">resource</span><span class="p">):</span>
-    <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
-        <span class="n">solicitud</span> <span class="o">=</span> <span class="n">resource</span><span class="o">.</span><span class="n">request</span><span class="p">()</span>  <span class="c"># Genera un evento de solicitud</span>
-        <span class="k">yield</span> <span class="n">solicitud</span>                 <span class="c"># Espera por acceso al recurso</span>
-        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span> <span class="c"># Genera tiempo de ejecución de la tarea</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Recurso usado durante {0} minutos&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
-        <span class="n">resource</span><span class="o">.</span><span class="n">release</span><span class="p">(</span><span class="n">solicitud</span><span class="p">)</span>     <span class="c"># Libera el recurso</span>
+<span class="k">class</span> <span class="nc">Clientes</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">resource</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">resource</span> <span class="o">=</span> <span class="n">resource</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">accion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">run</span><span class="p">())</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ultimo_tiempo</span> <span class="o">=</span> <span class="mi">0</span>
+        
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
+            <span class="c"># Genera un evento de solicitud</span>
+            <span class="n">solicitud</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">resource</span><span class="o">.</span><span class="n">request</span><span class="p">()</span>
+            
+            <span class="c"># Esperamos por el acceso al recurso</span>
+            <span class="k">yield</span> <span class="n">solicitud</span>
+            
+            <span class="c"># Generamos el tiempo de ejecución para la tarea</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ultimo_tiempo</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>            
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Recurso usado en {} tiempo durante {} minutos&#39;</span><span class="o">.</span>\
+                  <span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">ultimo_tiempo</span><span class="p">))</span>
+            
+            <span class="c"># Liberamos el recurso</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">resource</span><span class="o">.</span><span class="n">release</span><span class="p">(</span><span class="n">solicitud</span><span class="p">)</span>     
 
-
+            
 <span class="c"># Creamos una simulación que se ejecutará hasta que no haya elementos en la cola</span>
-<span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>    <span class="c"># creamos el ambiente de simulación</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>                <span class="c"># creamos el ambiente de simulación</span>
 <span class="n">res</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Resource</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>    <span class="c"># creamos un recurso con capacidad de 1 proceso</span>
-
-<span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">cliente</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">res</span><span class="p">))</span>   <span class="c"># agregamos un primer cliente a la cola</span>
-
-<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="mi">40</span><span class="p">)</span>    <span class="c"># ejecutamos </span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">Clientes</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>                    <span class="c"># agregamos un primer cliente a la cola</span>
+<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="mi">40</span><span class="p">)</span>                        <span class="c"># ejecutamos la simulación</span>
 </pre></div>
 
 </div>
@@ -635,11 +745,81 @@ Comineza praparacion del plato t=44
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Recurso usado durante 8 minutos
-Recurso usado durante 16 minutos
-Recurso usado durante 21 minutos
-Recurso usado durante 28 minutos
-Recurso usado durante 37 minutos
+<pre>Recurso usado en 6 tiempo durante 6 minutos
+Recurso usado en 16 tiempo durante 10 minutos
+Recurso usado en 24 tiempo durante 8 minutos
+Recurso usado en 34 tiempo durante 10 minutos
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Priority-Resources">Priority Resources<a class="anchor-link" href="#Priority-Resources">&#182;</a></h3><p>En ocasiones el uso de los recursos no es completamente secuencial según un orden de solicitud. Por ejemplo, en los supermercados existen colas prioritarias para embarazadas y adultos mayores, quienes tiene prioridad frente a otras personas presentes en la cola.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">class</span> <span class="nc">Cliente</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">c_id</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">resource</span><span class="p">,</span> <span class="n">tiempo_espera</span><span class="p">,</span> <span class="n">prioridad</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">resource</span> <span class="o">=</span> <span class="n">resource</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">cliente_id</span> <span class="o">=</span> <span class="n">c_id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tiempo_espera</span> <span class="o">=</span> <span class="n">tiempo_espera</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">prioridad</span> <span class="o">=</span> <span class="n">prioridad</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">accion</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">run</span><span class="p">())</span>
+    
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c"># En este caso sin usar while el cliente queda como una entidad única</span>
+        <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tiempo_espera</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">resource</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="n">priority</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">prioridad</span><span class="p">)</span> <span class="k">as</span> <span class="n">req</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;cliente {} solicitando recursos en tiempo={}. Prioridad={}.&#39;</span><span class="o">.</span>\
+                  <span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cliente_id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prioridad</span><span class="p">))</span>
+            <span class="k">yield</span> <span class="n">req</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&#39;cliente {} obtiene recurso en tiempo={}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cliente_id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+            
+<span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">PriorityResource</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">c1</span> <span class="o">=</span> <span class="n">Cliente</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">res</span><span class="p">,</span> <span class="n">tiempo_espera</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">prioridad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">c2</span> <span class="o">=</span> <span class="n">Cliente</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">res</span><span class="p">,</span> <span class="n">tiempo_espera</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">prioridad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">c3</span> <span class="o">=</span> <span class="n">Cliente</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">res</span><span class="p">,</span> <span class="n">tiempo_espera</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">prioridad</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>cliente 1 solicitando recursos en tiempo=0. Prioridad=0.
+cliente 1 obtiene recurso en tiempo=0
+cliente 2 solicitando recursos en tiempo=1. Prioridad=0.
+cliente 3 solicitando recursos en tiempo=2. Prioridad=-1.
+cliente 3 obtiene recurso en tiempo=3
+cliente 2 obtiene recurso en tiempo=6
 </pre>
 </div>
 </div>
@@ -669,24 +849,28 @@ Recurso usado durante 37 minutos
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[128]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
 <span class="kn">import</span> <span class="nn">random</span>
 
+
 <span class="k">class</span> <span class="nc">Bodega</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">vendedores</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Resource</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">stock</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Container</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">init</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">process</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">monitor_bodega</span><span class="p">(</span><span class="n">env</span><span class="p">))</span>
     
-    <span class="k">def</span> <span class="nf">monitor_bodega</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vendedores</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Resource</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stock</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Container</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="p">,</span> <span class="n">init</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">process</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">monitor_bodega</span><span class="p">())</span>
+    
+    <span class="k">def</span> <span class="nf">monitor_bodega</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">stock</span><span class="o">.</span><span class="n">level</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">:</span>
-                <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Pedir suministros en {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
-                <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">camion</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="bp">self</span><span class="p">))</span>
-            <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s">&#39;Pedir suministros en {0}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">camion</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="p">,</span> <span class="bp">self</span><span class="p">))</span>
+                
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
             
 
 <span class="k">def</span> <span class="nf">camion</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">bodega</span><span class="p">):</span>
@@ -716,7 +900,7 @@ Recurso usado durante 37 minutos
 <span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>
 <span class="n">bodega</span> <span class="o">=</span> <span class="n">Bodega</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
 <span class="n">car_gen</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">generador_clientes</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">bodega</span><span class="p">))</span>
-<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="mi">35</span><span class="p">)</span>
+<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -731,19 +915,22 @@ Recurso usado durante 37 minutos
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Cliente 0 llegando en 0
 Cliente 0 compra 40 artículos en 0
-Cliente 1 llegando en 2.7708840160773134
-Cliente 1 compra 40 artículos en 2.7708840160773134
-Cliente 0 termina compra en 4.44066666330472
-Cliente 1 termina compra en 4.992404993354755
-Pedir suministros en 7.307202508442559
-Cliente 2 llegando en 7.731009057944505
-Cliente 2 compra 40 artículos en 7.731009057944505
-Cliente 3 llegando en 11.691366279882686
-Cliente 3 compra 40 artículos en 11.691366279882686
-Camion llega en 13.793880718648733
+Cliente 0 termina compra en 1.2524021481288985
+Cliente 1 llegando en 4.245990727390426
+Cliente 1 compra 40 artículos en 4.245990727390426
+Cliente 1 termina compra en 7.076709037179839
+Cliente 2 llegando en 8.350752326204113
+Cliente 2 compra 40 artículos en 8.350752326204113
+Pedir suministros en 9.844301868616729
+Cliente 3 llegando en 10.524522610904238
+Cliente 3 compra 40 artículos en 10.524522610904238
+Pedir suministros en 11.457589727844452
+Camion llega en 12.639530372053423
 Camion suminista 980 articulos
-Cliente 2 termina compra en 15.625032341942939
-Cliente 3 termina compra en 15.637981499870305
+Cliente 3 termina compra en 15.811653162670167
+Camion llega en 17.096042031134942
+Camion suminista 80 articulos
+Cliente 2 termina compra en 17.596021181237916
 </pre>
 </div>
 </div>
@@ -773,7 +960,7 @@ Cliente 3 termina compra en 15.637981499870305
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
@@ -814,10 +1001,172 @@ Cliente 3 termina compra en 15.637981499870305
 <pre>0 solicitando producto en 1
 1 solicitando producto en 1
 entrega productos en 2
-0 entregado prodiccion 0 en  2
+0 entregado produccion 0 en  2
 0 solicitando producto en 3
 entrega productos en 4
-1 entregado prodiccion 1 en  4
+1 entregado produccion 1 en  4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3> Seleccionar objetos específicos de un store </h3>
+
+<p>A veces es necesario seleccionar objetos específicos de una store. Para ello simpy provee el objeto FilterStore, al cual se le puede pasar una función que se aplicará como filtro a la hora de seleccionar objetos con el método get desde la store.</p>
+<p>En la siguiente celda se muestra un ejemplo con una Filter Store que manega objetos del tipo Auto. Notar el uso de store.get, donde para seleccionar un producto específico es necesario aplicar una función, el producto retornado será el primero que cumpla la condición evaluada en la función.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">simpy</span>
+
+<span class="n">NUM_AUTOS</span> <span class="o">=</span> <span class="mi">50</span>
+
+<span class="k">class</span> <span class="nc">Auto</span><span class="p">:</span>
+    <span class="n">marcas</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Chevrolet&quot;</span><span class="p">,</span> <span class="s">&quot;Suzuki&quot;</span><span class="p">,</span> <span class="s">&quot;Mazda&quot;</span><span class="p">,</span> <span class="s">&quot;Subaru&quot;</span><span class="p">]</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">marca</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">marca</span> <span class="o">=</span> <span class="n">marca</span>
+
+        
+<span class="k">def</span> <span class="nf">productor</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">store</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">NUM_AUTOS</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">auto</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">Auto</span><span class="o">.</span><span class="n">marcas</span><span class="p">))</span>
+        <span class="k">yield</span> <span class="n">store</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">auto</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;auto {0} agregado en {1}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">auto</span><span class="o">.</span><span class="n">marca</span><span class="p">,</span> <span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">consumidor</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">store</span><span class="p">):</span>
+    <span class="k">while</span> <span class="k">True</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="s">&#39;solicitando producto en&#39;</span><span class="p">,</span> <span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">)</span>
+        <span class="n">item</span> <span class="o">=</span> <span class="k">yield</span> <span class="n">store</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="k">lambda</span> <span class="n">auto</span><span class="p">:</span> <span class="n">auto</span><span class="o">.</span><span class="n">marca</span> <span class="o">==</span> <span class="s">&quot;Mazda&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&#39;{} entregado a consumidor un auto {} en {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">item</span><span class="o">.</span><span class="n">marca</span><span class="p">,</span> <span class="n">env</span><span class="o">.</span><span class="n">now</span><span class="p">))</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">Environment</span><span class="p">()</span>
+<span class="n">tienda</span> <span class="o">=</span> <span class="n">simpy</span><span class="o">.</span><span class="n">FilterStore</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">capacity</span><span class="o">=</span><span class="n">NUM_AUTOS</span><span class="p">)</span>
+
+<span class="n">prod</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">productor</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">tienda</span><span class="p">))</span>
+<span class="n">comsumidores</span> <span class="o">=</span> <span class="p">[</span><span class="n">env</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">consumidor</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">tienda</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+
+<span class="n">env</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="mi">2500</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>auto Subaru agregado en 1
+auto Chevrolet agregado en 2
+auto Subaru agregado en 3
+auto Suzuki agregado en 4
+0 solicitando producto en 5
+1 solicitando producto en 5
+2 solicitando producto en 5
+3 solicitando producto en 5
+4 solicitando producto en 5
+5 solicitando producto en 5
+6 solicitando producto en 5
+7 solicitando producto en 5
+8 solicitando producto en 5
+9 solicitando producto en 5
+auto Mazda agregado en 5
+0 entregado a consumidor un auto Mazda en 5
+auto Mazda agregado en 6
+1 entregado a consumidor un auto Mazda en 6
+auto Chevrolet agregado en 7
+auto Chevrolet agregado en 8
+auto Mazda agregado en 9
+2 entregado a consumidor un auto Mazda en 9
+0 solicitando producto en 10
+auto Mazda agregado en 10
+3 entregado a consumidor un auto Mazda en 10
+1 solicitando producto en 11
+auto Mazda agregado en 11
+4 entregado a consumidor un auto Mazda en 11
+auto Subaru agregado en 12
+auto Subaru agregado en 13
+2 solicitando producto en 14
+auto Suzuki agregado en 14
+3 solicitando producto en 15
+auto Subaru agregado en 15
+4 solicitando producto en 16
+auto Mazda agregado en 16
+5 entregado a consumidor un auto Mazda en 16
+auto Subaru agregado en 17
+auto Chevrolet agregado en 18
+auto Mazda agregado en 19
+6 entregado a consumidor un auto Mazda en 19
+auto Subaru agregado en 20
+5 solicitando producto en 21
+auto Mazda agregado en 21
+7 entregado a consumidor un auto Mazda en 21
+auto Chevrolet agregado en 22
+auto Chevrolet agregado en 23
+6 solicitando producto en 24
+auto Subaru agregado en 24
+auto Mazda agregado en 25
+8 entregado a consumidor un auto Mazda en 25
+7 solicitando producto en 26
+auto Suzuki agregado en 26
+auto Chevrolet agregado en 27
+auto Suzuki agregado en 28
+auto Subaru agregado en 29
+8 solicitando producto en 30
+auto Chevrolet agregado en 30
+auto Suzuki agregado en 31
+auto Chevrolet agregado en 32
+auto Suzuki agregado en 33
+auto Mazda agregado en 34
+9 entregado a consumidor un auto Mazda en 34
+auto Mazda agregado en 35
+0 entregado a consumidor un auto Mazda en 35
+auto Subaru agregado en 36
+auto Chevrolet agregado en 37
+auto Suzuki agregado en 38
+9 solicitando producto en 39
+auto Subaru agregado en 39
+0 solicitando producto en 40
+auto Mazda agregado en 40
+1 entregado a consumidor un auto Mazda en 40
+auto Mazda agregado en 41
+2 entregado a consumidor un auto Mazda en 41
+auto Subaru agregado en 42
+auto Chevrolet agregado en 43
+auto Suzuki agregado en 44
+1 solicitando producto en 45
+auto Mazda agregado en 45
+3 entregado a consumidor un auto Mazda en 45
+2 solicitando producto en 46
+auto Subaru agregado en 46
+auto Mazda agregado en 47
+4 entregado a consumidor un auto Mazda en 47
+auto Mazda agregado en 48
+5 entregado a consumidor un auto Mazda en 48
+auto Suzuki agregado en 49
+3 solicitando producto en 50
+auto Chevrolet agregado en 50
+4 solicitando producto en 52
+5 solicitando producto en 53
 </pre>
 </div>
 </div>
@@ -847,7 +1196,7 @@ entrega productos en 4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
@@ -874,6 +1223,7 @@ entrega productos en 4
 
     <span class="k">def</span> <span class="nf">lavar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vehiculo</span><span class="p">):</span>
         <span class="c"># Definimos el lavado con un tiempo que distribuye exponencial a tasa 1/TIEMPO_LAVADO</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;lavando vehículo {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vehiculo</span><span class="p">))</span>
         <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">timeout</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">expovariate</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">tiempo_lavado</span><span class="p">)</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">))</span>
 
 
@@ -937,14 +1287,18 @@ entrega productos en 4
 Vehiculo 0 llega a la maquina en 0.00.
 Vehiculo 1 llega a la maquina en 0.00.
 Vehiculo 0 entra a la maquina en 0.00.
+lavando vehículo Vehiculo 0
 Vehiculo 0 deja la maquina en 1.00.
 Vehiculo 1 entra a la maquina en 1.00.
+lavando vehículo Vehiculo 1
 Vehiculo 1 deja la maquina en 3.00.
 Vehiculo 2 llega a la maquina en 8.00.
 Vehiculo 2 entra a la maquina en 8.00.
+lavando vehículo Vehiculo 2
 Vehiculo 3 llega a la maquina en 10.00.
 Vehiculo 2 deja la maquina en 15.00.
 Vehiculo 3 entra a la maquina en 15.00.
+lavando vehículo Vehiculo 3
 Vehiculo 4 llega a la maquina en 18.00.
 Vehiculo 5 llega a la maquina en 19.00.
 </pre>
@@ -955,14 +1309,18 @@ Vehiculo 5 llega a la maquina en 19.00.
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
 
 </div>
 </div>
+</div>
+
 </div>
     </div>
   </div>
