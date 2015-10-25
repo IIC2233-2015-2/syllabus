@@ -28,15 +28,15 @@ def main():
         grilla_simulacion.agregar_calle(i, 13)
         grilla_simulacion.agregar_calle(13, i)
 
-    for x in range(1, 21):
-        for y in range(1, 31):
+    for y in range(1, 21):
+        for x in range(1, 31):
             # Esto es equivalente a llamar a grilla_simulacion.agregar_auto
             nuevo_auto = rnd.choice([
                 grilla_simulacion.agregar_convertible,
                 grilla_simulacion.agregar_sedan,
                 grilla_simulacion.agregar_pickup
             ])
-            nuevo_auto(x, y, 0, y % 2 == 0)
+            nuevo_auto(y, x, 0, y % 2 == 0)
 
     # Además existe el parámetro `tiempo_intervalo` de `GrillaSimulacion` que
     # controla el intervalo de tiempo entre actualizaciones. Por defecto parte
@@ -45,9 +45,9 @@ def main():
     # velocidad más amigable.
     grilla_simulacion.tiempo_intervalo = 0.5
 
-    for x in range(1, 21):
-        for y in range(1, 31):
-            grilla_simulacion.quitar_imagen(x, y)
+    for y in range(1, 21):
+        for x in range(1, 31):
+            grilla_simulacion.quitar_imagen(y, x)
 
     # Bloqueamos el thread principal para que la ventana permanezca abierta.
     # Cuando se cierra la ventana, el thread principal se libera y se termina
