@@ -70,7 +70,7 @@ Todas las Actividades (AC) son evaluadas.
 | Martes 20 | [AC19](Actividades/AC19) | Interfaces Gráficas | **Instalen PyQt4**|
 | Jueves 22 | [AC20](Actividades/AC20) | Interfaces Gráficas con **QtDesigner**| Asegúrense de tener instalado el programa|
 | Lunes 26 | [T04](Tareas/T04) | Simulación | **23:59 - Deadline** |
-| Martes 27 | [AC21](Actividades/AC22) | I/O | Material I/O sin bytearrays |
+| Martes 27 | [AC21](Actividades/AC22) | I/O | Material I/O incluyendo serialización, sin bytearrays |
 | Jueves 29 | [AC22](Actividades/AC21) | I/O | Principalmente bytearrays |
 
 ### Noviembre
