@@ -1,0 +1,407 @@
+[
+  {
+    "Nombre":"Claudio BRAVO",
+    "Capitan":"1",
+    "Arquero":"1",
+    "Titular":"1",
+    "Twitter":"C1audioBravo",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Miko ALBORNOZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"MiikoAlbornoz",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Mauricio Isla",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"MauricioIsla",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Alexis SANCHEZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"Alexis_Sanchez",
+    "Apodos":["Tocopillano"],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Arturo VIDAL",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"kingarturo23",
+    "Apodos":["Rey Arturo"],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Jorge VALDIVIA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"el_mago_oficial",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Eduardo VARGAS",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"eduvargas_17",
+    "Apodos":["Edu", "Varguitas", "Genio Azul", "Turboman"],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Jose ROJAS",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Gary Medel",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"MedelPitbull",
+    "Apodos":["Pitbull"],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Charles ARANGUIZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"CharlesAranguiz",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Marcelo DIAZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"CHELODIAZ_21",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Eugenio MENA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"keno_mena",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Francisco SILVA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Jose FUENZALIDA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Mauricio PINILLA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"pinigol51",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Paulo GARCES",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Matias FERNANDEZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Jean BEAUSEJOUR",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"jeanbeausejour",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"David PIZARRO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Felipe GUTIERREZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Angelo HENRIQUEZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"Anriquez11",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Johnny HERRERA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"SamuraiAzul25",
+    "Apodos":[],
+    "Equipo":"Chile"
+  },
+  {
+    "Nombre":"Pedro GALLESE",
+    "Capitan":"0",
+    "Arquero":"1",
+    "Titular":"1",
+    "Twitter":"pedrogallese",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Carlos ZAMBRANO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"5zambranocz",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Juan VARGAS",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Christian Cueva",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Paolo GUERRERO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Claudio PIZARRO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"pizarrinha",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Carlos LOBATON",
+    "Capitan":"1",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"Calolobaton",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Luis ADVINCULA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"luisadvincula17",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Joel SANCHEZ",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Josepmir BALLON",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Carlos ASCUES",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"1",
+    "Twitter":"carlos_ascues",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Jair CESPEDES",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Hansell Riojas",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Pedro REQUENA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"requena_paulo",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Cristopher HURTADO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Jefferson FARFAN",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Yordy REYNA",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Diego PENNY",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"diegopenny",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Edwin RETAMOZO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Christian RAMOS",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"RamosGaragay",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Andre CARRILLO",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"18andrecarrillo",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Victor YOTUN",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"",
+    "Apodos":[],
+    "Equipo":"Peru"
+  },
+  {
+    "Nombre":"Salomon LIBMAN",
+    "Capitan":"0",
+    "Arquero":"0",
+    "Titular":"0",
+    "Twitter":"yuyolib",
+    "Apodos":[],
+    "Equipo":"Peru"
+  }
+]
