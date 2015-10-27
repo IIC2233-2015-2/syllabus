@@ -1,4 +1,4 @@
-# IIC2233 - Programación Avanzada
+﻿# IIC2233 - Programación Avanzada
 
 ## Tabla de contenidos
 * [Calendario](#calendario)
@@ -30,25 +30,46 @@
 
 # Calendario
 
+Todas las Actividades (AC) son evaluadas.
+
 ### Agosto
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 11 |           | Primera cátedra            | Sin evaluación        |
-| Jueves 13 | [AC01](Actividades/AC01) | 1.- Objetos - Modelación | Primera AC evaluada |
-| Martes 18 | [AC02](Actividades/AC02) | 2.- Herencia - Multiherencia | AC evaluada |
-| Jueves 20 | [AC03](Actividades/AC03) | 3.- Polimorfismo | AC evaluada |
-| Martes 25 | [AC04](Actividades/AC04) | 4.- Estructuras de Datos | AC evaluada |
-| Jueves 27 | [AC05](Actividades/AC05) | | |
+| Jueves 13 | [AC01](Actividades/AC01) | Objetos - Modelación | Primera AC evaluada |
+| Martes 18 | [AC02](Actividades/AC02) | Herencia - Multiherencia |  |
+| Jueves 20 | [AC03](Actividades/AC03) | Polimorfismo |  |
+| Martes 25 | [AC04](Actividades/AC04) | Estructuras de Datos | Hasta antes de árboles |
+| Jueves 27 | [AC05](Actividades/AC05) | Estructuras de Datos | Árboles y nodos |
 
 ### Septiembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-| Lunes 21  | **I1**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
+| Martes 1 | [AC06](Actividades/AC06) | Functional | Hasta generadores |
+| Jueves 3 | [AC07](Actividades/AC07) | Functional | Desde Lambda Functions |
+| Viernes 4 | [T01](Tareas/T01) | Programación Orientada a Objetos | **10:30 - Deadline** (recordar: Diagrama vía SIDING) |
+| Martes 8 | [AC08](Actividades/AC08) | Decoradores | Último de Functional|
+| Jueves 10| [AC09](Actividades/AC09) | Metaclases  | |
+| Martes 15| [AC10](Actividades/AC10) | Metaclases  | Si, otra vez. |
+| Jueves 17| [AC11](Actividades/AC11) | Abstract classes | **Suspendida por el terremoto** |
+| Viernes 18 | [T02](Tareas/T02) | EDD y Programación Funcional | **10:30 - Deadline** |
+| Lunes 21 | **I1**    | Hasta metaclases (incluido) | 18:30 - Salas avisadas por SIDING. |
+| Martes 22| [AC11](Actividades/AC11) | Abstract classes | **No hay clases.** Enunciado subido como propuesto. |
+| Jueves 24| [AC12](Actividades/AC12) | Manejo de excepciones | |
+| Martes 29| [AC13](Actividades/AC13) | Testing con Unittest | |
 
 ### Octubre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-|           | | | |
+| Jueves 1 | [AC14](Actividades/AC14) | Testing con PyTest | ¡Instalen Pytest! |
+| Martes 6 | [AC15](Actividades/AC15) | Threading básico |  |
+| Miércoles 7 | [T03](Tareas/T03) | Testing y Exceptiones | **23:59 - Deadline** |
+| Jueves 8 | [AC16](Actividades/AC16) | Threading avanzado | |
+| Martes 13 | [AC17](Actividades/AC17) | Simulación | | 
+| Jueves 15 | [AC18](Actividades/AC18) | Simulación con SimPy | **Instalen SimPy** |
+| Martes 20 | [AC19](Actividades/AC19) | Interfaces Gráficas | **Instalen PyQt4**|
+| Jueves 22 | [AC20](Actividades/AC20) | Interfaces Gráficas con **QtDesigner**| Asegúrense de tener instalado el programa|
+| Lunes 26 | [T04](Tareas/T04) | Simulación | **23:59 - Deadline** |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
@@ -92,7 +113,6 @@
 |:--------------------- |:------------|:-------------|:--------------|
 | Antonio Ossa          | Docencia    | [@aaossa](https://www.github.com/aaossa) | aaossa@uc.cl |
 | Ivania Donoso         | Docencia    | [@indonoso](https://www.github.com/indonoso) | indonoso@uc.cl |
-| Félix Fischer         | Docencia    | [@felix91gr](https://www.github.com/felix91gr) | ffischer@uc.cl |
 | Felipe Garrido        | Docencia    | [@figarrido](https://www.github.com/figarrido) | figarrido@uc.cl |
 | Matias Jünemann       | Tarea       | [@mjjunemann](https://www.github.com/mjjunemann) | mjjunemann@uc.cl |
 | Carlos Santander      | Tarea       | [@cjsantander](https://www.github.com/cjsantander) | cjsantander@uc.cl |
@@ -111,12 +131,11 @@
 | Vicente Besa          | Tarea       | [@vabesa](https://github.com/vabesa) | vabesa@uc.cl |
 | Rodolfo Palma         | Tarea       | [@rpalmaotero](https://github.com/rpalmaotero) | rdpalma@uc.cl |
 | Eduardo Vildosola     | Tarea       | [@eavildosola](https://github.com/eavildosola) | eavildosola@uc.cl |
-| Diego Alliende        | Tarea       | [@dalliende](https://github.com/dalliende) | dalliende@uc.cl |
 | Guillermo Figueroa    | Tarea       | [@gafigueroa](https://github.com/gafigueroa) | gafigueroa@uc.cl |
 | Fernando Florenzano   | Tarea       | [@fdoflorenzano](https://github.com/fdoflorenzano) | faflorenzano@uc.cl |
 | Juan Ignacio Marquez  | Tarea       | [@imarquezc](https://github.com/imarquezc) | jgmarquez@uc.cl |
 | Juan Pablo Schele     | Tarea       | [@jpjschele](https://github.com/jpjschele) | jpschele@uc.cl |
-| Nicolás Santibañez    | Tarea       | [@nfsantibanez](https://github.com/nfsantibanez) | nfsantibanez@uc.cl |
+| Antonio López         | Tarea       | [@alopez7](https://github.com/alopez7) | alopez7@uc.cl |
 
 ## Descripcion del curso
 

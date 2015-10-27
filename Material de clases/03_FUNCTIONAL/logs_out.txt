@@ -1,0 +1,4 @@
+ Estamos cercanos a tener un problema.
+ Otro warning!
+ Casi un bug
+ Tenga mucho cuidado
