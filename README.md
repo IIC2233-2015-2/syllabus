@@ -76,8 +76,8 @@ Todas las Actividades (AC) son evaluadas.
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
+| Lunes 9   | [T05](Tareas/T05) | Threading e Interfaces Gráficas | **23:59 - Deadline** |
 | Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
-|           | | | |
 
 ### Diciembre
 | Día       | Evento    | Contenido                  | Información adicional |
