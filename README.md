@@ -70,12 +70,14 @@ Todas las Actividades (AC) son evaluadas.
 | Martes 20 | [AC19](Actividades/AC19) | Interfaces Gráficas | **Instalen PyQt4**|
 | Jueves 22 | [AC20](Actividades/AC20) | Interfaces Gráficas con **QtDesigner**| Asegúrense de tener instalado el programa|
 | Lunes 26 | [T04](Tareas/T04) | Simulación | **23:59 - Deadline** |
-| Martes 27 | [AC21](Actividades/AC22) | I/O | Material I/O incluyendo serialización, sin bytearrays |
-| Jueves 29 | [AC22](Actividades/AC21) | I/O | Principalmente bytearrays |
+| Martes 27 | [AC21](Actividades/AC21) | I/O | Material I/O incluyendo serialización, sin bytearrays |
+| Jueves 29 | [AC22](Actividades/AC22) | I/O | Principalmente bytearrays |
 
 ### Noviembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
+| Martes 3 | [AC23](Actividades/AC23) | I/O | Serialización |
+| Jueves 5 | [AC24](Actividades/AC24) | Networking |  |
 | Lunes 9   | [T05](Tareas/T05) | Threading e Interfaces Gráficas | **23:59 - Deadline** |
 | Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
