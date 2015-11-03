@@ -53,7 +53,7 @@
 13-B	:	14634937  FELIPE ANDRÉS GÓMEZ
 13-D	:	12636703  GABRIEL PABLO GONZÁLEZ
 13-E	:	1463192J  FELIPE IGNACIO PEZOA
-14-A	:	14631628  TAMARA COVACEVICH
+14-A	1:	14631628  TAMARA COVACEVICH
 14-B	1:	13633848  IGNACIO JAVIER CROCCO
 ================================================================================
                                 GRUPOS DE A DOS
