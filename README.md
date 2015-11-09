@@ -78,8 +78,8 @@ Todas las Actividades (AC) son evaluadas.
 |:----------|:----------|:---------------------------|:----------------------|
 | Martes 3 | [AC23](Actividades/AC23) | I/O | Serialización |
 | Jueves 5 | [AC24](Actividades/AC24) | Networking |  |
-| Jueves 5 | [AC25](Actividades/AC25) | Networking | Tratará los mismos contenidos que la actividad anterior |
-| Jueves 5 | [AC26](Actividades/AC26) | Networking | Tratará todo lo restante de esta materia |
+| Martes 10 | [AC25](Actividades/AC25) | Networking | Tratará los mismos contenidos de la actividad anterior |
+| Jueves 12 | [AC26](Actividades/AC26) | Networking | Tratará todo lo restante de esta materia |
 | Lunes 9   | [T05](Tareas/T05) | Threading e Interfaces Gráficas | **23:59 - Deadline** |
 | Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
 
