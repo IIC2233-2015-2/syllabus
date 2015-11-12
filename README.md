@@ -82,6 +82,7 @@ Todas las Actividades (AC) son evaluadas.
 | Martes 10 | [AC25](Actividades/AC25) | Networking | Tratará los mismos contenidos de la actividad anterior |
 | Jueves 12 | [AC26](Actividades/AC26) | Networking | Tratará todo lo restante de esta materia |
 | Viernes 13| **I2**    | Próximamente más información | 18:30 - Salas: Sec1: _ , Sec2: _ |
+| Sábado 28   | [T06](Tareas/T06) | Networking y Serialización | **23:59 - Deadline** |
 
 ### Diciembre
 | Día       | Evento    | Contenido                  | Información adicional |
