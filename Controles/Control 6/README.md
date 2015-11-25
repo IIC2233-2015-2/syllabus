@@ -19,7 +19,7 @@ Creando una clase que hereda de lista y agregando como atributo threading.Lock()
 ### Forma 3
 Explique en qué casos conviene que un lock pertenezca a la clase y en qué casos conviene que pertenezca a la instancia. De un ejemplo de cada situación
 
-###### Basado en el material de [Threading-Sincronizacion](https://github.com/IIC2233-2015-2/syllabus/blob/master/Material%20de%20clases/08_THREADING/02_Sincronizacion.html) y en una respuesta del profesor Christian Pieringer.
+###### Basado en el material de [Threading-Sincronizacion](https://github.com/IIC2233-2015-2/syllabus/blob/master/Material%20de%20clases/08_THREADING/02_Sincronizacion.html)
 
 Depende de la modelación y lo que se esté buscando. Si se quiere crear objetos threading-safe a nivel atributos o variables de instancia, como por ejemplo un deque que trabaje con concurrencia, los locks deben estar en la instancia puesto que podríamos querer otras deque threading-safe pero independientes de la anterior.
 Cuando el lock pertenece a la clase, el lock es estático y cumple con hacer al objeto threading-safe a nivel datos estáticos. Un ejemplo es el modelo de productor-consumidor para un mismo recurso.
