@@ -3,7 +3,7 @@
 ###### Basado en el material de [Serialización](https://github.com/IIC2233-2015-2/syllabus/blob/master/Material%20de%20clases/11-IO_SERIALIZACION/10-I_O.html)
 
 ### Forma 1
-**De un ejemplo útil de personalizar la serialización en un clase de Python.**
+**Dé un ejemplo de la utilidad de personalizar la serialización y deserialización en Python.**
 
 Una aplicación práctica de los métodos \_\_getstate\_\_ y \_\_setstate\_\_, es cuando necesitamos serializar un objeto que contiene un atributo que perderá sentido en la serialización. Por ejemplo, si un objeto contiene una conexión a una base de datos, al serializar el objeto, naturalmente la conexión en el objeto serializado se perderá, de hecho pickle genera un error cuando tratamos de serializar este tipo de objetos. Una solución es usar los métodos \_\_getstate\_\_ y \_\_setstate\_\_. Primero, usamos \_\_getstate\_\_ para eliminar la conexión a la base de datos del objeto que se va a serializar (borramos la conexión de la copia del diccionario), y cuando deserializamos el objeto de vuelta, lo volvemos a conectar manualmente a la base de datos dentro del método \_\_setstate\_\_.
 
