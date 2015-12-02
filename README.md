@@ -88,8 +88,8 @@ Todas las Actividades (AC) son evaluadas.
 ### Diciembre
 | Día       | Evento    | Contenido                  | Información adicional |
 |:----------|:----------|:---------------------------|:----------------------|
-| Jueves 3  | **Examen** | Próximamente más información | Salas: Sec1: _ , Sec2: _ |
-|           | | | |
+| Jueves 3  | **Examen** | Toda la materia | Salas: Sec1: _ , Sec2: _ |
+| Viernes 4 | [T07](Tareas/T07) | Web services | **23:59 - Deadline** |
 
 
 # Programa
